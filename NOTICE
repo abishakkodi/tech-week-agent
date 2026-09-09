@@ -1,0 +1,8 @@
+The MIT License applies to this project's source code and documentation created
+by the Tech Week Agent contributors.
+
+The Tech Week calendar snapshot and extracted event data in files named
+`techlist*` originate from https://www.tech-week.com/. Those files contain
+third-party event names, organizer names, and URLs and are not relicensed under
+the MIT License. Tech Week and event-related names and marks belong to their
+respective owners. Inclusion does not imply endorsement or affiliation.

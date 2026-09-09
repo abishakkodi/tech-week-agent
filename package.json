@@ -1,0 +1,25 @@
+{
+  "name": "tech-week-agent",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Read-only MCP server for searching the scraped SF Tech Week event catalog.",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:check": "WRANGLER_LOG_PATH=/tmp/sf-tech-week-wrangler.log wrangler deploy --dry-run",
+    "test": "tsx --test test/**/*.test.ts",
+    "check": "npm run build && npm test && npm run deploy:check"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.24.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.0.0"
+  }
+}
