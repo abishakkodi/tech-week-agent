@@ -1,9 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "sf-tech-week-mcp",
+  "name": "tech-week-agent",
   "main": "src/worker.ts",
   "compatibility_date": "2026-09-08",
   "minify": true,
+  "assets": {
+    "directory": "./public"
+  },
   "observability": {
     "enabled": true
   }

@@ -1,5 +1,6 @@
 import { WebStandardStreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js";
 import { createTechWeekServer } from "./server.js";
+import { installPage } from "./install-page.js";
 
 const MAX_REQUEST_BYTES = 64 * 1024;
 
@@ -17,6 +18,18 @@ function json(body: unknown, status = 200): Response {
 export default {
   async fetch(request: Request): Promise<Response> {
     const url = new URL(request.url);
+
+    if (url.pathname === "/" && request.method === "GET") {
+      return new Response(installPage(url.origin), {
+        headers: {
+          "Cache-Control": "public, max-age=300",
+          "Content-Type": "text/html; charset=utf-8",
+          "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; connect-src 'none'; img-src 'self' data:; frame-ancestors 'none'; base-uri 'none'; form-action 'none'",
+          "Referrer-Policy": "no-referrer",
+          "X-Content-Type-Options": "nosniff",
+        },
+      });
+    }
 
     if (url.pathname === "/health" && request.method === "GET") {
       return json({ status: "ok", service: "sf-tech-week", version: "1.0.1" });

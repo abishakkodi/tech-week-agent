@@ -4,6 +4,26 @@ An open-source, read-only MCP server for searching a San Francisco Tech Week
 calendar snapshot. It runs on Cloudflare Workers and returns the Tech Week URLs
 already present in the source HTML.
 
+The Worker root serves installation actions for Codex, Claude Code, Cursor, and
+other MCP clients. Each action automatically uses the deployed origin. `/mcp`
+continues to serve the protocol endpoint.
+
+## Install page
+
+Open the Worker root URL in a browser to get a copy-paste install action for
+your client:
+
+- **Codex** and **Claude** show the CLI command that registers this server.
+- **Cursor** is a deep link that opens the Cursor app with the server
+  pre-filled.
+- **Other** shows a JSON `mcpServers` block for any client that reads a config
+  file.
+
+Every action targets the origin the page was served from, so the same page
+works for a local `wrangler dev` run and for the deployed Worker. The page is
+static: no analytics, no external requests, and a strict Content-Security-Policy
+that only permits same-origin images.
+
 ## Tools
 
 - Discovery: `search_events`, `find_events_by_hosts`, `list_facets`, `get_event`
