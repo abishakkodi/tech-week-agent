@@ -4,9 +4,9 @@ import { installPage } from "../src/install-page.js";
 
 test("renders client installation actions from the deployment origin", () => {
   const html = installPage("https://events.example.com");
-  assert.match(html, /codex mcp add sf-tech-week --url https:\/\/events\.example\.com\/mcp/);
-  assert.match(html, /claude mcp add --transport http sf-tech-week https:\/\/events\.example\.com\/mcp/);
-  assert.match(html, /cursor:\/\/anysphere\.cursor-deeplink\/mcp\/install\?name=sf-tech-week/);
+  assert.match(html, /codex mcp add tech-week --url https:\/\/events\.example\.com\/mcp/);
+  assert.match(html, /claude mcp add --transport http tech-week https:\/\/events\.example\.com\/mcp/);
+  assert.match(html, /cursor:\/\/anysphere\.cursor-deeplink\/mcp\/install\?name=tech-week/);
   assert.match(html, />Cursor<\/a>/);
   assert.match(html, /id="install-command"/);
   assert.match(html, /data-client="codex"/);

@@ -5,7 +5,22 @@ const CLOSED = /\b(?:registration is closed|registrations? closed|event is close
 const SOLD_OUT = /\b(?:sold out|fully booked|at capacity)\b/i;
 const WAITLIST = /\b(?:join (?:the )?waitlist|waitlist only|on the waitlist)\b/i;
 const OPEN = /\b(?:register now|request to join|rsvp|join event)\b/i;
-const PRIVATE_IPV4 = /^(?:10\.|127\.|169\.254\.|192\.168\.|172\.(?:1[6-9]|2\d|3[01])\.|0\.)/;
+const PRIVATE_IPV4 = /^(?:10\.|127\.|169\.254\.|192\.168\.|172\.(?:1[6-9]|2\d|3[01])\.|100\.(?:6[4-9]|[7-9]\d|1[01]\d|12[0-7])\.|0\.)/;
+
+// IPv6 loopback, link-local (fe80::/10), and unique-local (fc00::/7) addresses.
+function isPrivateIpv6(address: string): boolean {
+  const a = address.toLocaleLowerCase();
+  if (a === "::1" || a === "::" || /^fe[89ab][0-9a-f]?:/.test(a) || /^f[cd][0-9a-f]{0,2}:/.test(a)) return true;
+  const mappedDotted = a.match(/^::ffff:(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})$/);
+  if (mappedDotted) return PRIVATE_IPV4.test(mappedDotted[1]);
+  const mappedHex = a.match(/^::ffff:([0-9a-f]{1,4}):([0-9a-f]{1,4})$/);
+  if (mappedHex) {
+    const hi = parseInt(mappedHex[1], 16);
+    const lo = parseInt(mappedHex[2], 16);
+    return PRIVATE_IPV4.test(`${hi >> 8}.${hi & 0xff}.${lo >> 8}.${lo & 0xff}`);
+  }
+  return false;
+}
 
 export type RegistrationSignal = "open" | "waitlist" | "sold_out" | "closed" | "unknown";
 export type LiveEventDetails = {
@@ -26,9 +41,12 @@ function publicHttpsUrl(value: string): URL {
   const url = new URL(value);
   const host = url.hostname.toLocaleLowerCase();
   if (url.protocol !== "https:" || url.username || url.password || url.port) throw new Error("Event destination must be a standard HTTPS URL.");
-  if (host === "localhost" || host.endsWith(".localhost") || host.endsWith(".local") || host.endsWith(".internal") || host === "::1" || PRIVATE_IPV4.test(host)) {
+  if (host === "localhost" || host.endsWith(".localhost") || host.endsWith(".local") || host.endsWith(".internal")) {
     throw new Error("Event destination uses a private or local address.");
   }
+  // URL.hostname serializes IPv6 addresses with brackets, e.g. "[::1]" — strip them before checking.
+  const isPrivate = host.startsWith("[") && host.endsWith("]") ? isPrivateIpv6(host.slice(1, -1)) : PRIVATE_IPV4.test(host);
+  if (isPrivate) throw new Error("Event destination uses a private or local address.");
   return url;
 }
 
