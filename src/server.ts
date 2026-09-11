@@ -1,7 +1,6 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 import { EVENT_TIMEZONE, EVENT_YEAR, TOPICS, getEvent, isClockTime, isIsoDate, listFacets, loadCatalog, searchEvents, toSearchEvent } from "./catalog.js";
-import { fetchLiveEventDetails } from "./live.js";
 import { alternativeEvents, buildItinerary, createIcs, networkingMatches, similarEvents } from "./planning.js";
 
 const catalog = loadCatalog();
@@ -14,12 +13,6 @@ const eventSchema = z.object({
   end_time_known: z.literal(false), title: z.string(), host: z.string(), neighborhood: z.string(),
   labels: z.array(z.string()), matched_topics: z.array(topicSchema), matched_host_queries: z.array(z.string()),
   event_url: z.string().url(), source_row: z.number(),
-});
-const liveDetailsSchema = z.object({
-  event_id: z.string(), tech_week_url: z.string().url(), final_url: z.string().url(), title: z.string().nullable(),
-  description: z.string().nullable(), starts_at: z.string().nullable(), ends_at: z.string().nullable(),
-  venue_name: z.string().nullable(), venue_address: z.string().nullable(),
-  observed_registration_signal: z.enum(["open", "waitlist", "sold_out", "closed", "unknown"]), fetched_at: z.string(),
 });
 const facetValueSchema = z.object({ value: z.string(), count: z.number().int() });
 const eventIdSchema = z.string().min(1).max(300);
@@ -96,19 +89,6 @@ export function createTechWeekServer(): McpServer {
   }, async () => {
     const facets = listFacets(catalog.events);
     return { structuredContent: facets, content: [{ type: "text", text: `Available filters include ${facets.dates.length} dates, ${facets.hosts.length} hosts, ${facets.neighborhoods.length} neighborhoods, and ${facets.topics.length} curated topics.` }] };
-  });
-
-  server.registerTool("get_live_event_details", {
-    title: "Get current event details",
-    description: "Follow one selected event's Tech Week URL and inspect its current public page for timing, venue, destination URL, and an observed registration signal. The signal is a page-text heuristic, not attendee count, capacity, acceptance likelihood, or the user's RSVP state.",
-    inputSchema: { event_id: z.string().min(1).max(300) },
-    outputSchema: { details: liveDetailsSchema },
-    annotations: { readOnlyHint: true, destructiveHint: false, openWorldHint: true },
-  }, async ({ event_id }) => {
-    const event = getEvent(catalog.events, event_id);
-    if (!event) throw new Error("Event not found in this snapshot.");
-    const details = await fetchLiveEventDetails(event);
-    return { structuredContent: { details }, content: [{ type: "text", text: `Fetched current public details for ${event.title}. Observed registration signal: ${details.observed_registration_signal}. Treat it as a heuristic; attendee count and the user's RSVP state are unavailable.` }] };
   });
 
   server.registerTool("find_events_by_hosts", {
