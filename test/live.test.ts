@@ -42,3 +42,10 @@ test("refuses redirects to private network addresses", async () => {
   const fetcher = async () => new Response(null, { status: 302, headers: { location: "https://127.0.0.1/private" } });
   await assert.rejects(() => fetchLiveEventDetails(event, fetcher as typeof fetch), /private or local/);
 });
+
+test("refuses redirects to private IPv6 addresses", async () => {
+  for (const host of ["[::1]", "[fe80::1]", "[fc00::1]", "[::ffff:127.0.0.1]"]) {
+    const fetcher = async () => new Response(null, { status: 302, headers: { location: `https://${host}/private` } });
+    await assert.rejects(() => fetchLiveEventDetails(event, fetcher as typeof fetch), /private or local/, `expected ${host} to be refused`);
+  }
+});

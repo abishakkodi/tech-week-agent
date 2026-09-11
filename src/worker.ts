@@ -32,7 +32,7 @@ export default {
     }
 
     if (url.pathname === "/health" && request.method === "GET") {
-      return json({ status: "ok", service: "sf-tech-week", version: "1.0.1" });
+      return json({ status: "ok", service: "tech-week", version: "1.0.1" });
     }
 
     if (url.pathname !== "/mcp") {

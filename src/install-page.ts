@@ -19,11 +19,11 @@ function scriptJson(value: unknown): string {
 
 export function installPage(origin: string): string {
   const mcpUrl = `${origin}/mcp`;
-  const codex = `codex mcp add sf-tech-week --url ${mcpUrl}`;
-  const claude = `claude mcp add --transport http sf-tech-week ${mcpUrl}`;
-  const config = JSON.stringify({ mcpServers: { "sf-tech-week": { url: mcpUrl } } }, null, 2);
+  const codex = `codex mcp add tech-week --url ${mcpUrl}`;
+  const claude = `claude mcp add --transport http tech-week ${mcpUrl}`;
+  const config = JSON.stringify({ mcpServers: { "tech-week": { url: mcpUrl } } }, null, 2);
   const cursorConfig = JSON.stringify({ url: mcpUrl });
-  const cursorUrl = `cursor://anysphere.cursor-deeplink/mcp/install?name=sf-tech-week&config=${encodeURIComponent(base64Utf8(cursorConfig))}`;
+  const cursorUrl = `cursor://anysphere.cursor-deeplink/mcp/install?name=tech-week&config=${encodeURIComponent(base64Utf8(cursorConfig))}`;
 
   const examplePrompts = [
     "“Find Thursday hardware events”",
