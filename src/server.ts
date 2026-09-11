@@ -1,18 +1,20 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
-import { EVENT_TIMEZONE, EVENT_YEAR, TOPICS, getEvent, isClockTime, isIsoDate, listFacets, loadCatalog, searchEvents, toSearchEvent } from "./catalog.js";
+import { EVENT_TIMEZONE, EVENT_YEAR, FORMATS, TOPICS, getEvent, isClockTime, isIsoDate, listFacets, loadCatalog, searchEvents, toSearchEvent } from "./catalog.js";
 import { alternativeEvents, buildItinerary, createIcs, networkingMatches, similarEvents } from "./planning.js";
 
 const catalog = loadCatalog();
 const topicSchema = z.enum(TOPICS);
+const formatSchema = z.enum(FORMATS);
 const dateSchema = z.string().refine(isIsoDate, "Use a valid YYYY-MM-DD date.");
 const timeSchema = z.string().refine(isClockTime, "Use a 24-hour HH:mm time.");
 const eventSchema = z.object({
   event_id: z.string(), date_label: z.string(), local_date: z.string(), start_time_display: z.string(),
   start_time_24h: z.string(), starts_at: z.string(), timezone: z.literal(EVENT_TIMEZONE),
-  end_time_known: z.literal(false), title: z.string(), host: z.string(), neighborhood: z.string(),
-  labels: z.array(z.string()), matched_topics: z.array(topicSchema), matched_host_queries: z.array(z.string()),
-  event_url: z.string().url(), source_row: z.number(),
+  end_time_known: z.literal(false), title: z.string(), host: z.string(), hosts: z.array(z.string()),
+  neighborhood: z.string(), is_virtual: z.boolean(),
+  labels: z.array(z.string()), matched_topics: z.array(topicSchema), matched_formats: z.array(formatSchema),
+  matched_host_queries: z.array(z.string()), event_url: z.string().url(), source_row: z.number(),
 });
 const facetValueSchema = z.object({ value: z.string(), count: z.number().int() });
 const eventIdSchema = z.string().min(1).max(300);
@@ -30,6 +32,8 @@ export function createTechWeekServer(): McpServer {
     inputSchema: {
       query: z.string().max(200).optional().describe("Optional words that must all appear across title, host, neighborhood, or labels."),
       topic: topicSchema.optional().describe("Curated thematic matching, including related terminology."),
+      format: formatSchema.optional().describe("Curated event-format matching against the title only, e.g. 'happy-hour' or 'workshop'."),
+      virtual_only: z.boolean().default(false).describe("Restrict to events whose neighborhood indicates a virtual/online format."),
       dates: z.array(dateSchema).max(14).optional().describe("Exact local dates in YYYY-MM-DD format."),
       start_time_from: timeSchema.optional().describe("Earliest start time, inclusive, as HH:mm."),
       start_time_to: timeSchema.optional().describe("Latest start time, inclusive, as HH:mm."),
@@ -79,16 +83,16 @@ export function createTechWeekServer(): McpServer {
 
   server.registerTool("list_facets", {
     title: "List available Tech Week filters",
-    description: "Discover valid dates, hosts, neighborhoods, labels, supported topics, and their event counts before searching. Use this instead of guessing filter values.",
+    description: "Discover valid dates, hosts, neighborhoods, labels, supported topics and formats, and their event counts before searching. Use this instead of guessing filter values.",
     inputSchema: {},
     outputSchema: {
       dates: z.array(facetValueSchema), hosts: z.array(facetValueSchema), neighborhoods: z.array(facetValueSchema),
-      labels: z.array(facetValueSchema), topics: z.array(facetValueSchema),
+      labels: z.array(facetValueSchema), topics: z.array(facetValueSchema), formats: z.array(facetValueSchema),
     },
     annotations: { readOnlyHint: true, destructiveHint: false, openWorldHint: false },
   }, async () => {
     const facets = listFacets(catalog.events);
-    return { structuredContent: facets, content: [{ type: "text", text: `Available filters include ${facets.dates.length} dates, ${facets.hosts.length} hosts, ${facets.neighborhoods.length} neighborhoods, and ${facets.topics.length} curated topics.` }] };
+    return { structuredContent: facets, content: [{ type: "text", text: `Available filters include ${facets.dates.length} dates, ${facets.hosts.length} hosts, ${facets.neighborhoods.length} neighborhoods, ${facets.topics.length} curated topics, and ${facets.formats.length} curated formats.` }] };
   });
 
   server.registerTool("find_events_by_hosts", {

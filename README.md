@@ -36,13 +36,26 @@ third-party sites. `create_ics` returns a draft and never writes to a
 calendar. `build_itinerary` accepts free-time windows, keeping calendar
 credentials and private event contents outside this public server.
 
-- `search_events` searches title, host, neighborhood, and labels; supports a
-  curated `hardware` topic; and filters by exact dates, start-time ranges,
-  neighborhoods, and closed status.
+- `search_events` searches title, host, neighborhood, and labels; supports
+  curated `topic` (`hardware`, `fintech`, `climate`, `biotech`,
+  `developer-tools`, `security`) and `format` (`breakfast`, `lunch`, `dinner`,
+  `happy-hour`, `panel`, `workshop`, `summit`, `demo-day`, `hackathon`,
+  `fireside-chat`, `networking`) matching; and filters by exact dates,
+  start-time ranges, neighborhoods, `virtual_only`, and closed status. `topic`
+  matches across title/host/neighborhood/labels; `format` matches the title
+  only, since it's a phrasing signal ("... Happy Hour", "Workshop for ...")
+  rather than a subject-matter one.
 - `hosts_any` matches any requested company against host attribution only, so
-  title-only mentions do not become false host matches.
+  title-only mentions do not become false host matches. Each event also
+  reports a parsed `hosts` array (the comma-joined `host` string split into
+  individual companies) for exact per-company faceting.
+- Each event reports `is_virtual`, derived from its neighborhood.
 - Results include the exact Tech Week `event_url`, an RFC 3339 `starts_at`
   timestamp, `America/Los_Angeles`, and whether the catalog knows the end time.
+- All of the above — `hosts`, `is_virtual`, `matched_topics`, and
+  `matched_formats` — are computed entirely from the scraped listing table
+  (time, host, neighborhood, title, badges). Nothing here is fetched live from
+  an event's destination page.
 
 This MCP does not read private calendars. A calling agent can safely combine
 its results with any separately installed calendar MCP or plugin.
