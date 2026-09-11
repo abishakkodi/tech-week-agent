@@ -2,8 +2,13 @@ import catalogJson from "../techlist.cleaned.json";
 
 export const EVENT_YEAR = 2026;
 export const EVENT_TIMEZONE = "America/Los_Angeles";
-export const TOPICS = ["hardware"] as const;
+export const TOPICS = ["hardware", "fintech", "climate", "biotech", "developer-tools", "security"] as const;
 export type Topic = (typeof TOPICS)[number];
+export const FORMATS = [
+  "breakfast", "lunch", "dinner", "happy-hour", "panel", "workshop",
+  "summit", "demo-day", "hackathon", "fireside-chat", "networking",
+] as const;
+export type Format = (typeof FORMATS)[number];
 
 export type Event = {
   date_label: string;
@@ -19,6 +24,8 @@ export type Event = {
 export type SearchOptions = {
   query?: string;
   topic?: Topic;
+  format?: Format;
+  virtual_only?: boolean;
   dates?: string[];
   start_time_from?: string;
   start_time_to?: string;
@@ -35,7 +42,10 @@ export type SearchEvent = Event & {
   starts_at: string;
   timezone: typeof EVENT_TIMEZONE;
   end_time_known: false;
+  hosts: string[];
+  is_virtual: boolean;
   matched_topics: Topic[];
+  matched_formats: Format[];
   matched_host_queries: string[];
 };
 
@@ -54,6 +64,26 @@ const MONTHS: Record<string, number> = {
 };
 const TOPIC_PATTERNS: Record<Topic, RegExp> = {
   hardware: /\b(?:hardware|robot(?:s|ics)?|physical ai|manufactur\w*|semiconductor\w*|chips?|electronics?|devices?|wearables?|aerospace|defen[cs]e tech|drones?|autonomous vehicles?|mobility|industrial automation)\b/i,
+  fintech: /\b(?:fintech|payments?|banking|financial services|crypto|defi|blockchain|web3)\b/i,
+  climate: /\b(?:climate|clean energy|sustainab\w*|carbon|renewable|climatetech)\b/i,
+  biotech: /\b(?:biotech|life sciences|therapeutics|genomics|drug discovery|healthtech|digital health)\b/i,
+  "developer-tools": /\b(?:developer tools|devtools|sdk|open[- ]source|infrastructure|observability|devops)\b/i,
+  security: /\b(?:cybersecurity|security|privacy|encryption|zero trust)\b/i,
+};
+// Format patterns match the title only — "type of gathering" is a title-phrasing signal, unlike
+// topic (which also draws on host/neighborhood/labels).
+const FORMAT_PATTERNS: Record<Format, RegExp> = {
+  breakfast: /\bbreakfast\b/i,
+  lunch: /\blunch\b/i,
+  dinner: /\bdinner\b/i,
+  "happy-hour": /\b(?:happy hour|cocktails?|drinks)\b/i,
+  panel: /\bpanel\b/i,
+  workshop: /\b(?:workshop|masterclass|hands-on)\b/i,
+  summit: /\b(?:summit|conference|forum)\b/i,
+  "demo-day": /\b(?:demo day|showcase|pitch)\b/i,
+  hackathon: /\bhackathon\b/i,
+  "fireside-chat": /\bfireside\b/i,
+  networking: /\b(?:mixer|meetup|networking|social)\b/i,
 };
 
 function isTechWeekEventUrl(value: string): boolean {
@@ -87,6 +117,18 @@ function matchedTopics(event: Event): Topic[] {
   return TOPICS.filter((topic) => TOPIC_PATTERNS[topic].test(text));
 }
 
+function matchedFormats(event: Event): Format[] {
+  return FORMATS.filter((format) => FORMAT_PATTERNS[format].test(event.title));
+}
+
+function splitHosts(host: string): string[] {
+  return host.split(",").map((value) => value.trim()).filter(Boolean);
+}
+
+function isVirtual(neighborhood: string): boolean {
+  return neighborhood.toLocaleLowerCase().includes("virtual");
+}
+
 export function toSearchEvent(event: Event, hostQueries: string[] = []): SearchEvent {
   const normalizedHost = event.host.toLocaleLowerCase();
   return {
@@ -95,7 +137,10 @@ export function toSearchEvent(event: Event, hostQueries: string[] = []): SearchE
     ...calendarFields(event),
     timezone: EVENT_TIMEZONE,
     end_time_known: false,
+    hosts: splitHosts(event.host),
+    is_virtual: isVirtual(event.neighborhood),
     matched_topics: matchedTopics(event),
+    matched_formats: matchedFormats(event),
     matched_host_queries: hostQueries.filter((query) => normalizedHost.includes(query.trim().toLocaleLowerCase())),
   };
 }
@@ -115,10 +160,11 @@ export function listFacets(events: Event[]) {
   const enriched = events.map((event) => toSearchEvent(event));
   return {
     dates: countValues(enriched.map((event) => event.local_date)),
-    hosts: countValues(events.flatMap((event) => event.host.split(",").map((host) => host.trim())).filter(Boolean)),
+    hosts: countValues(events.flatMap((event) => splitHosts(event.host))),
     neighborhoods: countValues(events.map((event) => event.neighborhood)),
     labels: countValues(events.flatMap((event) => event.labels)),
     topics: TOPICS.map((topic) => ({ value: topic, count: enriched.filter((event) => event.matched_topics.includes(topic)).length })),
+    formats: FORMATS.map((format) => ({ value: format, count: enriched.filter((event) => event.matched_formats.includes(format)).length })),
   };
 }
 
@@ -145,12 +191,15 @@ export function searchEvents(events: Event[], options: SearchOptions): SearchRes
     const text = searchableText(event).toLocaleLowerCase();
     const calendar = calendarFields(event);
     const topics = matchedTopics(event);
+    const formats = matchedFormats(event);
     const normalizedHost = event.host.toLocaleLowerCase();
     const matchedHostQueries = hostQueries
       .filter(({ normalized }) => normalizedHost.includes(normalized))
       .map(({ original }) => original);
     if (queryTerms.some((term) => !text.includes(term))) continue;
     if (options.topic && !topics.includes(options.topic)) continue;
+    if (options.format && !formats.includes(options.format)) continue;
+    if (options.virtual_only && !isVirtual(event.neighborhood)) continue;
     if (dates.size > 0 && !dates.has(calendar.local_date)) continue;
     if (options.start_time_from && calendar.start_time_24h < options.start_time_from) continue;
     if (options.start_time_to && calendar.start_time_24h > options.start_time_to) continue;
@@ -158,7 +207,7 @@ export function searchEvents(events: Event[], options: SearchOptions): SearchRes
     if (hostQueries.length > 0 && matchedHostQueries.length === 0) continue;
     if (!options.include_closed && event.labels.some((label) => label.toLocaleLowerCase() === "closed")) continue;
 
-    matches.push({ ...toSearchEvent(event, matchedHostQueries), matched_topics: topics });
+    matches.push({ ...toSearchEvent(event, matchedHostQueries), matched_topics: topics, matched_formats: formats });
   }
   return { events: matches.slice(0, options.limit), total_matches: matches.length, truncated: matches.length > options.limit };
 }

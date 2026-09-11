@@ -80,6 +80,37 @@ test("gets a stable event by id", () => {
   assert.equal(event?.event_id, result.events[0].event_id);
 });
 
+test("splits a comma-joined host string into a hosts array", () => {
+  const result = searchEvents(catalog.events, { query: "Compliance at Fintech Speed", limit: 1 });
+  const event = result.events[0];
+  assert.equal(event.host, "Midlyr, Stripe");
+  assert.deepEqual(event.hosts, ["Midlyr", "Stripe"]);
+});
+
+test("flags virtual events from their neighborhood", () => {
+  const inPerson = searchEvents(catalog.events, { query: "Claude Founder House", limit: 1 }).events[0];
+  assert.equal(inPerson.is_virtual, false);
+
+  const virtual = searchEvents(catalog.events, { virtual_only: true, limit: 1 }).events[0];
+  assert.ok(virtual);
+  assert.equal(virtual.is_virtual, true);
+  assert.match(virtual.neighborhood, /Virtual/i);
+});
+
+test("classifies fintech topic and happy-hour/workshop formats from title text", () => {
+  const fintech = searchEvents(catalog.events, { query: "Compliance at Fintech Speed", limit: 1 }).events[0];
+  assert.ok(fintech.matched_topics.includes("fintech"));
+
+  const happyHour = searchEvents(catalog.events, { format: "happy-hour", limit: 100 }).events;
+  assert.ok(happyHour.length > 0);
+  assert.ok(happyHour.every((event) => event.matched_formats.includes("happy-hour")));
+  assert.ok(happyHour.some((event) => /happy hour/i.test(event.title)));
+
+  const workshop = searchEvents(catalog.events, { format: "workshop", limit: 100 }).events;
+  assert.ok(workshop.length > 0);
+  assert.ok(workshop.every((event) => event.matched_formats.includes("workshop")));
+});
+
 test("lists useful filter facets with counts", () => {
   const facets = listFacets(catalog.events);
 
@@ -92,4 +123,5 @@ test("lists useful filter facets with counts", () => {
   assert.ok(facets.hosts.some((item) => item.value === "Stripe" && item.count === expectedStripeHosts));
   assert.ok(facets.neighborhoods.length > 5);
   assert.ok(facets.topics.some((item) => item.value === "hardware" && item.count > 20));
+  assert.ok(facets.formats.some((item) => item.value === "networking" && item.count > 0));
 });
