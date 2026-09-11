@@ -72,7 +72,7 @@ export function installPage(origin: string): string {
       padding:24px 22px 18px;
     }
     .card{animation:card-reveal 1.5s ease .45s backwards}
-    .card:focus-within{animation:none}
+    .card.revealed{animation:none}
     @keyframes card-reveal{from{opacity:0}to{opacity:1}}
     @media(prefers-reduced-motion:reduce){.card{animation:none}}
     .card::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 0 0,rgba(255,255,255,.48),transparent 55%),radial-gradient(ellipse at 100% 100%,rgba(255,255,255,.2),transparent 45%)}
@@ -166,6 +166,12 @@ export function installPage(origin: string): string {
     const values={codex:${scriptJson(codex)},claude:${scriptJson(claude)},config:${scriptJson(config)}};
     const cmd=document.getElementById('install-command');
     const command=document.querySelector('.command');
+    const card=document.querySelector('.card');
+    if(card){
+      const markRevealed=()=>card.classList.add('revealed');
+      card.addEventListener('animationend',markRevealed,{once:true});
+      if(window.matchMedia('(prefers-reduced-motion:reduce)').matches)markRevealed();
+    }
     function updateOverflow(){command.classList.toggle('has-overflow',cmd.scrollWidth-cmd.clientWidth-cmd.scrollLeft>2);}
     cmd.addEventListener('scroll',updateOverflow,{passive:true});
     new ResizeObserver(updateOverflow).observe(cmd);
@@ -206,7 +212,6 @@ export function installPage(origin: string): string {
       }else{
         streamEl.textContent='';
         (async function run(){
-          const card=document.querySelector('.card');
           if(card)await Promise.all(card.getAnimations().map((animation)=>animation.finished.catch(()=>{})));
           let p=0;
           for(;;){
