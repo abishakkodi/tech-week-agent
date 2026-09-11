@@ -1,3 +1,7 @@
+import { loadCatalog, searchEvents } from "./catalog.js";
+
+const eventCount = searchEvents(loadCatalog().events, { limit: 1 }).total_matches;
+
 function base64Utf8(value: string): string {
   const bytes = new TextEncoder().encode(value);
   let binary = "";
@@ -22,10 +26,10 @@ export function installPage(origin: string): string {
   const cursorUrl = `cursor://anysphere.cursor-deeplink/mcp/install?name=sf-tech-week&config=${encodeURIComponent(base64Utf8(cursorConfig))}`;
 
   const examplePrompts = [
-    "“hey claude, what hardware events are on Thursday?”",
-    "“hey chatgpt, any events Thursday evening in SoMa?”",
-    "“plan my Wednesday afternoon around SoMa”",
-    "“find events like the a16z kickoff, same day”",
+    "“Find Thursday hardware events”",
+    "“Thursday evening in SoMa?”",
+    "“Plan Wednesday in SoMa”",
+    "“Find events like the a16z kickoff”",
   ];
 
   const favicon =
@@ -36,6 +40,7 @@ export function installPage(origin: string): string {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#e5eef5">
   <meta name="description" content="Install the SF Tech Week MCP server for your AI coding client.">
   <title>Install SF Tech Week MCP</title>
   <link rel="icon" href="${favicon}">
@@ -47,11 +52,12 @@ export function installPage(origin: string): string {
       --fill:rgba(120,120,128,.16);--fill-2:rgba(120,120,128,.12);
       --hairline:rgba(0,0,0,.1);
       font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro","Segoe UI",Roboto,ui-sans-serif,system-ui,sans-serif;
-      background:#e9edf1;color:var(--label);
+      background:#e5eef5;color:var(--label);
     }
     *{box-sizing:border-box}
-    body{margin:0;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:max(env(safe-area-inset-top),24px) 18px max(env(safe-area-inset-bottom),24px);background:#e9edf1;overflow-x:hidden;-webkit-font-smoothing:antialiased}
-    .background{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+    body{margin:0;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:max(env(safe-area-inset-top),24px) 18px max(env(safe-area-inset-bottom),24px);background:transparent;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+    /* Match the canvas Safari samples, blending the artwork into its chrome. */
+    .background{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;object-position:44% center;z-index:0;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 12%,#000 85%,transparent);mask-image:linear-gradient(to bottom,transparent,#000 12%,#000 85%,transparent)}
     main{position:relative;z-index:2;width:100%;max-width:520px;min-width:0}
     /* Layered glass with a soft body and reflective edges. */
     .card{
@@ -60,10 +66,10 @@ export function installPage(origin: string): string {
       background:linear-gradient(135deg,rgba(255,255,255,.78),rgba(255,255,255,.68) 42%,rgba(245,249,255,.7) 75%,rgba(255,255,255,.76));
       backdrop-filter:blur(36px) saturate(1.65);
       -webkit-backdrop-filter:blur(36px) saturate(1.65);
-      border:1px solid rgba(255,255,255,.25);
+      border:1px solid rgba(255,255,255,.16);
       border-radius:28px;
-      box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 16px 48px rgba(24,40,58,.12),0 2px 6px rgba(24,40,58,.04);
-      padding:28px 22px;
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.2),0 12px 36px rgba(24,40,58,.09);
+      padding:24px 22px 18px;
     }
     .card{animation:card-reveal 1.5s ease .45s backwards}
     .card:focus-within{animation:none}
@@ -85,7 +91,7 @@ export function installPage(origin: string): string {
     @media(hover:hover){.client:hover:not([aria-selected="true"]){background:rgba(255,255,255,.3)}}
     .client[aria-selected="true"]{background:linear-gradient(145deg,rgba(255,255,255,.98),rgba(255,255,255,.88));color:#000;box-shadow:inset 0 1px 0 rgba(255,255,255,.95),inset 0 0 0 1px rgba(255,255,255,.65),0 3px 8px rgba(24,40,58,.2)}
     .client:focus-visible{outline:2px solid var(--tint);outline-offset:2px}
-    .cursor-tab::after{content:" \\2197";opacity:.5}
+    .cursor-tab::after{content:"\\2197";font-size:.75em;margin-left:4px;opacity:.5}
     /* Command: a terminal-style panel with a clear primary action */
     .command{border:.5px solid rgba(255,255,255,.16);border-radius:14px;background:rgba(48,50,58,.88);overflow:hidden}
     .cmd-titlebar{display:flex;align-items:center;gap:7px;padding:11px 14px;border-bottom:.5px solid rgba(255,255,255,.1)}
@@ -96,6 +102,7 @@ export function installPage(origin: string): string {
     .cmd-titlebar span{margin-left:6px;color:rgba(235,235,245,.5);font-family:inherit;font-size:.6875rem;font-weight:590;letter-spacing:.04em}
     .cmd-body{position:relative;display:flex;gap:8px;padding:14px 16px}
     .cmd-body::after{display:none;content:"";position:absolute;top:0;right:0;bottom:0;width:24px;background:linear-gradient(90deg,transparent,rgba(48,50,58,.92));pointer-events:none}
+    .command.has-overflow:not(.is-config) .cmd-body::after{display:block}
     .prompt{flex:0 0 auto;color:var(--green);font:600 .9rem/1.6 ui-monospace,SFMono-Regular,Menlo,monospace}
     .command.is-config .prompt{display:none}
     pre#install-command{margin:0;flex:1 1 auto;min-width:0;color:#f5f5f7;font:500 .875rem/1.6 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.28) transparent}
@@ -109,6 +116,13 @@ export function installPage(origin: string): string {
     .github-link:hover{background:rgba(255,255,255,.6);color:#000}
     .github-link:focus-visible{outline:2px solid var(--tint);outline-offset:2px}
     .copy.ok{background:var(--green)}
+    .tabs{border-color:rgba(255,255,255,.25);box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 2px 6px rgba(24,40,58,.04)}
+    .client[aria-selected="true"]{box-shadow:inset 0 1px 0 rgba(255,255,255,.6),0 2px 5px rgba(24,40,58,.1)}
+    .github-link{margin-top:10px;margin-bottom:-6px}
+    .site-footer{margin-top:12px;text-align:center;color:#45454f;font-size:.6875rem;line-height:1.5;text-wrap:balance}
+    .site-footer p{margin:0}
+    .event-count{margin:8px 0 10px;text-align:center;color:#45454f;font-size:.8125rem;line-height:1.4}
+    @media(max-width:380px){.card{padding-inline:16px}.prompts .stream{font-size:.8125rem}}
     @media(min-width:520px){.tabs{grid-template-columns:repeat(4,1fr)}}
     /* Honor the iOS "Reduce Transparency" accessibility setting */
     @media(prefers-reduced-transparency:reduce){
@@ -117,7 +131,7 @@ export function installPage(origin: string): string {
       .card{background:rgba(255,255,255,.97);backdrop-filter:none;-webkit-backdrop-filter:none}
       .card::before{display:none}
       .command{background:#30323a}
-      .cmd-body::after{display:none;background:linear-gradient(90deg,transparent,#30323a)}
+      .cmd-body::after{background:linear-gradient(90deg,transparent,#30323a)}
     }
   </style>
 </head>
@@ -126,6 +140,7 @@ export function installPage(origin: string): string {
   <main>
     <div class="card">
       <h1>SF Tech Week MCP</h1>
+      <p class="event-count">Explore ${eventCount.toLocaleString("en-US")} events</p>
       <p class="sr-only">Example prompts you can ask your AI coding client once the MCP is installed.</p>
       <p class="prompts" aria-hidden="true"><span class="stream"></span></p>
       <div class="tabs" role="tablist" aria-label="Choose your client">
@@ -142,16 +157,22 @@ export function installPage(origin: string): string {
       <a class="github-link" href="https://github.com/abishakkodi/tech-week-agent" target="_blank" rel="noopener noreferrer" aria-label="SF Tech Week MCP repository on GitHub (opens in a new tab)" title="GitHub">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297C5.37.297 0 5.67 0 12.297c0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.043-1.61-4.043-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.084 1.838 1.237 1.838 1.237 1.07 1.835 2.809 1.305 3.495.998.108-.776.418-1.305.762-1.605-2.665-.3-5.467-1.332-5.467-5.93 0-1.31.467-2.38 1.235-3.22-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23A11.52 11.52 0 0 1 12 6.098c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.654 1.653.242 2.873.12 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.922.43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
       </a>
+      <footer class="site-footer">
+        <p>Not affiliated with or endorsed by a16z or Tech Week.</p>
+      </footer>
     </div>
   </main>
   <script>
     const values={codex:${scriptJson(codex)},claude:${scriptJson(claude)},config:${scriptJson(config)}};
     const cmd=document.getElementById('install-command');
     const command=document.querySelector('.command');
+    function updateOverflow(){command.classList.toggle('has-overflow',cmd.scrollWidth-cmd.clientWidth-cmd.scrollLeft>2);}
+    cmd.addEventListener('scroll',updateOverflow,{passive:true});
+    new ResizeObserver(updateOverflow).observe(cmd);
     const tabs=Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
     function focusOnly(tab){tabs.forEach((t)=>{const on=t===tab;t.setAttribute('aria-selected',on?'true':'false');t.tabIndex=on?0:-1;});}
     const copyBtn=document.getElementById('copy');
-    function select(tab){focusOnly(tab);const key=tab.dataset.client;if(!key)return;cmd.textContent=values[key];const isConfig=key==='config';document.querySelector('.cmd-titlebar span').textContent=isConfig?'JSON':'zsh';command.classList.toggle('is-config',isConfig);copyBtn.dataset.label=isConfig?'Copy config':'Copy command';copyBtn.classList.remove('ok');copyBtn.textContent=copyBtn.dataset.label;}
+    function select(tab){focusOnly(tab);const key=tab.dataset.client;if(!key)return;cmd.textContent=values[key];cmd.scrollLeft=0;const isConfig=key==='config';document.querySelector('.cmd-titlebar span').textContent=isConfig?'JSON':'zsh';command.classList.toggle('is-config',isConfig);updateOverflow();copyBtn.dataset.label=isConfig?'Copy config':'Copy command';copyBtn.classList.remove('ok');copyBtn.textContent=copyBtn.dataset.label;}
     tabs.forEach((tab)=>{
       tab.addEventListener('click',(event)=>{if(tab.dataset.client){event.preventDefault();select(tab);tab.focus();}});
       tab.addEventListener('keydown',(event)=>{
