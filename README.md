@@ -27,19 +27,14 @@ that only permits same-origin images.
 ## Tools
 
 - Discovery: `search_events`, `find_events_by_hosts`, `list_facets`, `get_event`
-- Live research: `get_live_event_details` for one selected event
 - Evaluation: `compare_events`, `find_similar_events`, `find_alternatives`
 - Planning: `summarize_day`, `find_networking_targets`, `build_itinerary`, `create_ics`
 
-All tools are read-only. The live-research tool makes a bounded request to a
-public event page; the remaining tools use the bundled snapshot. `create_ics` returns
-a draft and never writes to a calendar. `build_itinerary` accepts free-time
-windows, keeping calendar credentials and private event contents outside this
-public server.
-
-`get_live_event_details` may report an `observed_registration_signal` inferred
-from public page text. It cannot report attendee count, capacity, acceptance
-likelihood, or whether the user has already RSVPed.
+All tools are read-only and only read the bundled catalog snapshot, refreshed
+every 12 hours (see Automated sync below) — none make outbound requests to
+third-party sites. `create_ics` returns a draft and never writes to a
+calendar. `build_itinerary` accepts free-time windows, keeping calendar
+credentials and private event contents outside this public server.
 
 - `search_events` searches title, host, neighborhood, and labels; supports a
   curated `hardware` topic; and filters by exact dates, start-time ranges,
