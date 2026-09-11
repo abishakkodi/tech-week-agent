@@ -103,7 +103,7 @@ through the available calendar MCP or plugin. The snapshot does not contain
 event end times or travel durations, so the agent should describe availability
 as tentative unless it obtains those details elsewhere.
 
-The calendar data is a snapshot, so dates and event listings are not live.
+The calendar data is a bundled snapshot (refreshed on a schedule; see below), so listings are not fetched live per request.
 Opening an `event_url` lets Tech Week handle its own redirect to the RSVP
 destination while retaining the original event attribution.
 
@@ -152,6 +152,29 @@ npm run deploy
 The production MCP URL will be the deployed Worker URL followed by `/mcp`.
 
 ## Refresh the snapshot
+
+### Automated sync with Grok Bot
+
+We keep `techlist.cleaned.json` aligned with the live
+[a16z Tech Week SF calendar](https://www.tech-week.com/calendar/sf) using a
+Grok Bot assistant (**Tech Week MCP Updater**).
+
+Twice a day at **6:00 AM and 6:00 PM America/Los_Angeles**, the bot:
+
+1. Scrapes the live SF calendar (full list after scrolling; Firecrawl, with
+   Parallel as a fallback)
+2. Rebuilds `techlist.cleaned.json` in the existing schema
+3. Diffs against `main` using a stable event identity (date + time + title +
+   host + neighborhood)
+4. If the file changed, cuts a branch from `main` and opens a pull request
+   (never commits straight to `main`)
+5. Posts a short summary of adds and removals
+
+The install-page “Explore N events” count is derived from
+`techlist.cleaned.json` at build time (events labeled `closed` are excluded),
+so updating the JSON is enough to refresh that homepage number after deploy.
+
+### Manual refresh
 
 Replace `techlist.md` with a newly captured calendar HTML snapshot, then run:
 
