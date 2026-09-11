@@ -43,8 +43,8 @@ export function installPage(origin: string): string {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#e5eef5">
-  <meta name="description" content="Install the SF Tech Week MCP server for your AI coding client.">
-  <title>Install SF Tech Week MCP</title>
+  <meta name="description" content="Add the SF Tech Week MCP server to your AI coding client.">
+  <title>Add Tech Week MCP</title>
   <link rel="icon" href="${favicon}">
   <style>
     :root{
