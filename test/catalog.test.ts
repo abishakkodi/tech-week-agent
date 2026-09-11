@@ -42,8 +42,8 @@ test("matches any requested host without matching title-only mentions", () => {
     limit: 100,
   });
 
-  assert.equal(result.total_matches, 10);
-  assert.equal(result.events.filter((event) => event.matched_host_queries.includes("Stripe")).length, 9);
+  assert.equal(result.total_matches, 11);
+  assert.equal(result.events.filter((event) => event.matched_host_queries.includes("Stripe")).length, 10);
   assert.equal(result.events.filter((event) => event.matched_host_queries.includes("Anthropic")).length, 1);
   assert.equal(result.events.filter((event) => event.matched_host_queries.includes("OpenAI")).length, 0);
   assert.ok(result.events.every((event) => event.matched_host_queries.length > 0));
@@ -59,7 +59,7 @@ test("gets a stable event by id", () => {
 test("lists useful filter facets with counts", () => {
   const facets = listFacets(catalog.events);
   assert.ok(facets.dates.some((item) => item.value === "2026-10-07" && item.count > 400));
-  assert.ok(facets.hosts.some((item) => item.value === "Stripe" && item.count === 9));
+  assert.ok(facets.hosts.some((item) => item.value === "Stripe" && item.count === 10));
   assert.ok(facets.neighborhoods.length > 5);
   assert.ok(facets.topics.some((item) => item.value === "hardware" && item.count > 20));
 });
