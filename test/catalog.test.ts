@@ -80,6 +80,18 @@ test("gets a stable event by id", () => {
   assert.equal(event?.event_id, result.events[0].event_id);
 });
 
+test("event_id survives a Tech Week URL rotation, since it's derived from event identity not the URL", () => {
+  const original = searchEvents(catalog.events, { query: "Claude Founder House", limit: 1 }).events[0];
+  const rotated = { ...catalog.events.find((e) => e.event_url === original.event_url)!, event_url: "https://www.tech-week.com/go/event/RotatedToken1234567890" };
+  const [rotatedResult] = searchEvents([rotated], { limit: 1 }).events;
+  assert.equal(rotatedResult.event_id, original.event_id, "event_id must not change when only the redirect token rotates");
+});
+
+test("event_id has no collisions across the full snapshot", () => {
+  const allIds = searchEvents(catalog.events, { include_closed: true, limit: catalog.events.length }).events.map((event) => event.event_id);
+  assert.equal(new Set(allIds).size, allIds.length);
+});
+
 test("splits a comma-joined host string into a hosts array", () => {
   const result = searchEvents(catalog.events, { query: "Compliance at Fintech Speed", limit: 1 });
   const event = result.events[0];
