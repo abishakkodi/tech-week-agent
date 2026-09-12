@@ -1,8 +1,13 @@
-# SF Tech Week MCP
+# Tech Week MCP
 
-An open-source, read-only MCP server for searching a San Francisco Tech Week
-calendar snapshot. It runs on Cloudflare Workers and returns the Tech Week URLs
-already present in the source HTML.
+An open-source, read-only MCP server for searching Tech Week calendars. The
+public deployment covers both San Francisco and Los Angeles.
+
+- Public site: https://techweekmcp.com
+- MCP endpoint: https://techweekmcp.com/mcp
+
+This Worker runs on Cloudflare Workers and returns Tech Week URLs already
+present in the source HTML.
 
 The Worker root serves installation actions for Codex, Claude Code, Cursor, and
 other MCP clients. Each action automatically uses the deployed origin. `/mcp`
@@ -23,6 +28,12 @@ Every action targets the origin the page was served from, so the same page
 works for a local `wrangler dev` run and for the deployed Worker. The page is
 static: no analytics, no external requests, and a strict Content-Security-Policy
 that only permits same-origin images.
+
+Multi-city behavior on the public deployment:
+
+- Defaults to San Francisco.
+- Pass `city: "la"` for Los Angeles.
+- Pass `city: "all"` to search across both cities.
 
 ## Tools
 
