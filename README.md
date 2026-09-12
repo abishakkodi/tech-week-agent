@@ -1,7 +1,7 @@
 # SF Tech Week MCP
 
-An open-source, read-only MCP server for searching a San Francisco Tech Week
-calendar snapshot. It runs on Cloudflare Workers and returns the Tech Week URLs
+An open-source, read-only MCP server for searching Tech Week calendar snapshots
+for San Francisco and Los Angeles. It runs on Cloudflare Workers and returns the Tech Week URLs
 already present in the source HTML.
 
 The Worker root serves installation actions for Codex, Claude Code, Cursor, and
@@ -36,6 +36,12 @@ third-party sites. `create_ics` returns a draft and never writes to a
 calendar. `build_itinerary` accepts free-time windows, keeping calendar
 credentials and private event contents outside this public server.
 
+- City filter: most discovery tools accept a `city` parameter:
+  - `"sf"` (default) searches the SF snapshot
+  - `"la"` searches the LA snapshot
+  - `"all"` includes both cities
+  The default is SF to preserve existing behavior; callers must opt into LA.
+
 - `search_events` searches title, host, neighborhood, and labels; supports
   curated `topic` (`hardware`, `fintech`, `climate`, `biotech`,
   `developer-tools`, `security`) and `format` (`breakfast`, `lunch`, `dinner`,
@@ -60,7 +66,7 @@ credentials and private event contents outside this public server.
   (confirmed: old and new tokens both keep working, so a previously saved
   link stays valid — the token just isn't reusable as a stable id). `event_id`
   is therefore *not* derived from the URL; it's a hash of the event's
-  (date + time + title + host + neighborhood) identity, the same fields the
+  (date + time + title + host + neighborhood + city) identity, the same fields the
   sync script uses to match "the same" event across scrapes. That keeps
   `event_id` stable across syncs, so a value saved from one tool call still
   resolves correctly in `get_event`/`compare_events`/etc. after the catalog
@@ -128,8 +134,8 @@ Event metadata is third-party content. The MCP labels it as untrusted data and
 validates that every returned link is an HTTPS `www.tech-week.com/go/event/...`
 URL.
 
-The snapshot is for SF Tech Week 2026. Calendar timestamps use
-`America/Los_Angeles` and the applicable October UTC offset.
+The snapshots are for SF Tech Week 2026 (Oct 5–11) and LA Tech Week 2026 (Oct 12–18).
+Calendar timestamps use `America/Los_Angeles` and the applicable October UTC offset.
 
 ## Requirements
 
@@ -173,23 +179,25 @@ The production MCP URL will be the deployed Worker URL followed by `/mcp`.
 ### Automated sync with Grok Bot
 
 We keep `techlist.cleaned.json` aligned with the live
-[a16z Tech Week SF calendar](https://www.tech-week.com/calendar/sf) using a
-Grok Bot assistant (**Tech Week MCP Updater**).
+[a16z Tech Week SF calendar](https://www.tech-week.com/calendar/sf) and
+[LA calendar](https://www.tech-week.com/calendar/la) using a Grok Bot assistant
+(**Tech Week MCP Updater**).
 
 Twice a day at **6:00 AM and 6:00 PM America/Los_Angeles**, the bot:
 
-1. Scrapes the live SF calendar (full list after scrolling; Firecrawl, with
+1. Scrapes the live SF and LA calendars (full lists after scrolling; Firecrawl, with
    Parallel as a fallback)
 2. Rebuilds `techlist.cleaned.json` in the existing schema
 3. Diffs against `main` using a stable event identity (date + time + title +
-   host + neighborhood)
+   host + neighborhood + city)
 4. If the file changed, cuts a branch from `main` and opens a pull request
    (never commits straight to `main`)
 5. Posts a short summary of adds and removals
 
-The install-page “Explore N events” count is derived from
-`techlist.cleaned.json` at build time (events labeled `closed` are excluded),
-so updating the JSON is enough to refresh that homepage number after deploy.
+The install-page “Explore N events” count defaults to SF and is derived from
+`techlist.cleaned.json` at build time (events labeled `Closed` are excluded),
+so updating the JSON is enough to refresh that homepage number after deploy. LA
+is available via the MCP tools by passing `city: "la"`.
 
 ### Manual refresh
 
