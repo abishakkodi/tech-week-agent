@@ -4,7 +4,7 @@ export type ScoredEvent = { event: SearchEvent; score: number; reasons: string[]
 export type AvailabilityWindow = { starts_at: string; ends_at: string };
 
 const WORD = /[a-z0-9]+/g;
-const STOP_WORDS = new Set(["and", "for", "from", "into", "the", "with", "tech", "week", "sf"]);
+const STOP_WORDS = new Set(["and", "for", "from", "into", "the", "with", "tech", "week", "sf", "la"]);
 
 function words(value: string): Set<string> {
   return new Set((value.toLocaleLowerCase().match(WORD) ?? []).filter((word) => word.length > 2 && !STOP_WORDS.has(word)));

@@ -10,6 +10,9 @@ export const FORMATS = [
 ] as const;
 export type Format = (typeof FORMATS)[number];
 
+export const CITIES = ["sf", "la"] as const;
+export type City = (typeof CITIES)[number];
+
 export type Event = {
   date_label: string;
   start_time_display: string;
@@ -19,6 +22,7 @@ export type Event = {
   labels: string[];
   event_url: string;
   source_row: number;
+  city: City;
 };
 
 export type SearchOptions = {
@@ -32,6 +36,8 @@ export type SearchOptions = {
   neighborhoods?: string[];
   hosts_any?: string[];
   include_closed?: boolean;
+  // Defaults to "sf". Use "la" for Los Angeles, or "all" for both.
+  city?: City | "all";
   limit: number;
 };
 
@@ -145,13 +151,13 @@ function cyrb53(value: string, seed = 0): number {
 }
 
 // The Tech Week redirect URL's token rotates on every catalog sync, so it can't anchor a stable
-// id. Hash the same (date + time + title + host + neighborhood) identity the sync script itself
+// id. Hash the same (date + time + title + host + neighborhood + city) identity the sync script itself
 // uses to match "the same" event across scrapes, so event_id survives a sync instead of rotating
 // with the URL.
 function stableEventId(event: Event): string {
   // Joined with a separator unlikely to occur in scraped text, so field boundaries can't shift
   // ("A"+"BC" must hash differently from "AB"+"C").
-  const identity = [event.date_label, event.start_time_display, event.title, event.host, event.neighborhood].join("");
+  const identity = [event.date_label, event.start_time_display, event.title, event.host, event.neighborhood, event.city].join("");
   return cyrb53(identity).toString(36);
 }
 
@@ -195,7 +201,12 @@ export function listFacets(events: Event[]) {
 }
 
 export function loadCatalog(): Catalog {
-  const catalog = catalogJson as Catalog;
+  // Backfill missing city as "sf" to preserve compatibility with older snapshots.
+  const raw = catalogJson as unknown as { notes: string[]; events: Array<Omit<Event, "city"> & Partial<Pick<Event, "city">>> };
+  for (const event of raw.events) {
+    if (!("city" in event) || !event.city) (event as any).city = "sf";
+  }
+  const catalog = raw as unknown as Catalog;
   for (const event of catalog.events) {
     if (!isTechWeekEventUrl(event.event_url)) throw new Error(`Catalog contains an invalid Tech Week event URL at source row ${event.source_row}.`);
     calendarFields(event);
@@ -213,7 +224,10 @@ export function searchEvents(events: Event[], options: SearchOptions): SearchRes
   }));
   const matches: SearchEvent[] = [];
 
+  const cityFilter: City | undefined = options.city && options.city !== "all" ? options.city : "sf";
+
   for (const event of events) {
+    if (event.city !== cityFilter && options.city !== "all") continue;
     const text = searchableText(event).toLocaleLowerCase();
     const calendar = calendarFields(event);
     const topics = matchedTopics(event);
