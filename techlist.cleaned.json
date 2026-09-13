@@ -1727,11 +1727,11 @@
     {
       "date_label": "Monday, Oct 5",
       "start_time_display": "6:00pm",
-      "title": "Altitude: In Production with RocketRide",
+      "title": "Builders x Bosses x Beers at Club 345",
       "host": "RocketRide, Cushman & Wakefield",
       "neighborhood": "FiDi (SF)",
       "labels": [],
-      "event_url": "https://www.tech-week.com/go/event/rFPe4sJcIZalD7uDebVBT92RRVk59vZyiGVjXW9tt4RlOZpCHrbNUEiI5ub3TwfnuCOlPpZHGnRQQKD_gc0e1sX1NZjwDNKsL4I6Hd4YBnIUOhwVpMRiOXV5N7ddHA",
+      "event_url": "https://www.tech-week.com/go/event/zcXL8coJBAY927G4PtxVtXj17tk9j0X9YJ79o4jWp4zSMwkPERKc-DANeZvBhG3tl5kuIYcig25-gxh4Arpf3O8SviKAV93cn9yEby8KiUBjdMbOpIJZEo52m4JDDQ",
       "source_row": 155,
       "city": "sf"
     },
@@ -2095,7 +2095,9 @@
       "title": "\"New Money\" \u2014 Fintech Founders & Investors Mixer",
       "host": "Rolla",
       "neighborhood": "Salesforce Park",
-      "labels": [],
+      "labels": [
+        "Closed"
+      ],
       "event_url": "https://www.tech-week.com/go/event/NwCFkxvhsqQzcUDs1l0R1Mt83kA2dwma5LEM6DLImYfdn1AzeAgQEkDTAsGHKM-cBreCwRSQo_TqBB-fCcVy7VmmdyBqJHDyAA1oRbXCOJhlp1adAhiKi7r119HnnA",
       "source_row": 188,
       "city": "sf"
@@ -2922,11 +2924,11 @@
     {
       "date_label": "Tuesday, Oct 6",
       "start_time_display": "11:00am",
-      "title": "TFOT: Global Innovation Showcase",
+      "title": "TFOT: Global Innovation Showcase at historic SF War Memorial",
       "host": "The Future of Tech",
       "neighborhood": "Civic Center",
       "labels": [],
-      "event_url": "https://www.tech-week.com/go/event/ABHc695UPfA_o8LsfaIwxJsPlp5LLYwARabzKU4B3uSz3NQmNbqLMnD1Qkt-8sNei7k6PXpTs7-tfaLKH9HN6jiqkAf7_mPpIASUpOF7nLw-tlaxZGL-AbGJDE85Cw",
+      "event_url": "https://www.tech-week.com/go/event/HwzkmqvSe6aK_ZKufUdkcT9H1UtA4z2mU7ExR_XkVTx8sTO67FrAb-5MmAKYDv-g-SfSJpgGO_xwhpy-GufHnUef-fXPY_bkDh3i7c0vJ06B7mFRvMSo2gBAOamViQ",
       "source_row": 262,
       "city": "sf"
     },
@@ -4142,11 +4144,11 @@
     {
       "date_label": "Tuesday, Oct 6",
       "start_time_display": "5:00pm",
-      "title": "SWC \u00d7 TFOT: Happy Hour",
+      "title": "Stand With Crypto \u00d7 TFOT: AI, Web3, Deep Tech Happy Hour",
       "host": "The Future of Tech",
       "neighborhood": "Civic Center",
       "labels": [],
-      "event_url": "https://www.tech-week.com/go/event/IGmu071yEaFyt7TRYiMpJJX7Rwsy-WanxlHRAGLSHzwDhynR-4YQlGOyBNhQCDC31hjcz15W5Ot46UotQ0RVK-9jXPWeezDg0TYLbC9vL86o9-V_TT0_tWA-R2CIKQ",
+      "event_url": "https://www.tech-week.com/go/event/5TEAXzFusl4kOfO6k39rIxZaIpTvL9VYI215sz6b8rsK928-Ixf4O-WBH4MoPv9y75HdMGmQ_vSm1RTiJQffSHoB3TBzfru9OU_a4n5-F2fHI3zsT8pUZQDX6DFH-g",
       "source_row": 372,
       "city": "sf"
     },
@@ -11606,12 +11608,23 @@
     {
       "date_label": "Thursday, Oct 8",
       "start_time_display": "11:00am",
+      "title": "India-US Corridor Founders Meetup",
+      "host": "Qapita",
+      "neighborhood": "Downtown (SF)",
+      "labels": [],
+      "event_url": "https://www.tech-week.com/go/event/0It5BvrFYyIzxYa_w5KWs44woLril3UxWcUr90IiH6_juWpBFQeoT8bcpQE4aKAF-FVPAY5XOjKX8Q9ecr81kN7xHK8d5xNXflSIiIqTBsEOLB0axnG7E6d1yrzBLg",
+      "source_row": 1044,
+      "city": "sf"
+    },
+    {
+      "date_label": "Thursday, Oct 8",
+      "start_time_display": "11:00am",
       "title": "Defending Your Value: Career Positioning for Tech Leaders",
       "host": "Elevate With Twisha",
       "neighborhood": "Virtual (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/RTOSRnTOyhSl83UWicN50BgO9zmBOiTjRqDcHfSHKV0mEjsuLV31u8-JJphYWYDvU0RTza9FhVdpOyGJXdrXTucsPFC48f-inFZRx2RrnrzWoTkIHTJwSFLtGgfclg",
-      "source_row": 1044,
+      "source_row": 1045,
       "city": "sf"
     },
     {
@@ -11622,7 +11635,7 @@
       "neighborhood": "Palo Alto",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/sjKZoH1DY0s2N-vrz4IvIBpTaUejTCzsokYDKPnGodsN29Bw61RXM_ZlkuoweH9xqLytHMVDxmoR1rFid76ZhJZRUabN0c4jkKnIh6J6BFj1nCEkPVUyl0p1BUvpTg",
-      "source_row": 1045,
+      "source_row": 1046,
       "city": "sf"
     },
     {
@@ -11633,7 +11646,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/IE50DOw_EbJeJ5WCRggbkcE6EBNnmMlTf0cMDGZsbncT7lRNrWFDbq571FgMKv_OPTSrJovRTjoE7dOcULTkBx8XlQ_6Cod8e8sOr-tGqIo-CtCqmZ5bizGGQT_Ivg",
-      "source_row": 1046,
+      "source_row": 1047,
       "city": "sf"
     },
     {
@@ -11644,7 +11657,7 @@
       "neighborhood": "Virtual (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/OHnTBWObnhw9rZxd4s8WnzaveTuQOoNfXsh-C9Om6YRv8gXS6arbSDZPB9ExJ-rRmqF1k7dU8wJuiCnbCqVT6l5udheyuKFTp8clsMJylslCibpvrQdzbc98IxujFA",
-      "source_row": 1047,
+      "source_row": 1048,
       "city": "sf"
     },
     {
@@ -11657,7 +11670,7 @@
         "Closed"
       ],
       "event_url": "https://www.tech-week.com/go/event/9vVlva8h6JlfggpQOqc-h53vNw12j0VTzWyC7ZDZHAc6Htt83_K9GYRXCPCZ7cLvsWMPJBNxiFB3s0l-26U_1OXcZX5v49ZecoMEi5FdopNAfU9jNcPZrqrEbf2IyQ",
-      "source_row": 1048,
+      "source_row": 1049,
       "city": "sf"
     },
     {
@@ -11668,7 +11681,7 @@
       "neighborhood": "Lower Haight",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/AV37n6m0RP3lsuyje8yxOfeOlJhmyM7PF2347MWHwCLIn6zi22vakIpTKD6O0d_neGuuhZA_hMlK8bINjcV6q-rGzl7lODUXsN8oK9DHGFzRWFFQQi7Bo_OrRsN3Wg",
-      "source_row": 1049,
+      "source_row": 1050,
       "city": "sf"
     },
     {
@@ -11679,7 +11692,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/mAhxT4ARPlXkq0UbtYp_iIzIL3oh66bsFiuMD0X-bT54yLMJVA6_XiQSKS0zEf4pDZQMrR4xDxmDSfJhNsiS22u8Sp7rjkYxjiZYqltgtYPtqhMuEj0x6O09nV2Auw",
-      "source_row": 1050,
+      "source_row": 1051,
       "city": "sf"
     },
     {
@@ -11690,7 +11703,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/vWvC_S30cbLo_X-cgO0Q6DunDWE5eEnD7MF1UdQ-pzrydy9AsgymckcM_YJA-nkaH9LmkfwxF8zeK96f-xGDoVLotH84gUw7ii3bUdSsRlWTUfBPnkzB8NOsmIZUMg",
-      "source_row": 1051,
+      "source_row": 1052,
       "city": "sf"
     },
     {
@@ -11701,7 +11714,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/xeij6hMCI_NjoOJo3hxx7yvV_se_3Chk1jCBqjrM3QGI4_1RAu5yj6OYE6ipXoJrpUaRj5mRpRkiLRAo1ZVjWlQTUSGaxxdfkea08Acu_mjg2fy-YdrgBUvI5n2eKQ",
-      "source_row": 1052,
+      "source_row": 1053,
       "city": "sf"
     },
     {
@@ -11712,7 +11725,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/lnIPQCiQY1bnQdjy9bWQ7grgGSFRlSKP3_R-p9PQQENv2_JUjDK8jsuSGfh8FdE4OkFW1BVamYq8kHpvuPKCIYriHtQGa6K8QrsFm7zrF-HjoGd3DGZT6EQAFMkAhQ",
-      "source_row": 1053,
+      "source_row": 1054,
       "city": "sf"
     },
     {
@@ -11723,7 +11736,7 @@
       "neighborhood": "Jackson Square",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Rawa477msAs0DB1c-zafEC-cgMybn0oq72pq7xULhMDJ0G57oJUKY1GIhefv-bxWBv_-TsK0Ro3ZjdU4oaz8fnfxFnIcSp54Yw2rijzN6aBQ1wJHLL9NNIYV9hq32w",
-      "source_row": 1054,
+      "source_row": 1055,
       "city": "sf"
     },
     {
@@ -11734,7 +11747,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/iFwGuPl-wu-BIguJSwzMD2fUmI8XrVtJdA9XSbWtAsDBlUF7K0YRpgRBVmcCcnygq3EixbaMrHq5DjCdzXxQZ2MJfEOeGsm9Iw-LKwzObuqCk7MP475PvqaCdpR-rw",
-      "source_row": 1055,
+      "source_row": 1056,
       "city": "sf"
     },
     {
@@ -11745,7 +11758,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/2TUFEQn4IyIJEcK5FbEvWSKEJMZiWSfm4VpE7PYAEVmJGvIp-C2YvlCFg12bh90U0azv1znODTe91f2gnmJ4SkM8FeYRVdHIMZzXcfONGUSYY4BXYyilnjF-LoYwgQ",
-      "source_row": 1056,
+      "source_row": 1057,
       "city": "sf"
     },
     {
@@ -11756,7 +11769,7 @@
       "neighborhood": "Russian Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/CxNtYdbnN-_VgZIkM8lyvOmsoltIKgt98T8CieqHisgBXlqZx5rBRxIaNpgqgd62Z2-VCnWqTNZdnH0g6wXW_5254pVB12-HlYFQQbtTvUNEzv10tJgfkwooo6ZwLA",
-      "source_row": 1057,
+      "source_row": 1058,
       "city": "sf"
     },
     {
@@ -11767,7 +11780,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/mk4ARVGmMQ-0B8ipwrF2N8No6gbURqUm8-u6pEEAfDkD6v5vJQouk7iISuWNL_HqO9R9z5b18BBAz81ZNUrNZYCyTqdJs5RnB6XhlgOjCGVZ3x3Qe3a-rkPSy85Gbw",
-      "source_row": 1058,
+      "source_row": 1059,
       "city": "sf"
     },
     {
@@ -11778,7 +11791,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/WtiBxr-rbl1cRQ-JpTCTgBPOurZzj_6xxguQ5j8iB3UpQaueuaa5LVlsRhnlNgEbugixAK0uX9WQdt2dVCKkwbJgG_5dOO-zcRmpvYUo9W6LVRwB3IXpvydp-73yOA",
-      "source_row": 1059,
+      "source_row": 1060,
       "city": "sf"
     },
     {
@@ -11789,7 +11802,7 @@
       "neighborhood": "Fisherman's Wharf",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/lRq_OGesvOjEOBGRB_F_2pdQJOYidP6UR-rD8ceMu1T_t_RpCwDiiYHkGRfI778KyUJ692-mdGJ2fHSRVEzz1nhHwvrYF6_v9ad0mVSMsDYFdiTrL0W2x37n5aGoaQ",
-      "source_row": 1060,
+      "source_row": 1061,
       "city": "sf"
     },
     {
@@ -11800,7 +11813,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/zu2wabsUwLTw1GTYPLs2Ta7QVLTlnv8n--XcZkBPxtVOycyZ8jYKS4lqrFKPn_egQf9Bwbk08WVrxa5BP8WFNuy4wZ5oAUIoWqrX7Qo9pAQfPacpd4vsAAP4xPSEPA",
-      "source_row": 1061,
+      "source_row": 1062,
       "city": "sf"
     },
     {
@@ -11811,7 +11824,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/_rjG91jAsBAy3OdsXwgmpAD8ASOlvLls8-tqKiG7Gxd8e4A0_gahMt6vHRSWbnkEB-7_YKESNS6pWA7ulXzLNfzaVH4-1TgbGfK8sLisqv1Md2VdoCkyA0O7ytiMJg",
-      "source_row": 1062,
+      "source_row": 1063,
       "city": "sf"
     },
     {
@@ -11822,7 +11835,7 @@
       "neighborhood": "Virtual (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/QORX4VayOHjQ6m1b1yKU90doOn1Yk5mL-PGI4AAnnNqNW15pJhyzkdTeEjCCtIq-sM-f3IbVIuurFMOC1L-GAsHT1wbiEonsvLottn3mfJ8dlpPvAEs9teP23rtbZQ",
-      "source_row": 1063,
+      "source_row": 1064,
       "city": "sf"
     },
     {
@@ -11833,7 +11846,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/K54BoBxnd0ugflv6hc7HFvCFDS5DPWB5kMTzSYSidslx5oDxNG2271yOvu84AV-IiYSlguZefzFQxcyIU2O1N2eBN-oJB-fI0ClHuC8lqVlkbeE5iKl4GuoJ_KSmuA",
-      "source_row": 1064,
+      "source_row": 1065,
       "city": "sf"
     },
     {
@@ -11844,7 +11857,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/KDg_vBpdDLMtoV2t1czILpEoYJhFCvkEYIAr9c5UgZ580ZtLqF3xWYxfKI2D-ExJENZlbr_4U_a11vXibdFCZcTt4vmY7q_WmlbNZd01B6jLBfNmZqWYQA6NkZGKvg",
-      "source_row": 1065,
+      "source_row": 1066,
       "city": "sf"
     },
     {
@@ -11855,7 +11868,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/TRGNbSw8cq37pNhL_RR_iG4SLn065rVqusANzByBayjwp-l8py3mOy6MSoo1-W_9ZmeOHT9-xZXcsR3RQYa88_73OeR_iut0xGVopSbLlLktTAWtiwmtJ2mQnjvvcw",
-      "source_row": 1066,
+      "source_row": 1067,
       "city": "sf"
     },
     {
@@ -11866,7 +11879,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/1OPl18rE7lLLGYizaFNwV2oEoK4doHEBFJXk-URb16k2KwznZyNzMLyj_KDZM12mYiW_KSac5vFBTFTuanQ4-rq7BI_-klq1Daw9bDYu2J7qtVFlf-XkTu3FHnqSKA",
-      "source_row": 1067,
+      "source_row": 1068,
       "city": "sf"
     },
     {
@@ -11877,7 +11890,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/mwb6mCMnOMiS36EWVlaKWFezVn2rVexkLgZ7uTwyVUhn_z6iSd7i20hmFJKUa6D_P4HiwSrYEehWRKaQuuqDpU8Mav9WZGmFrty4szSBjsTupRdkNW0NVVPXbrPZaQ",
-      "source_row": 1068,
+      "source_row": 1069,
       "city": "sf"
     },
     {
@@ -11888,7 +11901,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/A20We4tDkyb5MxV1Bs_vz3T5rDSpibmCL-c4pqiB5ihccCqyyFPOkV9bCpdyXE0Tx9ABpQV_TQd0CKptzaCCKzsOLDhFj9EpSt0R-Alfga7bMJ6sL56XLt9JDxP6gQ",
-      "source_row": 1069,
+      "source_row": 1070,
       "city": "sf"
     },
     {
@@ -11899,7 +11912,7 @@
       "neighborhood": "Virtual (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/8Mvc5gUAnqhMXrudih8Enm3ljpFeqanSpMWtw_CgYrTUKdLWCj3rqjKBQSlx2o1jqUaTSG8aMJjQaF32G37nTqjytmHIb3paW2lmDZRt4cmPrIOLJKrLPMZ6BweVtA",
-      "source_row": 1070,
+      "source_row": 1071,
       "city": "sf"
     },
     {
@@ -11910,7 +11923,7 @@
       "neighborhood": "Russian Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/OZ_BthJaE9i6ybZl8jsbXCTDcK_sJKuJne6M89YzJtTXNgJxxOuvp-83EGHrxjn_ZIWsNBju4NHlvM2S_HKZzFmvCg5fD2igKJwIVugEJWxC5L2aKx_JUsDFO8hGgA",
-      "source_row": 1071,
+      "source_row": 1072,
       "city": "sf"
     },
     {
@@ -11923,7 +11936,7 @@
         "Closed"
       ],
       "event_url": "https://www.tech-week.com/go/event/O5FYpHXeKCF7bOJiokpuqkAMJkYL7F87_8i9RwskfrPJZEQyeq_pmUd2cRtvPTNnnT27kqicUJxZP1sszQzkEN11ocO2Pae3ddpENPpxsSpuRvGYYYEdTxYsuN1rXQ",
-      "source_row": 1072,
+      "source_row": 1073,
       "city": "sf"
     },
     {
@@ -11934,7 +11947,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/MSOKtMxQ4GtB8S5ZA-KJ4baWGNjyNIZ43MKXOcLv_oE5WMZgVDLEDF_trGfCvzzqGciEHCmYNWZZiNbcExMsOrlGCZKHH4D_5Lvh80EouS5cmg5M8tZxmycNhMES6A",
-      "source_row": 1073,
+      "source_row": 1074,
       "city": "sf"
     },
     {
@@ -11945,7 +11958,7 @@
       "neighborhood": "Civic Center",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/mMh-Yq5tImyxH850I554ewyD2qRwtMY8gMXjeiwwCDii_kqkK-PeicNvtd7rZGLY8mXFzn48T5J58lQFsmUACSfwjj5gabxq62s2_mC9D7OvJmBE2H923I7lEz40hg",
-      "source_row": 1074,
+      "source_row": 1075,
       "city": "sf"
     },
     {
@@ -11956,7 +11969,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/0bRrcb16jljfzNw71gTSSmPQnSHp5GpNrfA8KRJECsUHGXNt3XhWn-2YtfziqUrZvDmINS9LS3pnuUExaZurs4HqmoekIvl-mwA14NyAkIp9usdgCs5uxheLfkjoIA",
-      "source_row": 1075,
+      "source_row": 1076,
       "city": "sf"
     },
     {
@@ -11967,7 +11980,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/AOsdNBEhVUnz245y9iGy1Yftq3JyyqLsFxqxmdjeDEU58RQ-lJg_ay9oWAcN7kOynDa8IyldnaFxDXzO2BzCuHwG-oZaJlp_hnRBL1KmR7G8u6GyxzqlQHJpZruAkQ",
-      "source_row": 1076,
+      "source_row": 1077,
       "city": "sf"
     },
     {
@@ -11978,7 +11991,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/FtulhepG4UhaHxtEpayPFsuPmj7KX7mmLTzUuJ_4oJTWOTxAy_j4yksZ-z8D0Yt2NAt8CCpNSSYq_unbruhmEceBmFuZRJL9aS8IVhkxCAVHAr4yEGdJ06in7OAQ7w",
-      "source_row": 1077,
+      "source_row": 1078,
       "city": "sf"
     },
     {
@@ -11989,7 +12002,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/wsvFq4cy-fFqLpYqfe0DXefMhG5p5feU1c1kVkLX4HvYfs14ku6mOdY9dPEP5q_sO5gFOziK7u-zK7rZ5tntOKqvp4MX77wZQ4Fy8J4LZJnOMTuh5tuOG9g0wfZvYQ",
-      "source_row": 1078,
+      "source_row": 1079,
       "city": "sf"
     },
     {
@@ -12000,7 +12013,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/eVO17ATvyN9dLVbX1S7jJ2K-t6ufTUxxOHhx0WMZMKqWrr-j9gK0k7BBXxICf1juRci-qOzxldsrH7RRfHsty0vz64P5rGJrdvya2ogeVYLPifiCmIBjCAB-TMRFGQ",
-      "source_row": 1079,
+      "source_row": 1080,
       "city": "sf"
     },
     {
@@ -12011,7 +12024,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/msQ7L2K8HlgBpd3LozpcJWhKD0HckxzKixvwhMV6drDGB8_qy4oc_6JtIY034kHiWKm9mH6n8ngiZ3QJHHx_J-FYBC0yBHQjhxru_liGaEiL-sml560UAMiJfZLJiA",
-      "source_row": 1080,
+      "source_row": 1081,
       "city": "sf"
     },
     {
@@ -12022,7 +12035,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ZuFE6d1y-V6gTUmHXGrCHcod0VkkYRsCUUgwXV-mNxji-VPTDVqBYr1gVnX8A5aQ60D1EeY4bx_9Rn2OxD_YheYh5AZcrbf3yEDpc9F3BRtRZHk4c-4dNkO63RzhYA",
-      "source_row": 1081,
+      "source_row": 1082,
       "city": "sf"
     },
     {
@@ -12033,7 +12046,7 @@
       "neighborhood": "Dogpatch",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/wMWiaL6WpFZdd-NB1An5OdwxOVJDLOv-Ul88ZdqrqXyW7l_0TE-1A4TNUJno_EywbubIEhx2mDJFKcZpsPP6ecu9LS4pNHBroKUDZJuY1GlJ8wAiqo_BjNqtKaA6Kw",
-      "source_row": 1082,
+      "source_row": 1083,
       "city": "sf"
     },
     {
@@ -12044,7 +12057,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/jgvE4rSj5qKo8nvYSy6jiyUGMWAHwRv1fXbnIuxPo-SZ-B6Jy7VorFu-xqj1YXdlPGrEdRSkXH3eVxLvVu_LcxIZlWKTENbw4UvtcZu9mR4UzZt5xY3wXaVLq4_ASQ",
-      "source_row": 1083,
+      "source_row": 1084,
       "city": "sf"
     },
     {
@@ -12055,7 +12068,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/vti-7DY7nLK3siu0kGzoXeD84jcW9f35y3c0HRakG9E3nGGw41218KMDHThwsRrEh23V4Jyvs4kWaPUb-YV0jgvgwVrtZMLzYtr4lmhuzfG5pviMJ05bASRaF_PaIw",
-      "source_row": 1084,
+      "source_row": 1085,
       "city": "sf"
     },
     {
@@ -12066,7 +12079,18 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/2AFgaflzCAE7uilSmu7z3A5vRfNq0PnHUNHGSO9VLEFvGvwXaU1RlEcr_kB4FsXfDKYIiDB6M4UCZeskL04Ib46Qp0uMwsNk7lWIWbin-wIOiCggb6q234gnY4uEMw",
-      "source_row": 1085,
+      "source_row": 1086,
+      "city": "sf"
+    },
+    {
+      "date_label": "Thursday, Oct 8",
+      "start_time_display": "2:00pm",
+      "title": "Hands-On Manus: Build, Ship, Grow",
+      "host": "Hellyeah AI, Beta University, Llama Ventures",
+      "neighborhood": "Other",
+      "labels": [],
+      "event_url": "https://www.tech-week.com/go/event/T-BKBEbvy0FDtHPxlNd0v4TZFd4y9uLNbFolFgSOZy9rm9Qqe3ZJI-VJmykmbGelILbrqNSX3ojLAsCI57onN8cs3S_x-Di1DTGXhAaJymuGMfY6Qw7rYHQmWrUvvA",
+      "source_row": 1087,
       "city": "sf"
     },
     {
@@ -12077,7 +12101,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/GCD2a1Nttry4vQ8YtscCdcvRkL6DAiwLZB62jMhZZcuiUywJDbNeQj8AIbeM6ZkA4GCr6iEkqExy90yU6sdNiMLulHWVs1KJvgARDkviDe1iFa_nCxo_HlXcqAIP2A",
-      "source_row": 1086,
+      "source_row": 1088,
       "city": "sf"
     },
     {
@@ -12088,7 +12112,7 @@
       "neighborhood": "Virtual (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/jsPwI9EqCZjm5zl5klBQQE3tjjKvkAftBumkTvaEp7SXDTk3UNuMO-NlAQrURaCi69oNSF2wrhwDQwyg8yHoQ9pxu_hmOt2y-ojPruOz3hqi-JqY_I6swUjcMitkOw",
-      "source_row": 1087,
+      "source_row": 1089,
       "city": "sf"
     },
     {
@@ -12099,18 +12123,18 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/GLYuMWFkT4_K-LXsVBa1j2xm9gqiuf83v9IE3HLGlLg-XkrORdoy8mw5WWSc39P3GZozcAUwohPomY-kjTBVYoKIrflQTKivX-NtoG0tvfiB_TTYJ4RPRWJTODY0qQ",
-      "source_row": 1088,
+      "source_row": 1090,
       "city": "sf"
     },
     {
       "date_label": "Thursday, Oct 8",
       "start_time_display": "2:30pm",
-      "title": "From World Models to Physical AI",
+      "title": "From Prompt to Playable: Can AI-Generated Characters Become Production-Ready Game Content?",
       "host": "Hellyeah AI",
       "neighborhood": "Other",
       "labels": [],
-      "event_url": "https://www.tech-week.com/go/event/mZL9oEKmm9l8IFHDr5af1cMWxAuLj_u6aGEK8-TN_InvvZVMM77QzhR1wCZxNZtAW1C7fpSP1j5p0DVLhYMnpk-knzfvNJNzhH7ZHJeuhXkU-wZAqQfHKIvFUraXaw",
-      "source_row": 1089,
+      "event_url": "https://www.tech-week.com/go/event/j1o6k4kqevGymxC74Zwo21u6Xky8cpCtOA37j7w-Mm5-IKG-7mVcEFz6O8B25xEM6J5Op0Cry4PYhs87ERn5HFzRZPmNjB-0BQKbSIypZX6ky3EJ0MDEe66uMeo-jA",
+      "source_row": 1091,
       "city": "sf"
     },
     {
@@ -12121,7 +12145,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/JBlnYp--I1tJvDC3Hy12kklnADcezqBqTztwGSwXfPwC6lO9PnrmMmD23NKzwbycvOVwYJkZ2wSt5DbkQbbI3lFJnRKYgwYBolV9fvLUWx3qE6RcGUxYyqZRXqE9Hw",
-      "source_row": 1090,
+      "source_row": 1092,
       "city": "sf"
     },
     {
@@ -12134,7 +12158,7 @@
         "Featured"
       ],
       "event_url": "https://www.tech-week.com/go/event/gzUnDyfcME7oyo0PscMY0TfVBwBPUO05mKtgE77Osi12LHPoje2WY-g0l05Xpd2qrS8pd5Mom1uxDT-pCM_dqvIML7fmVDGcyiddjq2-S_HYmBv61zgnCQPF1h5_Ag",
-      "source_row": 1091,
+      "source_row": 1093,
       "city": "sf"
     },
     {
@@ -12145,7 +12169,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/4d5kECwTYYzq0KnI3JLBka2IfaRwAOg-oqft05KnHlzPl6PykQt-GZ8xkZsp3OB7m_Y-kvNX0JG0AfgS3KoOO86cLnmyAfRq245UAbAtFUMkQTXQY2000DXLn3T8mw",
-      "source_row": 1092,
+      "source_row": 1094,
       "city": "sf"
     },
     {
@@ -12156,7 +12180,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/C52ZM8V6lUrnqSfbVSPMEua8KzjpXCst9FL6msy03DXBvbNjdEP740BhSYoXLpQ5P8zDdujaXaWFRYgRKAA0lMxVTkkzSl0iHiCKDy94qjdAPwnqPOYRbxg9aLuxcw",
-      "source_row": 1093,
+      "source_row": 1095,
       "city": "sf"
     },
     {
@@ -12167,7 +12191,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/lrDcMY1_WExk3rOpsAFpo9MzsnkegLM3CpJQWoN6V1qZmifbkfL_bRMHCVvG9uI29HADmlRzla9XOP9IaRoJADT1O5W0BpCb8nj9JX8q36KZqMzkIQYWt61Zq61L3w",
-      "source_row": 1094,
+      "source_row": 1096,
       "city": "sf"
     },
     {
@@ -12178,7 +12202,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/M0g3rR7h-mGRMh6-KgAadcYsQ_KSi4nA4DdeQ_H10TxdY9AQdUywJXKQPP004j1P3Af-HwEVAmCXQnarIx5XxY_4pLrPfgh5bCH7gyoJDSh8zcufeNKTnkGH5h8B2g",
-      "source_row": 1095,
+      "source_row": 1097,
       "city": "sf"
     },
     {
@@ -12189,7 +12213,7 @@
       "neighborhood": "Mountain View",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/kMk4DsOv9hFY-sssBkQSf3ql0kelbVMZMWy6EQ71jt37XYFcWdRmuVErfmKvYoh6nuZjqxIoOgI9mCkne1z75DVCkh3t3RT-X9sE5oeZeTrOjFMKNSqUeywE77ETUg",
-      "source_row": 1096,
+      "source_row": 1098,
       "city": "sf"
     },
     {
@@ -12200,7 +12224,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ciaTCzeRofVLAHuoGGvLi6KKBY3PzfuQgGyDTS_doYmVW5Zhw3Ttda1t6w64McnTpqKSEGYftqqmIsh5lJ0KCYR0CFeb-C3JqlauS-n6AEWeqa4m1DQ6VcZOK6X19w",
-      "source_row": 1097,
+      "source_row": 1099,
       "city": "sf"
     },
     {
@@ -12211,7 +12235,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/eFEt_NuZSRHuXt6rqzkFTykUOmlrFaAfFZ3wYfZgO_iLIFQnL7N6M1B_7dFRsH_SgiBnElKAv8Dqkl8s8p8Ep6z3IvmSTxE3578bLqmY6w0r7NLVHurm_FF41PMBJg",
-      "source_row": 1098,
+      "source_row": 1100,
       "city": "sf"
     },
     {
@@ -12222,7 +12246,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Fm8oJ35q0T1gEtRlLHagUPykP13sGq5Is-D6yeVGS5oajq4vxFRuXEzX2t8UyZDrYc0_T5D-Ty-cLewlieH1PsFhfBHsJu6rU6ef-sK9VhlZUM6Q14WC6XC0QCyQ9w",
-      "source_row": 1099,
+      "source_row": 1101,
       "city": "sf"
     },
     {
@@ -12233,7 +12257,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/bTvvxlntU1aghHBHUoN9L4U1EHyTwuh7YzsZDQ9HK_dQJ2pUaLw9hbIluoAoDJvQUu-5TBXArBGjzrl98ojyYvMnW8jTy1pDFpr2yQ5PattYDJATX6A5T918yowB1A",
-      "source_row": 1100,
+      "source_row": 1102,
       "city": "sf"
     },
     {
@@ -12244,7 +12268,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/mpFgNfFgfug9mEeMv8Ww3wi8TA1qVsla-sw9LUmjAGitB1rxiwvWhaNGn0q8n-EH4JYzDZNFzPjTkAPxZekwM815Np56ipFEC9EV2uY6fbzknpU2y_Q-WJtHV_Eb6A",
-      "source_row": 1101,
+      "source_row": 1103,
       "city": "sf"
     },
     {
@@ -12255,7 +12279,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/FdEYaXUBVwABunwxpL8yKJjAIfoV55DVJANeJGwE7QbbDgA6zVKa2-WJUajeniMbYBZnFnqRhychg1tNLk8W08g3kKEt5v7i2g84TE9BzX7DHQoKS8MvULCYNchdkw",
-      "source_row": 1102,
+      "source_row": 1104,
       "city": "sf"
     },
     {
@@ -12266,7 +12290,7 @@
       "neighborhood": "Civic Center",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/_BdJhRqUby7mELUs_AMNGkevP_DvTMitNEOW33-4Mw5ljl6e1yw6dd_sufdPlqyQX_v9gN_b56uQJmS9balbcMI4Pot8xidkToKA5V-IvDbCXQwiiwHh0DjPim0Rew",
-      "source_row": 1103,
+      "source_row": 1105,
       "city": "sf"
     },
     {
@@ -12277,7 +12301,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Z28r40RWflDLYfxhJsl96ek4hk0yinx3q905pIPWPNNw12zklDJoh9amXLGQFj4dh32RTtDLZ1d5Qo1EuJ5yMkUup8M_6_DvWmwymSFxLOqWw3c83BpdrXm7c6TVRw",
-      "source_row": 1104,
+      "source_row": 1106,
       "city": "sf"
     },
     {
@@ -12288,7 +12312,7 @@
       "neighborhood": "Palo Alto",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/hBrcPm5IuMYrSS_lMU5TZfgOJSbH6Wjv-vusNUshKU7Jwy5ccy47dfsPd1IY4iUJKzheKd0x_3KUHDJg0LGwKDYsQh-qwG2OYJe0NcPLNSt3686u6bf2xwQF9Ax7Hg",
-      "source_row": 1105,
+      "source_row": 1107,
       "city": "sf"
     },
     {
@@ -12299,7 +12323,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Eb9ezSa2414JV9wX1ZMfRLzdyOmJXCA1Q_lt5FvATPdPLOQPYyp1jJv1qV5AyFv1kcZ_gYZavfdxuUJS0ZTlVJWTNAEHw2q8uCh5rM14kZPpKVJhm4UjQiEr4f_a1A",
-      "source_row": 1106,
+      "source_row": 1108,
       "city": "sf"
     },
     {
@@ -12310,7 +12334,7 @@
       "neighborhood": "Jackson Square",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/StkXB-IISMMaQ1mVQsbrG4zoV-4u4DawpozJTiadoflQrHSKQG10OJ-lj8O6F5PVrw-IjJl27uNoNJp9K52xu_rsSU3EM4vg27YSxTcMZXCbn62Grf9dPqb4K83tXw",
-      "source_row": 1107,
+      "source_row": 1109,
       "city": "sf"
     },
     {
@@ -12321,7 +12345,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/zKp9b0CDcQMMI9RvbH9cHHyMhuZift8yM2pm7aJVuxggApd9eiZT0G8_qecjLrYjZ5VhyEtlR--FReS7DFsu1S60eD2DPaqQvq71coCamyPcu7F-1zwOMHupP4tmYg",
-      "source_row": 1108,
+      "source_row": 1110,
       "city": "sf"
     },
     {
@@ -12332,7 +12356,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/szytNJ_j5kFYNG0_ranFlBY5sbgFPcXFb296bpmmdhZNsMtcti1FWSBu_sEdqEExeFoN3ZWsR38A30_7EVRcwLDASAbZhkAKPeK0he0LohQ45SRviQmQ1IlmNCRtFA",
-      "source_row": 1109,
+      "source_row": 1111,
       "city": "sf"
     },
     {
@@ -12343,7 +12367,7 @@
       "neighborhood": "Presidio Heights",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Qzuk_BxmEjFC5FZOODRSoT5XbD_tz2gtAQTnrnx7nB4NpR1l39K3tgtmTBnIrc5xhRrgvMwRi0hnEa4X48P-f3NmmVD4li_c3o7MRYG2xC2PSHgqnFs5-DH9e_ySrQ",
-      "source_row": 1110,
+      "source_row": 1112,
       "city": "sf"
     },
     {
@@ -12354,7 +12378,7 @@
       "neighborhood": "South Beach",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/mLO5iMCEFRc2vTTULb1yHk16JpES2T1uL2WtYKq7gKmZjCcA4M6tQbX8MvNEF409t0_EviUKBS4ZkXCbD49PSHtyUNBikmk2LCI1W04NVkfIwu-sewGx-eq6yLi-nQ",
-      "source_row": 1111,
+      "source_row": 1113,
       "city": "sf"
     },
     {
@@ -12365,7 +12389,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/hA9FQUQKv143KJ9djIdDE78D1VeguqZdFeWNwZfFGRX4QAwtzXS-OUWhnTbhODh6_s4rKPlYrLoT3BWdqLVjmPMPa3x6mGVbkD5IUZosPP9T0N2aPEJhvcNckkJiVg",
-      "source_row": 1112,
+      "source_row": 1114,
       "city": "sf"
     },
     {
@@ -12376,7 +12400,7 @@
       "neighborhood": "Pacific Heights",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/VpO9WM_5t7Mrd12bQ83F6gyHu-CDKM95eKkmAeaFFiZdDxksRPlTlUGTL3rTqGPG60D5Rk-iiVpyCGYmAWlKfxwFGuqEnl_y9hmkW6O1VUtVtlRopJOjxP-Z0ygoyA",
-      "source_row": 1113,
+      "source_row": 1115,
       "city": "sf"
     },
     {
@@ -12387,7 +12411,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/3dPNmpB2nQWNImgdNrPVtaECa0cHOmMdd-MaGc0PiTp0HnGFVn7hg0q9UnziKnj0-P3diJO6g8zNVxnfXf5CBc8xtAgIwf208Vz2kZWC610_8qNASA9iUHw4luqD3g",
-      "source_row": 1114,
+      "source_row": 1116,
       "city": "sf"
     },
     {
@@ -12398,7 +12422,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/pwdUOa4zVg1rlI7kK5GMwDk83Ejf9M51bwVGcaxArqi9Ht5eQNpy6hB1WSUJnYlPqGI554e9-nHbkPfzms6U1yoS1fUINFIJHNjO8q1-gaKKKr6Au9OkHS6hdaxdbw",
-      "source_row": 1115,
+      "source_row": 1117,
       "city": "sf"
     },
     {
@@ -12409,18 +12433,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/SFe1EiW3hCJQOQm8ujuYfIfQ1f455QUuN0YqOOigNiCAnJPjLQYz2ge2qhaFZS9H5mCw4BvQ5IPGyscOw8R-o13YlBwE87WBaEF95tQY-sxDx_ylv0cQeAh19eZ0xQ",
-      "source_row": 1116,
-      "city": "sf"
-    },
-    {
-      "date_label": "Thursday, Oct 8",
-      "start_time_display": "4:00pm",
-      "title": "India-US Corridor",
-      "host": "Qapita",
-      "neighborhood": "Downtown (SF)",
-      "labels": [],
-      "event_url": "https://www.tech-week.com/go/event/n9NNgkpb2NiEQElQpKSRoANROOUNpIBM6jS3G2CnIIXlt_rEZLFzuJYFvsnK20XVy_VmZnro1E5NqFjB_v0SirE4I9vspTGPXQ1NA3bMwLG1hFd044tsHaB8iRKncw",
-      "source_row": 1117,
+      "source_row": 1118,
       "city": "sf"
     },
     {
@@ -12431,7 +12444,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/47CYVptBFu2cSnmkkRy3iZLPgOQMySu1cYUVhBKrD7jqAgBTM8WUqFoycrZycT9UyMCOnYPMRpUUXn7TptB39XCTudtm3h_r_9X_vcPhEX208bwt0GII5xAVYM5QXw",
-      "source_row": 1118,
+      "source_row": 1119,
       "city": "sf"
     },
     {
@@ -12442,7 +12455,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/fToHjVf3-hoA1cOQ8llRym27w6_XkZRR558q4c1wOGPTwUMrVxYgKtCmE9JoL8T8UjbhltrGUU8RYKDBU-NozuBB5XikjEPKxCbfHYxqyaiNZ1xyrXmqZ-tZ774qtg",
-      "source_row": 1119,
+      "source_row": 1120,
       "city": "sf"
     },
     {
@@ -12453,7 +12466,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/2vPEe5CBd592rtp_qcENWqBmB8-xlwJ0TnTTuLoTZ41r9ZN43HWKVwW_ENg_wdE1R-ruCmfAEtte94spoSbTJkkeMrPOAOejrCormWTl3BkB80Gd-PBIxVGk6PluYw",
-      "source_row": 1120,
+      "source_row": 1121,
       "city": "sf"
     },
     {
@@ -12464,7 +12477,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/N9QNSEGsyx2E3PVsA5KW_WCmZOoGZrzs0OAgjCaxYFTUztT8guO9UTr5a1UYCMQhbGO9LTN_vgGWzIDbLKj77hCaNTOYuHpA9kk9IwkBXaiBtPuPXluysgGP0yB7ZA",
-      "source_row": 1121,
+      "source_row": 1122,
       "city": "sf"
     },
     {
@@ -12475,7 +12488,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/VXbeZ5Lu4lt_IwkaszMA1AW0iuHkbv4sKCPBsj9n7tVny0Rx3Q1I1xPC1BWItG0vH1AN6xvMLw7_eJ2HKM-YtkP8Sm75cjSk095m9ql8d_K3VKTr_sHmaJSTBjo5UQ",
-      "source_row": 1122,
+      "source_row": 1123,
       "city": "sf"
     },
     {
@@ -12486,7 +12499,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/GUbnpmmpIEqoick4m3fvvSj1QhHbGmcnShYc9CuEPTychJTnO124RZtci2sEWF_AiKvPLAfbwtksmqZvFbWXDs7OP_F66BCsRzqBG4YX5ybNW9EwQBrBi6bPnsL2hQ",
-      "source_row": 1123,
+      "source_row": 1124,
       "city": "sf"
     },
     {
@@ -12497,7 +12510,7 @@
       "neighborhood": "Hayes Valley",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Gv0UvuaYIpX1Bu42b8knX5ec1K6-cx3404EoB8cnBHYDITwajntTzrzUuPpPDuRXyAdCoqCREcK6M1VWd0T3q9qBUfalfusisVFO0-WUfhbDodXLP_R42xz-uP0zaA",
-      "source_row": 1124,
+      "source_row": 1125,
       "city": "sf"
     },
     {
@@ -12508,7 +12521,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/MT116nQqep7D4WdGxwn_e1jcfsyCVSRcFc5h2tekzhCAshvKcsJjUQFMIKEUd_lajMA5f0hAsusI6W0xPd-3y609hOSS83YGQcG8yZZgYBonolLFN3zWZk2Hik6T9A",
-      "source_row": 1125,
+      "source_row": 1126,
       "city": "sf"
     },
     {
@@ -12519,7 +12532,7 @@
       "neighborhood": "East Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/L4w7Hid50s1T3fL9fld-8-pwcpz5DB6DEuslZ-QkDu9HUqkojJs4F4g9sQysQhwC1ufuQt0bdTAKyVoIDHBeOdtLLdJ1Vs4JKeUJPYtPj31i6WFVMraFCdrlUUaOIg",
-      "source_row": 1126,
+      "source_row": 1127,
       "city": "sf"
     },
     {
@@ -12530,7 +12543,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/4kUZ5xn2poTYNf38-XuCh7jHZOPSI2yhBFuwcmnTHQSonGIateH--0BBRIRJUooBDU88JWW0dTFV3MkRjSPAdAiswLrSMx0RIQhAohZ3ZdyK5jXfhXlgW20M9Kx3cA",
-      "source_row": 1127,
+      "source_row": 1128,
       "city": "sf"
     },
     {
@@ -12541,7 +12554,7 @@
       "neighborhood": "Salesforce Park",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/EQKR2gPRr3Vy5jli-j8V4Ajq1Jq7BTOxIV_WIbv_MS-MHUqmdbOvKGLG0JtC1JHkQFzArsuA2XfxlvXiUJZdFGMyU4H5c960V71TcCSKyONMKAdbW93ySKUriyUHmA",
-      "source_row": 1128,
+      "source_row": 1129,
       "city": "sf"
     },
     {
@@ -12552,7 +12565,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/NRCfs2cXBaivehgR41mvUrplbH8UIylx0mvcyk_cPna0mOYPFFXVTIjauepqp7HlB1WmvGvdJT6eDtWETSK-OIwJhdmJtqGYSKOYfEF3txuk-U6pR9QxYukI7ldy-w",
-      "source_row": 1129,
+      "source_row": 1130,
       "city": "sf"
     },
     {
@@ -12563,7 +12576,7 @@
       "neighborhood": "East Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/PBB9M3h-ZeDjkBYtbAb25_b0uTzfLcp26GZNskiT0LivbOeJ15T_f2d_wnLOsXHzkb5cSXDsJTa42LU_UWZNa6e7EP-xNzgGOTr9ugAluZ3O3Q52hI-CNwt0Cevnrw",
-      "source_row": 1130,
+      "source_row": 1131,
       "city": "sf"
     },
     {
@@ -12574,7 +12587,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/69MUwm2ATomb3KHVJF4aNoUJUSWPfuAVcYwelPBtp8_GLoLYUwl5BluzhJbcb9wEc8hhgkieXxDe_ucQ4SFGTy7uIpvdmPSL7_XbPfHC9JmoOSzGckT-riv7JWkh5g",
-      "source_row": 1131,
+      "source_row": 1132,
       "city": "sf"
     },
     {
@@ -12585,7 +12598,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/b5CJuBFLCv9XZqIE4LAsWeA3Be_fUL6j6SEUGIn8G-v-7PAup9BpC9sMLy8UKhZ_GKALZ4hPt1U1JZGo4sBalg5XPpxnbw-XAfYGNDlp3nzGU4VFzxQ81RQF-uvZgg",
-      "source_row": 1132,
+      "source_row": 1133,
       "city": "sf"
     },
     {
@@ -12596,7 +12609,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/O3b6OakLjplX8QiWrXMI_f_fii8WuekQyWcUVpALhrtUYYVfKObT-HcvTeacXz3btC_kzQF_aptf2Fhzyn-YlW9hivobsO8vK5tvJ-V-5i_PLKxCHkmt6V4PYHiOCw",
-      "source_row": 1133,
+      "source_row": 1134,
       "city": "sf"
     },
     {
@@ -12607,7 +12620,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ulDu-HBrxsiOoOf8Smd2qIFvrjTFN_GVnlobKRTQ8R_dEjCdiNKwcrCJw5BxUAzVjbMxPrxOt7kFZbKlayibd_J1ACyc0aAtwEMdXyA_CBumMxAlmkJC_Y8hCYuZ1g",
-      "source_row": 1134,
+      "source_row": 1135,
       "city": "sf"
     },
     {
@@ -12618,7 +12631,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/e_cqw_OnvsJYudAdS_s6N2ee7bEKQjWG6MLPyQniwUqenlSTXJYziogEl5QOghS7hyMkoU2R5jBUKVFGkUi9ooxgXglckeTCk0z336eizm8eBkafF0oifz_EdTSibA",
-      "source_row": 1135,
+      "source_row": 1136,
       "city": "sf"
     },
     {
@@ -12629,7 +12642,7 @@
       "neighborhood": "Mountain View",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/bcJjm2YHjVSGGxrDDnMhbwJNdcDpMrMRLZ8KFf6w1oBDFcqOFVL7xyvEzbPvZlhUbL0bkXTxR3JFdKy5lQRyaUL4bU9m_FvmO_ResfjvC_at5dau3esPPylhjm-oqQ",
-      "source_row": 1136,
+      "source_row": 1137,
       "city": "sf"
     },
     {
@@ -12640,7 +12653,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/fuvoOXKTEx0n5jbiNekX90Hrez_2-8lvaUbe3bJl_GoZ1Y_9KB6mepZ5oPouLQyQETR1vJs-fcQi4sS3P93ocNxyaBoUnV6i6TWbvHdE7MLoBm1w1Wjg9LmTvFl-Zw",
-      "source_row": 1137,
+      "source_row": 1138,
       "city": "sf"
     },
     {
@@ -12651,7 +12664,7 @@
       "neighborhood": "Salesforce Park",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/OmLzhSm-2BkAJCzjmzd45g36C8bwJ8PN2jr4UWxnSn_QQmJ6fLLn-a1_7iMIS7JY7Ourxc1pzYAKcY2ZF50XRvciAETs_HRK2p8i2psc6UjjDdPNGBB_m-Z_5sBbgQ",
-      "source_row": 1138,
+      "source_row": 1139,
       "city": "sf"
     },
     {
@@ -12662,7 +12675,7 @@
       "neighborhood": "Dogpatch",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/raBeM0NKrvqmwV5JPDGWT4vAeJJB-KO3Gnjf8YpDnMspV0yzz-ixiX2R1eDfcRJCikENVtSWHjFvyd6e8gyU2AbdbwB_2hYpuin4wNN5Rc8eXgtv1Y3rubq-SNMJJw",
-      "source_row": 1139,
+      "source_row": 1140,
       "city": "sf"
     },
     {
@@ -12673,7 +12686,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/hQL1fgRO2H6Kdtdbn9o9nYC91C67eRbO1I3rF_tXXa7TwANYfs07ZGQtw3LIdXKvveN-bcfvqFGWhBw-znrWQqlUe3HTwvsCopL1b6YDgcxZCkxtQI9FdDVZzxexWQ",
-      "source_row": 1140,
+      "source_row": 1141,
       "city": "sf"
     },
     {
@@ -12684,7 +12697,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/RS-D-St3u0oDi5lzaE-eL5zbC3fyjrlKb6AXaNyxdKL3VrrvO8igcNoBPvuBlxTqf8FcLHhl-RmQOjF1VJoPh9MI-OnosMJWOs28iAxNbd_DSeOj4RETs21D_7Zmvw",
-      "source_row": 1141,
+      "source_row": 1142,
       "city": "sf"
     },
     {
@@ -12695,7 +12708,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/tf9P1x-AB9LNRLZTf9wejMqm6mkbEdieqNLyIj9SfeYf00AnC-AIhqM6Bh8MBEFLVO0Lqu4-cH1shk0tquWk1TILX2_5mIwALA35MCQ-BaeiONwlXhuGZaX735g_nw",
-      "source_row": 1142,
+      "source_row": 1143,
       "city": "sf"
     },
     {
@@ -12706,7 +12719,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/hPpQCm6otJz-zvLu0GnpRqDMeik39tX21hftyljWTgv7bL4UN9zQclNjIdNAqLS6Z_o6Q84TY_zfx3JotgXURe0CeOuE5nRqL1B4bnn_b2p2M98riw51IGb-FZEVKw",
-      "source_row": 1143,
+      "source_row": 1144,
       "city": "sf"
     },
     {
@@ -12717,7 +12730,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/A9CaSlNd5hcyhYAKMPmgPNW0BhnhbpjGQIiAdYLWMP5nJEPOUmZzge3aQk7EEhWoidmIYL2W7q1oug7gIyGfIWWlraq7BTFOyEAje7hMqHNf5J50OrxtT7Vt5-84CA",
-      "source_row": 1144,
+      "source_row": 1145,
       "city": "sf"
     },
     {
@@ -12728,7 +12741,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/TlmFCFgij-OPVhBL-B2Xu9LTXsSRRonCnr21CBn4NOazar0i5uDj_5zsDmf23nLll9xCzyBjzXvUZ1xjrpDj99BxYam2ef8_CrMJaWzYPj2V0dBvkDuArQ2zUuLDXw",
-      "source_row": 1145,
+      "source_row": 1146,
       "city": "sf"
     },
     {
@@ -12739,7 +12752,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Rl74B-SBE0Bf0ThQwp_PID9XTRY83J-bh_8oMSE0PlN5hOJRhiNNoMiudsNM9SIL56fC9hunna8nj3szEeAZ5f0mjrf8kJlAuOpEWnRLzzYDdYukG3isWhaOIl1qhA",
-      "source_row": 1146,
+      "source_row": 1147,
       "city": "sf"
     },
     {
@@ -12750,7 +12763,7 @@
       "neighborhood": "Mission Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/okBAmUXnWKECblU9cr91vqpup_LN-_mghP3eVt4bwg6mmMaFEHW4sAPZBab4v1X3K9G-h8zP-2D-SjblCL0aWKPzZo11nr7RGsBfcF7PH4sN2HW9-JxEaVFYwV2W4w",
-      "source_row": 1147,
+      "source_row": 1148,
       "city": "sf"
     },
     {
@@ -12761,7 +12774,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ORk1199JbX7rHOaaz1ewPZr8Qm0NKDiwZ2Lozl9WskjxGCl8TZDbSXlaVTsUE4UDYAFVEICQdo8CvPoG7i88BqIb4AWAzq6TVfUSaiDv0PRPYshEKMmJvgrU3Pkg8A",
-      "source_row": 1148,
+      "source_row": 1149,
       "city": "sf"
     },
     {
@@ -12772,7 +12785,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/FDVCYWPNJwyZgYgo85lCztqvx3_uLWf379kTMpNFr_Ro75ixYuJ38CS_9vwbMjGw5ndqrkTqwGDeqGGyafNGqks85fn-1nv3KTgNkObPOJ4qDMtxJK2EU1u02NTJKw",
-      "source_row": 1149,
+      "source_row": 1150,
       "city": "sf"
     },
     {
@@ -12783,7 +12796,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/5RgZ63LUM2o3mnhz5Q42QydBuAnvBUmoXGdv9JwPPD7-Ew4sh7ThGPZYukcJbKtsIAkFDqK-APlYoP5epUrzGLrjFGA14oXdzL-ax8izTWUh3lU3c6CS6LVs8Z6nmQ",
-      "source_row": 1150,
+      "source_row": 1151,
       "city": "sf"
     },
     {
@@ -12794,7 +12807,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/kQ4fMHqHNs4_Q_Kh-GU-5hWki1YdFBYP5a1JVf0hajmNT5HsQfbiucA4HyUxQd8Lq1hKKqd_XDwn4XirrO6A32te9wzxg1xnuq5OUEoQ7mV4r7Bofc3V6gwvSPAl5w",
-      "source_row": 1151,
+      "source_row": 1152,
       "city": "sf"
     },
     {
@@ -12805,7 +12818,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/IEovW-tT2vQ98rCS4T3UWNn6qw3m4g11ZfYI9BbCZ1sBfPCYfF_5ZqIt7aadprJydFHrfgIzOecvHrP9iaGgYHR5vBits2yb1DVyI8DRlU_hW8Q9z17nBNTke0setg",
-      "source_row": 1152,
+      "source_row": 1153,
       "city": "sf"
     },
     {
@@ -12816,7 +12829,7 @@
       "neighborhood": "Dogpatch",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/R-hqMRLVmx3HYFLMmHTNGqe3VDofDlo3rXJplUoyqbWUEkCjwjwzS2W0ERyi2fAbb2fS1pPdhJaZAMOro4YT-o-DVOA05sHW4Cpb-vrZDMoTmtf_WBEDqgt5ioOYJQ",
-      "source_row": 1153,
+      "source_row": 1154,
       "city": "sf"
     },
     {
@@ -12827,7 +12840,7 @@
       "neighborhood": "Stanford",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/VpYcoAQZXn7kxjXsC597X5KejDnqfRiHz40YV3bhhI8WsXo2F_j-ChAsb9C-TM9IvhDQXCS2l-uWS7QN1eV9HX5oVLxHK3Eec7wwv8byDyG49v_7sN7eicbfVvXbfg",
-      "source_row": 1154,
+      "source_row": 1155,
       "city": "sf"
     },
     {
@@ -12838,7 +12851,7 @@
       "neighborhood": "Hayes Valley",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/LK4Od5mcVBnHJmmDTtTvma44qrOtUrhYiczFbkMkkcW41dtKJxzZsC2sFLOVOeS0RWZOq5GQnkWxxolFI3VFDobNqiQTyhelTWkicPIvrUKZ9-QKd2ov4eEtZuDOoQ",
-      "source_row": 1155,
+      "source_row": 1156,
       "city": "sf"
     },
     {
@@ -12849,7 +12862,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/AAI_QDkJTky1entJszqqHWkCcazYCIE_RtxjMxzLIzcWIj3D3cHgpqgN4LyJsLpw8XqfNdNZ1Y61eWx4qqChvKQq2k-_GvIDaidvEBHKkcYof31jrdTBPl9DTjhYzA",
-      "source_row": 1156,
+      "source_row": 1157,
       "city": "sf"
     },
     {
@@ -12860,7 +12873,7 @@
       "neighborhood": "",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/DEoUnSKvfSkxaL4xq2Ywa7dvqODGxLDa2jp665jLvvDAbMmtGBjfrtWnw0vnes7QOSwjABu-1_Sp94DXsf8-tngaLJEMgwqfm1G9sIL0QTBbzUJdXmBFpPzokLgl_Q",
-      "source_row": 1157,
+      "source_row": 1158,
       "city": "sf"
     },
     {
@@ -12871,7 +12884,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/gSylwNbes0aH741FfldkRno_Z54FgdMKp1n01XtSjoio5lbx16sNCbPe3db1StPPPdTT2mw7iNMi2S-l8remMX8Ao_4LsaclFratkfqTE6FcuONXNpbB7wv4s83CiQ",
-      "source_row": 1158,
+      "source_row": 1159,
       "city": "sf"
     },
     {
@@ -12882,7 +12895,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/n8zVaBiYVz82omjMT11UgHJfNu4bdI2Kk0Qho4KOAqDRQAdHq0Cx9zz3IicOPL-w_0qQW3b5hGhYsuWkUKfMSL1cVqNlnfBZU6evEG_4rWAnNJt2IYFa8pRgAVUMQA",
-      "source_row": 1159,
+      "source_row": 1160,
       "city": "sf"
     },
     {
@@ -12893,7 +12906,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/SZAn1kgWkAVwRzjLfNvGPKseuSUVv808iixhZqV3RS3hVgOwT9EPe7QibUE2YBaz9Hn_zuzbbASbDSHBZoFDWEkIgP_dUXw1yElSJZhzPIq0Lbo5OBBIhhYV9GifWQ",
-      "source_row": 1160,
+      "source_row": 1161,
       "city": "sf"
     },
     {
@@ -12904,7 +12917,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/GXVT6y2CI1I2PvIcS7zaDSNCuotwcIpP-CR8ZW6jbiZf8YW3681-oIly9YVX4q_R_aCIIGXYIFtZjnoZ2bxHYHe5wtBNOfj8Yazp2RnIgvdTdihkRnIxURhbBrSKvw",
-      "source_row": 1161,
+      "source_row": 1162,
       "city": "sf"
     },
     {
@@ -12915,7 +12928,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/oA02LDuoS4co0iz4F5XWIT7zWeGJji3zzNcrhcLplk-Dlllcjny8PC-XfD3-nYTa4k9wUxtcdyjmvwRjrB8SyoYObWT1lu7aD2-MN3cPht_7eZ22a3CMoRzIJHXwaQ",
-      "source_row": 1162,
+      "source_row": 1163,
       "city": "sf"
     },
     {
@@ -12926,7 +12939,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/dIl_l5aftYhH7keo2DoPw4TUoZqJH6y4463hGKhFFGI6XPNBCvgL1Hvt8gpx8Ond-tZsm_qf3ztcU7r00dGia19PlyMMRVxZXPDYZpxpay3StfQznc9TzkPz8OZMqg",
-      "source_row": 1163,
+      "source_row": 1164,
       "city": "sf"
     },
     {
@@ -12937,7 +12950,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/nUwzHRt3cxVzbayxUH7w-FjPIYk9u1n1EQ0nOCL58axKykBrLKLlHzVafhgau9R8Z533i0gz_NEtvtPXuNtTHx5sZZ7AylVp_hnBhTW-x1hQQKgjXEbGLq335vF4ug",
-      "source_row": 1164,
+      "source_row": 1165,
       "city": "sf"
     },
     {
@@ -12948,7 +12961,7 @@
       "neighborhood": "Nob Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/dPQxxtNi8ZvRHgbpif5YmRCnzzoUFZf5ROleaGDd4yybKOVYfxfLj2NmaKveBfxERqNY7PO-iEEf53GQNGggTbSFAmhl63wqrHC015I-A2OqR1n52IK4TC09QZlbKg",
-      "source_row": 1165,
+      "source_row": 1166,
       "city": "sf"
     },
     {
@@ -12959,7 +12972,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/H0jT4O6Rs2kHd4lvwVvebS1fFjtbu0RXFtjjMcKRJa0rnc_Up7ofcNt86dVnVb9ixZtrWP46RuGZD8EeppEb-TuoFsOugBJIKRvTe9HFY6D84y67g3bmww3J79_eKg",
-      "source_row": 1166,
+      "source_row": 1167,
       "city": "sf"
     },
     {
@@ -12970,7 +12983,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/os47GxyXcqTS9qRFhKij_JcwBGImjh-IPwaYpXLz67S_KpPn2hWdjHj5lTcs8dkcO8SS0A306bHessYI8VkqF9_tHuoeurkOWuOsQaYs2_JC7EEqBkcIeeX4KLAr4Q",
-      "source_row": 1167,
+      "source_row": 1168,
       "city": "sf"
     },
     {
@@ -12981,7 +12994,7 @@
       "neighborhood": "South Beach",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/eLxzthnVj9RlPyjrmnHqEzxYu1ygUeDD3bryVuWFzkhZzDRI_lp11xmdO1fFM1pOUxGOLGPteqPK2Ba0pUqg4hMaTBd1IShMXF4sbzbAN9AzwTHYTdUQIP3CeWZ-LQ",
-      "source_row": 1168,
+      "source_row": 1169,
       "city": "sf"
     },
     {
@@ -12992,7 +13005,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/2FhWzqzc60lVeynIcjWsLXxoG9fhoIYnXLLMzkm83J6JrCccm2rIeqcQWZJ4C9j0F8_cRVTz6mdpAOa5s2CgxVsq_plGiSziMeOcJNxllL2BWTVVfCzZkm1-3WHGmw",
-      "source_row": 1169,
+      "source_row": 1170,
       "city": "sf"
     },
     {
@@ -13003,7 +13016,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/FqfWGQOjB70--mvK3tx3UPtXdV7ojqFggpkVsw2aW5v-M0YG-la-RZ1k83AmSixzM3lWBOCrcPxrakQbQtnR2-HEEnnXD7HU21uT1aaT-OYbC7P6siQHeYgiC07Xaw",
-      "source_row": 1170,
+      "source_row": 1171,
       "city": "sf"
     },
     {
@@ -13014,7 +13027,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Ryh3Zhv63e1EzCQAD8CD4HdTtgRjavnDtEdhsPX-CVd3F-ToTEm8m2tsgTThE513kzH9g1bqkt9M5H95ckpLUSS1K-_C4cekun-JhRcJ6aOimRYSqQ2N93RkYKTh7g",
-      "source_row": 1171,
+      "source_row": 1172,
       "city": "sf"
     },
     {
@@ -13025,7 +13038,7 @@
       "neighborhood": "Hayes Valley",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/aU7P4dfEkvDRJ0e-4FWv1-3Vp_9RHxV8Pe_O1iQHPlF6FATCPfWQGIJKtsgCROmh24zDiOATsETtGb2U_MGvmC8yUFTTqZeU-bA4UxmFainmNRrzOx8ttvTRmVfztg",
-      "source_row": 1172,
+      "source_row": 1173,
       "city": "sf"
     },
     {
@@ -13036,7 +13049,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/yjzPR68XX1AElUsnwmmHQtjwnf_OPobTMZs3Su8pItzf2j6UDYFVwj-E5IHApfhb32CLzKLo-GTFavAJVDIi9rKY2k3QTJvkqPX10AzNmOLbD6XuIj9MLpDw1TLdZw",
-      "source_row": 1173,
+      "source_row": 1174,
       "city": "sf"
     },
     {
@@ -13047,7 +13060,7 @@
       "neighborhood": "Alamo Square",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/LehVXB2Vf4O17wRJLeXk1QpNXYQT5jBixqH7gmrGh0I9VzV6Y1jn4AGpkQ3fw3COUcpuDErB8wBuTZRUyti6fVwsPoUEFAKTBogu4BrU_EjvaiOS9yHZxfEmbA6xAQ",
-      "source_row": 1174,
+      "source_row": 1175,
       "city": "sf"
     },
     {
@@ -13058,7 +13071,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ZqhoVS2kXq89kI_2B81qE80xw_gvJFnV9Ce3LVVIJq6VB0jCw3S-9s_PmxIF3pXXr8CZfTsy3yYaEmSK-jhB0pRqg7i2lj0KGV6B6k-1iAA7S_o-ZMj7bvu12siNVQ",
-      "source_row": 1175,
+      "source_row": 1176,
       "city": "sf"
     },
     {
@@ -13069,7 +13082,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/E8tsprAJsusQ5Ar3hIsMEDQ3semkfeXM13ogaxtFJ5omV7BTn-ECKHxUaO18Gsu5F8CkS8aIAUuR1baLrkNUvbUlQAfXRfMXuPXXML7PPneJ_0yNa4evbEY4h5p-Mw",
-      "source_row": 1176,
+      "source_row": 1177,
       "city": "sf"
     },
     {
@@ -13080,7 +13093,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/6iB4XF1Ugp7phiHycUygmoOVrV1ON_2hFqH12q4TBABHWYkcjz2JgZKjzDimhAfr39F2gn22NHGeGTmhlNCZVj_i-MS3ns39d4fD5ry1KxCbdCDjbebxWxSX-Fd-2g",
-      "source_row": 1177,
+      "source_row": 1178,
       "city": "sf"
     },
     {
@@ -13091,7 +13104,7 @@
       "neighborhood": "Rincon Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/8dNQtZCeHXpLH4cgH65Kek4vtVjw0hjkHdWyDU_QqBXZHD9JSQab79RL-v4Qc9z4N8kxynCPTeMZYmqnMZQjlW4FoKh3AeeE5QH6_bOr9pCvz9WQI8AC-TV1sislIw",
-      "source_row": 1178,
+      "source_row": 1179,
       "city": "sf"
     },
     {
@@ -13102,7 +13115,7 @@
       "neighborhood": "Dogpatch",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/En0QNUWsAyGWUPgJvMgcrRO4EnIjQxNttvErKpCho1vub0hn4pZ87IwtjXTK3CYBVsa4Muqn3VXZV6c9NNjF_Qcse7TEFV7NR2VnxIyRiq_wFyeC6MZ6ZqoYaJYbOQ",
-      "source_row": 1179,
+      "source_row": 1180,
       "city": "sf"
     },
     {
@@ -13113,7 +13126,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/1qmWvc0fsOTaq_5pz8VXMRZqQwfL5JuRnODw7xzDc2pO7hdiSeQlDmZ4mrBpHMJ51Ws0eoAtvKz4jWFbGW74HzzXg1j2kNREwidzx7eafcpGqSAjRO-Wm8olhhaSwQ",
-      "source_row": 1180,
+      "source_row": 1181,
       "city": "sf"
     },
     {
@@ -13124,7 +13137,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Vh1CGxLEJwvNIn_ufaHJ6Hpg0ZNatvBeC6UbuQ2UDFmV_Z0We_cbYGYzIciqHz5I4Q7fnJ7CqGym3KnhYpGniUL9e0XIv6PTjcztLnfxsIPYqn0Vbc2jfqnxp2BCnA",
-      "source_row": 1181,
+      "source_row": 1182,
       "city": "sf"
     },
     {
@@ -13135,7 +13148,7 @@
       "neighborhood": "Fisherman's Wharf",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/9wa9a54brCM7Zk72dVvyipZUSi-i_j7OOdKklUy3ehQ6sFJido0XVG-__8AlvmeX85fvr2CZi8SVF7U3KiCkLvZ-zdwYYa_HGZLdS54nvrwFwMYqnP5RKLLP0hdMHw",
-      "source_row": 1182,
+      "source_row": 1183,
       "city": "sf"
     },
     {
@@ -13146,7 +13159,7 @@
       "neighborhood": "Jackson Square",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/vhyqR_5zayK3xVt6CL5gLsLLEprIy5BE72uykIU9yduxHn6wosY133_aruEvpjNuyYfdc8mffXjJ25kosq-OnHRz2__FDcnDbkBVmv_7e2R4L3NxvG7OPdkxHP4-Fg",
-      "source_row": 1183,
+      "source_row": 1184,
       "city": "sf"
     },
     {
@@ -13157,7 +13170,7 @@
       "neighborhood": "Palo Alto",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/77ivrQioY9M34lnzWWFWZ04xf5HRIjzGtc-1P2hhwxlEYEmHNk7LFKbuUyiYuDeqoH8_3qi6txv3BR4BkDhkudOfth__fyvGizcieO_ubVSrmVDJsd1FlXyA8apKog",
-      "source_row": 1184,
+      "source_row": 1185,
       "city": "sf"
     },
     {
@@ -13168,7 +13181,7 @@
       "neighborhood": "Palo Alto",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/qWHE_nyMJj7Ab9MfEjG12ky8tYFTDzrXBG9YywdXrMCCvwdbuB3rbcsswBBM-s8ehAxNT4aPO1uHFqT12ximOC8AeAo5jqBfogLyYWfsZiN4GjEdFzQ8IY3m6L4emw",
-      "source_row": 1185,
+      "source_row": 1186,
       "city": "sf"
     },
     {
@@ -13179,7 +13192,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ppzP-wuPxev3Npe1Vy5Zh2xgqgiak3F--WkGTlR3vj9n5rvUgVbSxNI2xGOUHBEHk9pecZqgyZGk_nVBvgINOgC5_4b37bkTjSEz3mKHWjS943DoSg5vVm2pSE37Cw",
-      "source_row": 1186,
+      "source_row": 1187,
       "city": "sf"
     },
     {
@@ -13190,7 +13203,7 @@
       "neighborhood": "Mission Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/7dCa32YKtl_G9M1iiRE5mznvXybGbVVftanrIWLZjugAn_kv2mxIruS9S1r7P9eB8MXreW8Vw6uWBnEbQE5B83gBoIUH8C02ADkli8iBXrWnQKeCsqTqa78CDsnEOw",
-      "source_row": 1187,
+      "source_row": 1188,
       "city": "sf"
     },
     {
@@ -13201,7 +13214,7 @@
       "neighborhood": "Potrero Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/GBy2Rjio1xo8h8lH0vQ0W66kLL27LBnnHQVhoDZuiVg_IMyon1sjzw1TQRf_19ekfXO2jWS9RnkM3wO05PJ4CJ_PKk1VHhDf6BC3WoVhaUuiquGZdZLp-VA3zyPR-w",
-      "source_row": 1188,
+      "source_row": 1189,
       "city": "sf"
     },
     {
@@ -13212,7 +13225,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/3MDn_axBOuXPl3lRTd3UWPNCXnTdUJEqEWC1rH_ZNMzri5aHdof397mxedHxuwGefQiW-i6Lzn6ZjCSDj3vIEVtpzvjd1aUdKmSUtByQ6t-cfVHGxzJYpf3WEWOh6g",
-      "source_row": 1189,
+      "source_row": 1190,
       "city": "sf"
     },
     {
@@ -13223,7 +13236,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/r3VffgTrrNhg-icUMJK2TTLmPKKWS5HLPrxEj7p6aQBmYx217Ba596jeeTfwYi5y2vgyidFY1oRgkFRcbbGjz8LqQciMbp1CpOL7WPlAZqomtJTdPFGnz3uS0kjsCA",
-      "source_row": 1190,
+      "source_row": 1191,
       "city": "sf"
     },
     {
@@ -13234,7 +13247,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/kolFhKCACVJzOdaGvz4YEC7lfECSl7buRnFCRQOQKQb4g0_BfF1uPkvkyS86x0yoyvE6uZbhiO7AS1rrsZUVzJT1nANy87m1cdU9Sq6sAuBrupV41vdfbqPwXZdn2w",
-      "source_row": 1191,
+      "source_row": 1192,
       "city": "sf"
     },
     {
@@ -13245,7 +13258,7 @@
       "neighborhood": "Hayes Valley",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/jOu0OoaE2rWYwEtKeRjbJaFKJrdjYeL_15PW-nVxE_zVvEsEP5Ksd9vdRoffmMM93h8u1WmhI8QdXSjgwIRzdbRtJZ1QH9CwIuLXvJGSYWartjXO7WxBoVw4adYKHA",
-      "source_row": 1192,
+      "source_row": 1193,
       "city": "sf"
     },
     {
@@ -13256,7 +13269,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/HRCKT7RBQKKfcR0_U1H1rxEc_RKWxry7mlbpcJlUteiFBxA4SzUgzzcLtHdm1MzEJOF90Wr64EfXltopqiRpA3uts0f--ddXRzB1A9SOKijfyqqz7xZYPG_DMu_3sA",
-      "source_row": 1193,
+      "source_row": 1194,
       "city": "sf"
     },
     {
@@ -13267,7 +13280,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ya7Nn_lmm4S4LNu1dYsdsAFcycsQUwkp9pX-m9Gh8rFwNmCLLLcGPoCTAejHT4g98f0QKiFj03tZZgvHEhUeHt_sHv9Bra0XtUiy5wzMJrpJyvFdKq49DxyaXAMxeg",
-      "source_row": 1194,
+      "source_row": 1195,
       "city": "sf"
     },
     {
@@ -13278,7 +13291,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/f_BTBAFmrnIE6IxZu2nG7i4VsIGrprsF9fwDxamleTbq-p7FnDRfLawHNlJQvphm5k_OWwBltATpvYOGFpBQ5Jg17ptde4X8vnmyQAGkDYWvbGfKJPnV6Kna2V_hxA",
-      "source_row": 1195,
+      "source_row": 1196,
       "city": "sf"
     },
     {
@@ -13289,7 +13302,7 @@
       "neighborhood": "Hayes Valley",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/uRRb8FjTJHOlGs7VnikvkioMoFY8-4ZDEy-4NTEFYWvptzyNSroQJ3I_fBwE5TtyU_filbTeFamJL3q0SKHCNaV9xNKmspz128X0i4z3w3kSubR4i4Izo3lwQyVvMA",
-      "source_row": 1196,
+      "source_row": 1197,
       "city": "sf"
     },
     {
@@ -13300,7 +13313,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/BYtSJNsXBcl5LaLokh2l6P82cpcuWZptRW83dmIXWSs1tA8PCSoSRJV2D__xS8eUfxKrJRRq90VkcqKMIn5ysemWt3T2_1bdxZZnz8j64U99Y21PYTp29N8ronL5PQ",
-      "source_row": 1197,
+      "source_row": 1198,
       "city": "sf"
     },
     {
@@ -13311,7 +13324,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/xQhc6jq6kI7UIXYwaou1INJqNKeTdrOtGVF_sWh5VzyydC1KvC8_oSxf0OjnDJ14N_Sd_Hy9Frn5PtQ8a-ZfPq26YBaxKXhBTQHHOwTiCgJDkDUNDgyCVeVdhrQpEQ",
-      "source_row": 1198,
+      "source_row": 1199,
       "city": "sf"
     },
     {
@@ -13322,7 +13335,7 @@
       "neighborhood": "South Beach",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/rC6NqNCfzXf_F36u9NPwXEmq4Rt8Vr0BorpDArD1eZ74-IxGYntZ8Xi_ZgsA6ElEsXJNFnE2wCnNgtfrGEtHJVp_1Rom57jbpPskDY2yLYP8O5vKDLvOelO6iPBO6Q",
-      "source_row": 1199,
+      "source_row": 1200,
       "city": "sf"
     },
     {
@@ -13333,7 +13346,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/uzYItU6FHr8aCaIYVys1SD9QLJ9zBFgefO2KaKDbggbfh9RGBmsgdvP0vXNQtpqjWh8ffk9oWhcpxNZ1EmWmt9lnfNe1pwK20npqQo5Srx7S7UHOKeytsHlmVqZUeg",
-      "source_row": 1200,
+      "source_row": 1201,
       "city": "sf"
     },
     {
@@ -13344,7 +13357,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/XpzjcN1ffDWvayLPMVHbIJMa6fKoS46V5oCuSLsUtS4TxbwYfI3_LXcxhv5FbMFCl4iYBROfsM_6d4zArH5yk7IfbuMDIdW-gDp3JvjNqc_E7crbo58Kf5r9Ykmnow",
-      "source_row": 1201,
+      "source_row": 1202,
       "city": "sf"
     },
     {
@@ -13355,7 +13368,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/i-PB4OydXYtRMmQT14y5gkEAouxWQT95_cDGXLxw6DQhkdH5jdLV_b1WSS02CHopDi5HptnpjNmPCGlsTpjTHnCFb5QiAh9IX8JNx57CceVI6HVRuwZ06J4Gfw82Bg",
-      "source_row": 1202,
+      "source_row": 1203,
       "city": "sf"
     },
     {
@@ -13366,7 +13379,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/N7mKb5A3UoZr-27o0FQIS70nesCkniUKwVjYVQWslEYJOiExfTfJZuwNYjJL-z2bDKEHYESV9LwNuo6cOoArCPEOszN_88rBCZF7DD3bWNj49sLml3-qTV1VV6bPzA",
-      "source_row": 1203,
+      "source_row": 1204,
       "city": "sf"
     },
     {
@@ -13377,7 +13390,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ZQuPkfi89sDR-hGUCyGCMZ1HCjkuT_sJDvyoHQmxytwWVRyXt2fWNzz35h1HQd6Uqb9ZWH7MhZeLKhNrGeQHWOjFR6DKIczOA1qR1jUkAaT7-x0_WR94ITya0dFXAg",
-      "source_row": 1204,
+      "source_row": 1205,
       "city": "sf"
     },
     {
@@ -13388,7 +13401,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/byHz6E5aG46rXaS0DybVDzGMhGEUqytDL76SuXiROAmktX81uKAiUhNeHgA6t4Ap9G-jhpCgigWMTbraA0HRMsapKLIIwKtNqMj57MPkkge9eZS7l6QHWS07dC5Lvw",
-      "source_row": 1205,
+      "source_row": 1206,
       "city": "sf"
     },
     {
@@ -13399,7 +13412,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/4vgZELCphLj7vvfS9ce8K2cg-LBj_q9Wv-VrNOa5eZgvfkMS-EguC8-iKj5E400NtPAqBlW5U2D6ZOjV5kb6Sy3bYCwnaY_rM7IpQ2SA91QTiqfemMwdroYqlRL8aQ",
-      "source_row": 1206,
+      "source_row": 1207,
       "city": "sf"
     },
     {
@@ -13410,7 +13423,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/rr6OEBeQ-bvAXzVODF-u2rkBvO1Omg6sb_xAhozxMni8QXRIE0wWYmA_raoy4Yvn5sW42dATJUN1qVb7pf6hRT_QuAPdGqyficaIoIi-1L7QyTpqdsBIdm_WlY084Q",
-      "source_row": 1207,
+      "source_row": 1208,
       "city": "sf"
     },
     {
@@ -13421,7 +13434,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/0VdTzF1zr4934tAxjApVZ2JAO74mrl2xGh4l3ZXeNV56vV5X7CmFmmZTCctWAFX5isjejf-ugIG1cFUmEKzwMwLunOEdzW6ac5iM2A6sdQElqvTHGIYAyxtdAAbj3g",
-      "source_row": 1208,
+      "source_row": 1209,
       "city": "sf"
     },
     {
@@ -13432,7 +13445,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/QpGxy-0eAPZda2rAudsW30I8UgjVeEdbydC2uLSJe-GL6lI2SsEKyqio0zvY_2d6GIokrbPjyTAoyXJLkEyxJ14q5icDol8HE4RmZTc3IWa7CKg0isjAFxmD_Sv5Fw",
-      "source_row": 1209,
+      "source_row": 1210,
       "city": "sf"
     },
     {
@@ -13443,7 +13456,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/kkSvOI51IxC6gQ2EcyznlFP0411OBIhANP2uu2L0Du6xv4_KToXs3UvhysdKLFggseS_Hk2k0Fa6FTPPmUGZ4qRT1yDcyM9ClvJg58JoCq4QT-tkVqCJnrn_s9MHIQ",
-      "source_row": 1210,
+      "source_row": 1211,
       "city": "sf"
     },
     {
@@ -13454,7 +13467,7 @@
       "neighborhood": "Jackson Square",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/N6xddOEGXsWVwt5oU9pIbaizIjnl2FKlOrJGXDtyUSYGRIapNnLyUJ65pTVP_qSnHYExET-SQM1ev4I8D67Ww0qsYRXOksNnfXMXwilYCXuaJl1j4KDWbpW-sr6acw",
-      "source_row": 1211,
+      "source_row": 1212,
       "city": "sf"
     },
     {
@@ -13465,7 +13478,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/j38y1Uhu2diCVZw3kzrC3_3Z4imiY1zVNeODAqPKJH0XjpAVoz4hHt7Unou5BizOgReg3D4456Mn5n90uiyGhb7Y5kg2Tqa0OXsEHc9kCg3dXsYFjwtEvoOQVGUq7A",
-      "source_row": 1212,
+      "source_row": 1213,
       "city": "sf"
     },
     {
@@ -13476,7 +13489,7 @@
       "neighborhood": "East Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/PLum4M4-nlKQ9F53BXeqDjUUgkSizOZTf1mJiEpphO2nCejJ-VuOthDouyp4A42jK1cX5iBnjfx42n14SS_O7PjRg6NBK_QzugRV-gp3XjyLMYJsQyl-6mGCe54pxQ",
-      "source_row": 1213,
+      "source_row": 1214,
       "city": "sf"
     },
     {
@@ -13487,7 +13500,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ID18-cMceVmd9IHvZdxH7WSxpBni2gHk1SQka9eQwePpzpP7f-7YMUyuo6qJiSfR6nG_nAW3kYlNFhRM8y443iZOg_pz8hoRzNgenqBICiKXFfHicl3-_keSusVv2g",
-      "source_row": 1214,
+      "source_row": 1215,
       "city": "sf"
     },
     {
@@ -13498,7 +13511,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Ai59jsEG_tFwPe0YnFFF7mg21yvjYsViBuQ4kARZ9itPAXyU8HPvYNp226-kjWk4VeTfl2PiHbMhplhv4doGyWzz2-sR-h3WQQm2PPZBJ973PEj2r1cHJ9XUCJt2Pg",
-      "source_row": 1215,
+      "source_row": 1216,
       "city": "sf"
     },
     {
@@ -13509,7 +13522,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Mx0YSwnIpR3nxLb_r5I1RIxB_HhabR77009rxLFtGZcvQy03fA-C69gAttJYcWG6YJnMll5_uPEyOzPD7tpFZuycEeh-idHj37aOem3LGc0XEscvEvSnKQXnJmvp1g",
-      "source_row": 1216,
+      "source_row": 1217,
       "city": "sf"
     },
     {
@@ -13520,7 +13533,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/MW7Zad4S2HLyZUIAuoUYjpb4ctCdKCgwWjCF51-emOy2oH3Gl1cEg8GqtZQiD_X_TvoVrNG6NsvWuD3OWH4ZZlfyXNYCDJWpB0eoHtnzAQJBOw-MhPqSlYW_FCcfyA",
-      "source_row": 1217,
+      "source_row": 1218,
       "city": "sf"
     },
     {
@@ -13531,7 +13544,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ATxQpqsQbNck2Gv4rh1HVMCDpkbu0--USKWuDptINxpvjf2UGA9-vZUq7L3ww3zvMmNYHTvg19iYlXsg4k48YEFyCxNeWrqYW7ses-Iz-HRyBTYlPyHh3XYPyAHCjg",
-      "source_row": 1218,
+      "source_row": 1219,
       "city": "sf"
     },
     {
@@ -13542,7 +13555,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/SBoOT-0zgyPziNi2-WzJxs24lymY2uaB40j3N4ksJbO8heYCPr4GQGqzKJAFyDYRVVmxgBNTs0-KvqSV8nKgsZHZevhjl_s4wVxIEbFsfs1e3ZWt7qIKlp-epKTHrw",
-      "source_row": 1219,
+      "source_row": 1220,
       "city": "sf"
     },
     {
@@ -13553,7 +13566,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/HGKfEbGDwzy0nPjFfMY0fq9RhlHTGB98_c8gBy_PeWjG67XDHLvot8JoNxY5Tdqf6CCx4dxqaqhoVbh3M1293CUMqaf-J_YdWbIR0nqYc6-Yh1HvOA-E2OkOFiHhUQ",
-      "source_row": 1220,
+      "source_row": 1221,
       "city": "sf"
     },
     {
@@ -13564,7 +13577,7 @@
       "neighborhood": "Potrero Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/HnjMSl_TbubQHZv_Va3FiT4Ly_guALgSroFcILbGOGM7CBmhRiOdjws2ElCzARMaAdZfS4Stn4aQffFUZ2rYC5ToNeKXYG3_SwbaJoU0638bcKDCuXyeqBh059YwBA",
-      "source_row": 1221,
+      "source_row": 1222,
       "city": "sf"
     },
     {
@@ -13575,7 +13588,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/zqTmLqYxakmWaNB6tS92J-97DGILnqXXpkBaj8PCy8NrvY2KvUwCnEd8OZpmPm0bc8sRdM7QQIQQoM9mc-hU-4Hvi8etz2L7e5K0Mf27gQ144LGcXxvZh7cSQt3QfQ",
-      "source_row": 1222,
+      "source_row": 1223,
       "city": "sf"
     },
     {
@@ -13586,7 +13599,7 @@
       "neighborhood": "Dogpatch",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/fhTRL4W5ZCbSqyRlO5osGVK4_aSUSRqBA3dQTGSbLOq7Sk966D-bKsvS1YaFNA4dZiwx-YRBQkfCnPTUfufpxd7HemlSxVkMjxT2_1XEfzfygWqcM6x1VM-Vb8a1EA",
-      "source_row": 1223,
+      "source_row": 1224,
       "city": "sf"
     },
     {
@@ -13597,7 +13610,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/unieLklve7Vqs-wQisBsx_6nt0PHgFfLKcE0lQXWsq-2NEKW5YZbVgL-0QLfeRkLcBTXilYnQztkxdCTp2Ag8PNNxCkaze8CRcYNOfo7x89tC7QI9EDI4JbKKnTBqg",
-      "source_row": 1224,
+      "source_row": 1225,
       "city": "sf"
     },
     {
@@ -13608,7 +13621,7 @@
       "neighborhood": "Rincon Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/oMKJBhvHyjVSzd84d7k47JHXzdlox320BWQJOlJ422FQTL0sa52r6OSXLK7lWOVoT7RXN78OWRRpzDEdeCqPrG8Jur743ojIVmg5VLVPHtGHewVybMw1aUP6qrk_Pg",
-      "source_row": 1225,
+      "source_row": 1226,
       "city": "sf"
     },
     {
@@ -13621,7 +13634,7 @@
         "Closed"
       ],
       "event_url": "https://www.tech-week.com/go/event/k3JABTiYZJsF3msYj_XNb6MEC6KimYZxcGF3WzWBFFP-07Bn49Yd4je2TD20IpU_DX4O69zO5r3jBzwL0UzKi8uupSe861B7T8yYZSz_QR3sA4-YWX6kvlkdpX_SZg",
-      "source_row": 1226,
+      "source_row": 1227,
       "city": "sf"
     },
     {
@@ -13632,7 +13645,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/dNAuy_aGAr8v2wMo4tYqpmCNBuS9XNEChZGxzXtn5sliq9ybH6U-Khp9hRIFncn66hq_1Glzd5Irh3J6tZfdBReepJCAy1OPsQxZiM_anafQqcfrPwgTDXkzU6R7vw",
-      "source_row": 1227,
+      "source_row": 1228,
       "city": "sf"
     },
     {
@@ -13643,7 +13656,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/dJV1bvYDYTkciWFQkYdR8cOzxsfuqnFWzc4vokAHJSIXdlmWcYclXO8ZIMbUgoTxdjduddMFaOAc69Xmuo8i5dUhMq7XDxpbqJ-Bmvcv-Ab2766yt_OHw1Vsp-_6iQ",
-      "source_row": 1228,
+      "source_row": 1229,
       "city": "sf"
     },
     {
@@ -13654,7 +13667,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/5Jdpv6Z3R39gLqyAFTr52RnosYwbLZMOAutLkHuqCNSAD-khy8sraq303X65FlSyxriI32IJNuoRRq6OVRV9ZzvQBYYhgHiSgjdsssF_UA9ZxTHNjWQTkoX5QNol4w",
-      "source_row": 1229,
+      "source_row": 1230,
       "city": "sf"
     },
     {
@@ -13665,7 +13678,7 @@
       "neighborhood": "Design District",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/vl0aAxTMlptt6UFeW2GIWcHNP97l_HY2AEYEzMsjTIFOD-WnDQ_3vh9ycJFGIaQJMTb_At515PHQyMHEjy1GTtizWvt_pnlzWhpCQJfEAMtORss_PSC-LK2PapIoXw",
-      "source_row": 1230,
+      "source_row": 1231,
       "city": "sf"
     },
     {
@@ -13676,7 +13689,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/baxmLqYfkqiuzFZAVVGg25jNf2sVe-ZpJP1dhjOdqTp9wgCLQFTHztfmEDDCG-rkYFa9bkFDg9qIn13yxFh3L0_PfROEdrNh4WdP7F9cKnTBTexzvM9ej7pvr_1Yow",
-      "source_row": 1231,
+      "source_row": 1232,
       "city": "sf"
     },
     {
@@ -13687,7 +13700,7 @@
       "neighborhood": "East Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ao-5VFnwtmeXVUUY3lj6sAp2ry3v9T930GMWYibSmlJejoSPCMVUmWcyI8Ii43KCV4gh17FLT4szIBymSHsiUP1dtVwK40BVn3SHUW4CMtRlsPT790_7peCCm8HfMw",
-      "source_row": 1232,
+      "source_row": 1233,
       "city": "sf"
     },
     {
@@ -13698,7 +13711,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/W8_mwrJvvTbvuD5IanskRs_mXq1RAWDzZsffIl205gZJ4YStFbff_VLXE21S1nymeOo0FxREKBXriguvx_dOb9xwU6zY_n6bDpoxZ4io2yWGQSIc3Oc-qZTzQ3w-AA",
-      "source_row": 1233,
+      "source_row": 1234,
       "city": "sf"
     },
     {
@@ -13709,7 +13722,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ekUbkKrYPbwyObfhQDb3Tp9pZnhFdFTPs6RtDr4jZGHs9MUjbDPKOabjvbX655BlfJkWSn8Bzzs0YDAlgsWR7js3l-AT09mBxlB_d4gWINEs8ebSmZoKCUuJi9tzUQ",
-      "source_row": 1234,
+      "source_row": 1235,
       "city": "sf"
     },
     {
@@ -13720,7 +13733,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/nVDE4KWDaws49ikcmX_NudxADgfr_O0IXnChITHtBElufal1qxLXIsh67TPX_G4YVZtaCe2he0shNpjGwIt5toRSBdxlsslEqnJqSVH4BxH6snGeDP6q4yV5zkUS_Q",
-      "source_row": 1235,
+      "source_row": 1236,
       "city": "sf"
     },
     {
@@ -13731,7 +13744,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/44Nl4MwlIvl5Y4BRFk5jsjDGQXuHPvIZT6BNjuHH98wNwk6_jt9t6P9t1GNXnBXu1YPakSsmr1ZfUQu_zX7ojbiKUhTETSa2Wt3WbEnsjRrcJKeeTfcrJF1jokBX5w",
-      "source_row": 1236,
+      "source_row": 1237,
       "city": "sf"
     },
     {
@@ -13742,7 +13755,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/zDN8mfZsMuAN3usxUckbvaZs4dsTqD4RCzGegL1WvXq1qob1_fNREu2QeOWw21kbuTdnU8wjjOd_zYRsVQtCqhKU2GOSZZ2wQiFXlaCVRg6xXPWEbgtf44mDvs3sHA",
-      "source_row": 1237,
+      "source_row": 1238,
       "city": "sf"
     },
     {
@@ -13753,7 +13766,7 @@
       "neighborhood": "Chinatown",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/E5vaXiE7HfwmnfS1KSPgrJYwlWaKpPCXd-mn3zHiAreS_GuRyU4PZYBqYWuBsqx__r6gQPG9MsZz1W9RIw55s50y9Xp4VrN76XpJ2t9MeesOCCufuNwpAyuhUCpAUg",
-      "source_row": 1238,
+      "source_row": 1239,
       "city": "sf"
     },
     {
@@ -13764,7 +13777,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Sw39pF3R9-RfoI0Dtg8xkcgfnyOJGOzxcpmT9hXXPPs3QiMq1ME77PY-ZdPJuUDf9j46Pxe7hsl1ko7y0kVIClO9N6p7p-l0jqrVdxhAcZjI8qJZE2Tlt2ntN9R56Q",
-      "source_row": 1239,
+      "source_row": 1240,
       "city": "sf"
     },
     {
@@ -13775,7 +13788,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/_pJm1NfhVnVFJaTKqR4X5ZgJ238axKAqAIUpBgLCaxR__aPM1NuNSThpktzcZ3xyQWb7dKAvfbMVKv7SvnlhqvF9z3vTRW0rsSyvI6j0QS3c125o4Fn8aZfik4y_7Q",
-      "source_row": 1240,
+      "source_row": 1241,
       "city": "sf"
     },
     {
@@ -13786,7 +13799,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/OZXE6z_UiX70Z5-0eEC0XbbZ88oOn-uPU8sxW26bu_QukJyea3Z5VYteKzWBvDoU6T7wEXNhxAjlrDLg-iHa6Xg9GZY8TndemlPS_6ZmBoU-uP3s2d_MUOx9xrxIEw",
-      "source_row": 1241,
+      "source_row": 1242,
       "city": "sf"
     },
     {
@@ -13797,7 +13810,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/rgf1lqWLHGseQlfoMpimoEWBCeFyhnDNxuc7u8JlsJ21dK00-axd36MJMnK1BPbmrGy-n5ymIXahWkcWJ_CWzhdb-khRP8fyVYkX9JcBdYGQ9uXyj2Gcojddo7LB-A",
-      "source_row": 1242,
+      "source_row": 1243,
       "city": "sf"
     },
     {
@@ -13808,7 +13821,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/s1Hpli_V8TNlfRZAEoaGQT0--hOU--myv98McTPPH7pZjZj6ryxrmyslQfLkrQE3dW052Kx7xSFjw3ShtHxcTFjUWi4pnInHZxfDk1Wzj_ElJUQppLZqItIHAxI7Ww",
-      "source_row": 1243,
+      "source_row": 1244,
       "city": "sf"
     },
     {
@@ -13819,7 +13832,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/xyJVrFeyqMZCJ-6vlUodUKLMXr_fCMXHYJn4aj9eaiw3H_-O2Z7A7uwx9j8_FgmVDVyJylArt50IKaIUyTMQzrTbGADPxVjx99Z8YqhPjGo-ejbvFbtvbYvxOQn_fg",
-      "source_row": 1244,
+      "source_row": 1245,
       "city": "sf"
     },
     {
@@ -13830,7 +13843,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Mz0Om9M1TsVwIhCLTFw6CLicJa253jgFtoYrbfcxRyRzXP4xXG0bsY7QCRhpllHSECHsxdoTE07WqA9qgq5rW29E8sUBxTY_bRMoausyDN_gLIxkQMJe_M8IVQYTJQ",
-      "source_row": 1245,
+      "source_row": 1246,
       "city": "sf"
     },
     {
@@ -13841,7 +13854,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/0oc4bl4Sws40kfQ7tDnYxrl0z8Z_I99LKV_LDDb-oH8138TkwCQqu3Glw6Y-SYllHdBNhPpWkKiE6HZXPAZgEaL7m_PaDTHWxy2-HzT2sZEwpePsywjHOw0C8-nWLg",
-      "source_row": 1246,
+      "source_row": 1247,
       "city": "sf"
     },
     {
@@ -13852,7 +13865,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/IE8qYQsqG2U53UQtggoHNqcouqfBIaerUCKOmXxSdA8ggP--_AMFs7OS125bJO5g4N_6XOmfoLsmScPFYMnlvlKIyu7b04gewFrIh5JgRCLWp-Xx89JQtJCR3QZbAg",
-      "source_row": 1247,
+      "source_row": 1248,
       "city": "sf"
     },
     {
@@ -13863,7 +13876,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/XkYX92wjaA5Wv5spxdvlAH4A-xc7011B7p8WXyBDMTMmrcY-a2QLUgd1Ho9OlHGInYSKBH_177EfkVehe77jCnmWKP-wGcbmzNvURkY6JhKnV9EMyWBIVD0iihHe9g",
-      "source_row": 1248,
+      "source_row": 1249,
       "city": "sf"
     },
     {
@@ -13874,7 +13887,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/p7xHomfopoLnK-Vn3RBF1X9dKBt07AshnFHvrnNXI74ss001UNhCAkP5ln23sQYGq2s-McMb66FHzTqQ0nWa9iRvigig_-C6knezT0t1T-oHn-8Ze_vVfDtbSn6yHw",
-      "source_row": 1249,
+      "source_row": 1250,
       "city": "sf"
     },
     {
@@ -13885,7 +13898,7 @@
       "neighborhood": "Castro",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/1cK-jJGN78SYtSiw9wESPF84qnXiFydiMmnHgEE36Um9irwIk4auaTudjDjEIAiU2PxAWAnNnj73Qx7kpzqKvRoGy0bbs4ZPaZiipa8VpY48vrnUE4LdYps7NEoajA",
-      "source_row": 1250,
+      "source_row": 1251,
       "city": "sf"
     },
     {
@@ -13896,7 +13909,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/9yMETQjCMiBcsfHqKM895L2WZqcuC8y-ryxn_nLOwqgQMzQdziiEOwgBlinNEh25Ot65r4R2tuJJr8IeyiATxDaJ1R_vIe8rxWV5Kk_t1IzlUcVoe4H-peSYBE6kCg",
-      "source_row": 1251,
+      "source_row": 1252,
       "city": "sf"
     },
     {
@@ -13907,7 +13920,7 @@
       "neighborhood": "Nob Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/7UCbdouofW_l8ePMcD1R0GhaoKv5LVMnbGZmn6H3d4p3tR5XTgToAVPdMX0sfppBL9h55wBwJpLbxrboqEc5JXnMm_bwZZb2rYuXNxo7BM124weju2fiQ7hWL4VsLQ",
-      "source_row": 1252,
+      "source_row": 1253,
       "city": "sf"
     },
     {
@@ -13918,7 +13931,7 @@
       "neighborhood": "San Mateo",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/vGEuicqxBQiysK2t3_d40zPIPCOKyp1aPrsYOm1f7LdeECQdaFlpvf8GMjh3KILZ_tc5CdTiQ4mxSeac7sB8QvXfyqWzHvP5dt5uJuIHiofakNj97jjnzVu9gctQZg",
-      "source_row": 1253,
+      "source_row": 1254,
       "city": "sf"
     },
     {
@@ -13929,7 +13942,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/TdK9IKp3i9Z39WRt_UXZ4tXuu7GS4NcitFviFt92OgczK2yShlyur6ZdZsdD2KzYeEjdR3XaSCyuwrz7GAcNV2foGSoz2GcKGFmjTu4Bl-dXTjdf5gWt4iME-zoMYg",
-      "source_row": 1254,
+      "source_row": 1255,
       "city": "sf"
     },
     {
@@ -13940,7 +13953,7 @@
       "neighborhood": "Palo Alto",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ZTeBMKMhdygAmtEmDR8cFAazoAfFzN2VIx9On0_JJbYDZ6tUx3rp29jVcbuTreu-XP6GDPCshd6Exhrw4PC6Dv_TPKYsxIu1r_ZKPj1jOx22_QjThoK9xOnaR5L-kw",
-      "source_row": 1255,
+      "source_row": 1256,
       "city": "sf"
     },
     {
@@ -13951,7 +13964,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/29pP8M03MJsymYsVa5-B9yYOlCo5JQ0zoyu77lTdp7LYPXn41lT6T5h5oBZ1H0TNUNgjYuK3tvlvHd_0sy_XEA64mex9hdf7sjJbol7oqXD2XtMd9P1f5U8W2Ujyrg",
-      "source_row": 1256,
+      "source_row": 1257,
       "city": "sf"
     },
     {
@@ -13962,7 +13975,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/_74XH-Wji5U-Ot8cgsC6L0R9lbM2xLspkp5FZ-dScojvGPVDT6XTyNLBgNbULhUoODXrAbrUGDbnuhq2r1mwIBx24NxiBl82dggFwpkNqIch9S-S4fpy0y0ktl6ITg",
-      "source_row": 1257,
+      "source_row": 1258,
       "city": "sf"
     },
     {
@@ -13975,7 +13988,7 @@
         "Featured"
       ],
       "event_url": "https://www.tech-week.com/go/event/RtlCI3TUj27IMn2iwIGCC2xoHRRY37LLSxAx6KROdI-RkiRg1msKBClzuw-5M5H24d8je1wrLd5gl-aIuTwgHeUXmb9tt18i1UEZJJaWrKnQxFKm3iL8x0ibJnyVtw",
-      "source_row": 1258,
+      "source_row": 1259,
       "city": "sf"
     },
     {
@@ -13988,7 +14001,7 @@
         "Featured"
       ],
       "event_url": "https://www.tech-week.com/go/event/qRRP4tc6MmvjXDa7Duz9qAmqQ36rP_1smqpcU7gyAEV-H_31kbVKXUuwm87RX6xJpv_-fL6lhmo_7Zkh9UuBDrUpDMPz9QVsRGVUoC0RN-Ds-OdOjvZKdEb4GGEEBQ",
-      "source_row": 1259,
+      "source_row": 1260,
       "city": "sf"
     },
     {
@@ -13999,7 +14012,7 @@
       "neighborhood": "North Beach",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Bj-xCpMnrTIV7FPWYhNufFNuA069tw7nF13Rf_Qya8n5MvQg-BbSELby3f2J3Fn98C6LN2e3jBHLUlx_XdX-Xxjzh4tftoonzJBuUfkGb6dZhLxQ5yfE4Tj_9dfT0w",
-      "source_row": 1260,
+      "source_row": 1261,
       "city": "sf"
     },
     {
@@ -14012,7 +14025,7 @@
         "Featured"
       ],
       "event_url": "https://www.tech-week.com/go/event/5ku4FhBcu9aEzKbdfyLnLfSp22x-YmrQx3obBPIdOpDv2vys2evENTxi4WWWcZ-_k4eP9SMCRpsKPMRcJlzhzE86dYolC2JvgVCpk9OP3nkKfFR2XaRjSrBbZ0d11g",
-      "source_row": 1261,
+      "source_row": 1262,
       "city": "sf"
     },
     {
@@ -14023,7 +14036,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/oiZbdadx1d_9bBGnT3dCERgQnGRbQ0sEVR_Rl0r81A4iHu5iULvqIEEi68QG9tiHMugramoOLxP1LbH5j4iPdNobOaNzoFd8p5VEEJ5ze5ipuJq3aUXsAlaAab3xkg",
-      "source_row": 1262,
+      "source_row": 1263,
       "city": "sf"
     },
     {
@@ -14034,7 +14047,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/2RgVUDslMu7qrGJiLCy0l1KzY8lF9BR1mc4kzHrlqRG0uDnWKHrDTVfjbAW-0NrdLI0VlpmeAZoRPhXHY8G84lGNTLzi_N9SQQi0bE8BbJLDaCVIRKMyAKs0nxcZ1A",
-      "source_row": 1263,
+      "source_row": 1264,
       "city": "sf"
     },
     {
@@ -14045,7 +14058,7 @@
       "neighborhood": "Jackson Square",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Rn7XXqtaYR54S7ixrUA-0nJ3IgDJAS2IXE6tDZyxB0-g54VE9gkSwYZJWIijxfcAv5R8W-uRPY6zsbz0kRPQA1SD_5QgrXNlHqsqpOg2TuPpz08-swox0CmBLEXb_A",
-      "source_row": 1264,
+      "source_row": 1265,
       "city": "sf"
     },
     {
@@ -14056,7 +14069,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/WSqaLaG7w5ukp5k7MyDDm4Bk53rGc9CJ235aIPCritykFJGiorQKkcftHWs4W5xHOlFosaUkK5wWJunlgjQAMEbcpiATLrr9G7_8B4fobEc8TJoHQZ76UOAm0nz-SA",
-      "source_row": 1265,
+      "source_row": 1266,
       "city": "sf"
     },
     {
@@ -14067,7 +14080,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/-UO1gwt6f224YVcUKuAFJ03siOgJNr4dVf9M5k56Kx8At4FNvIjmaNGrvIUFvUCNAFeItEu1PUxhfXyF5yJw2VSN5xdy7EthZPfIcIoV9DNBmiArTavS7RsOpbODTA",
-      "source_row": 1266,
+      "source_row": 1267,
       "city": "sf"
     },
     {
@@ -14078,7 +14091,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/4KNGy0Kvrj4TbKe3k39WNcWD68zkn3nBO3TkbNr7MUgVeYM9vmQF_wBT7BIYDYc2Xpbm8SCVm-84ScirehIJt1B1yYqEc1NhYXtjZP2Uzq65XATmA1ZnvHFQnIc1dw",
-      "source_row": 1267,
+      "source_row": 1268,
       "city": "sf"
     },
     {
@@ -14089,7 +14102,7 @@
       "neighborhood": "Chinatown",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/aqQIziVIV6pJapA1FIZgXfGzqpbopHFCiEqLTiaMRlu1ruEo_sTupgF_cn5oMQtsWRbjhvdvuFsNqOj5SbaopRl5nCCdAgGO4ZvRd2NaJxlDThZc2sGZqtFUzAIbAQ",
-      "source_row": 1268,
+      "source_row": 1269,
       "city": "sf"
     },
     {
@@ -14100,7 +14113,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/qiKF9TKHOSDXs1xsP1PtZImE51F5jdiqLfvAe16Xc6NSORMV9qu44dJ9mLbA8h_lDy2t3UksUzE5QXiGsmy2Ch-cPlTKZGqcSLpV68FKuMaVrAPLnFbzhOgqZltJJA",
-      "source_row": 1269,
+      "source_row": 1270,
       "city": "sf"
     },
     {
@@ -14111,7 +14124,7 @@
       "neighborhood": "Stanford",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/e9DmfK0MI5YQEseWeWsBOPcqYoXVBtLn3t44Yesvv05nV8PM0c4iCKrl9iWyxood7mwg5vNgx50K_lEYDL-PWEoglbotMaKZaeq_VZkC4IAEAA7tV6nuvkdhSZCbgw",
-      "source_row": 1270,
+      "source_row": 1271,
       "city": "sf"
     },
     {
@@ -14122,7 +14135,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/WHVK5d1q2AAsdmGOgUhsCRjNMQXauPMVhLzl-2B8pWvfnOYCVpu0Oc3iPbQDSoJDrA9J_UB8GRz69M_jsbH6i2eeCbtw1jlNwmWUNP95mNlAUhBjjD8GmlkWKOr0rQ",
-      "source_row": 1271,
+      "source_row": 1272,
       "city": "sf"
     },
     {
@@ -14133,7 +14146,7 @@
       "neighborhood": "North Beach",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/DCHOr58CCLdOWhd3VCdxF6ZyhUgPCuAqGJBFNT0wk3ppkfWxsYl-z8IF4u3kpCNe9qzYZAUJRXeZcLih836uD4uiR7jceIK-4WDu-jflZuozlHtDThUmUfFC0iqgLg",
-      "source_row": 1272,
+      "source_row": 1273,
       "city": "sf"
     },
     {
@@ -14144,7 +14157,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/IQBFttoQ0lOJywT0vziAd_cnoE8waGXcn9o9OYp2cBcJrR70bFQPS3h8S5lrVJ_EQKg1S-C4jibfb_WrtvogQ9rl90hB3RaLoF0juH-UACD9WI9WlJW4xuiP4hoX4Q",
-      "source_row": 1273,
+      "source_row": 1274,
       "city": "sf"
     },
     {
@@ -14155,7 +14168,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/XWt8TaGRQHeN56KTsVMdEDXNdTjyyPLAapPZ9EjiR_1l9prDDujDs1aXAkhCv23GiXvRjszIv99BFu_rpAagqOTsUnHB5dc8gLqiMBz2HJPf7T6hiK6GnCmRkinsxQ",
-      "source_row": 1274,
+      "source_row": 1275,
       "city": "sf"
     },
     {
@@ -14166,7 +14179,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/N4wI3mwt5Yd7DP_JZi9D3fpWsAFoPmuL_6DZBr_jKwAOrd6nVVGoZrykYUO1GxMiLs6cwCa4Oyk2C0wwQVBEOr9J07-Zn5ZUXWsYllWhaFqym-5MOEd4WWgJ6CnKiA",
-      "source_row": 1275,
+      "source_row": 1276,
       "city": "sf"
     },
     {
@@ -14177,7 +14190,7 @@
       "neighborhood": "Potrero Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/NROFDF5kBm5-gbMl_GvcyMtHG0mfd0DC3GorIkL1Zd0_jfgn5jJUz_0O7grQIYykuvdzgBfCgLGxFIvBeniTW86olBFWbqiq94iIcswPOWUBm62RolZ3P1Qmmd2Xpg",
-      "source_row": 1276,
+      "source_row": 1277,
       "city": "sf"
     },
     {
@@ -14188,7 +14201,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/YopCzi18YIBm2C4yTdalqIRaYzqyUFOW-UHEE4yaZFssaNBwC62lOT1cG1OYRBeG5Y2rui8rXlybhIUbYEp4X6qR5jlEsMd036Q7fYNFrzviTBtddotY_hjtVVSy7A",
-      "source_row": 1277,
+      "source_row": 1278,
       "city": "sf"
     },
     {
@@ -14199,7 +14212,7 @@
       "neighborhood": "Jackson Square",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/IHisbc1ox3sNPvFvTsdFgqTJ_XBrz85WAc1x7u-UcBKmaLjurLzGKXPNmvDu4mfCfBvyFee9z3ySK7UVA8FxEj_S65_FN6qrgZyCU8K2IfgLXO8kouS8ZxcNvYkGCQ",
-      "source_row": 1278,
+      "source_row": 1279,
       "city": "sf"
     },
     {
@@ -14210,7 +14223,7 @@
       "neighborhood": "Dogpatch",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/NiLaIzaLJeYpIG_Q7otnOBm8DDCtadRC21CSZXdVW5S8Ybxm_8i3oR4T9Z88j6Zw7ooNBg73dSSuJOZWrSRxeNcq0z3dW7WTgKI_LX4cbYqEr8_mUv_qT6o6bQyyWg",
-      "source_row": 1279,
+      "source_row": 1280,
       "city": "sf"
     },
     {
@@ -14221,7 +14234,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/NyRfHXzkXNr9rfovaZY5ElLh6F1xXMckDOpfF9gPdObBJYAFf31uohM1-NfyqfNKTpWVhelakX_eZhTXISb72NHirCv8LDeFEveRJU-KStZCJKnCrIhlSQ3D-XVb4A",
-      "source_row": 1280,
+      "source_row": 1281,
       "city": "sf"
     },
     {
@@ -14232,7 +14245,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/FlJBTSmL5rfGyJ2Q8N3vizKGSukgPSzgmNCQiULuGqaNdHpX3yWPzbAWev2im9juYoPo3sYEid_YTKufGlZ2lHiwO3wI4-3TBXYA6FbvzyklC7GE9b344ZgQ1g_arg",
-      "source_row": 1281,
+      "source_row": 1282,
       "city": "sf"
     },
     {
@@ -14243,7 +14256,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/tz-hUhk9Pnz4ox6tpQDWH0sCwQJgyKpqe4i3rxk0wzg1Fd5EiAe2vqqDeFXCAIRvu0p9dEWRHD4mhjJs54G5cBx4YjM8D3gfX8JxkEi_c7oHQGeAWsYB6-dtxtfYRQ",
-      "source_row": 1282,
+      "source_row": 1283,
       "city": "sf"
     },
     {
@@ -14254,7 +14267,7 @@
       "neighborhood": "Russian Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/lO0J2Bit0QCmlX--edWHUrgLSfRqtC6BIsvy13gfaeKqdXtb11ZL_a0vKjF3MFJOWv0zoplZfpmdkWm_l94Pa7T6PFREID6DVQZI7XSk8zQk7WUUoJCjKevyhJhZGQ",
-      "source_row": 1283,
+      "source_row": 1284,
       "city": "sf"
     },
     {
@@ -14265,7 +14278,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/hYd0YArXsLQpcuWcGAoLQxh4OKVMZlon4EteuMQq79k5_9DaAuAiAFRU3rjRL7JNbTEc8VEWkr727Iok_feJt5qbyq6lowuqTOI1myNrMhgTc1WfZ7ESgyfyItYHlA",
-      "source_row": 1284,
+      "source_row": 1285,
       "city": "sf"
     },
     {
@@ -14276,7 +14289,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/UBF7gwmIgniqTPxiiwaZIe9L496KzjyTL_BtWt70sONfKB6ONocI_ltfHmKSP1gleJlA2sLg8WobyVAxzb_bFip1llEwOrElw99HbnmB5Vofkzk2n50Ai8SH57tUSw",
-      "source_row": 1285,
+      "source_row": 1286,
       "city": "sf"
     },
     {
@@ -14287,7 +14300,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/twrc801CJDZJtEin8q1DMn1gxICNU_1tAkToWWvSXJfUavz7beQSdc1xJ9Dn6N_FqBPkYMTIf0I_dJY-03Ld3QNCCt1aoXol7jevXoZUh1B_bCEiPV9pwpP8wL7xtA",
-      "source_row": 1286,
+      "source_row": 1287,
       "city": "sf"
     },
     {
@@ -14298,7 +14311,7 @@
       "neighborhood": "San Mateo",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/AYycQpZ7Nt3dXjx7H3aXtUrd5zGNNVWKs0o6MwD_DhdDJL3O1HwixJvArean4j04A4MhX445D3nMpGzzDUpVCyIu2x_bbextKibfyVSGE9e5fc49kuq8R5OIufeIFA",
-      "source_row": 1287,
+      "source_row": 1288,
       "city": "sf"
     },
     {
@@ -14309,7 +14322,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/9sJI0GILt2TSMIO89-RkqRU1p2FO6RUpfCEeId3EQUWWbG2HcqmiONnemTB2NTAxiUL6mIfPF2cCJTfQPjcFnwAoGqcqC3W7kKTqmdxXKQRDMmpuRkXUlIdOQol2wQ",
-      "source_row": 1288,
+      "source_row": 1289,
       "city": "sf"
     },
     {
@@ -14320,7 +14333,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/VX5ITs1moVkiWnappW1S9STKBCn7s-XD283njSrhzspwMVT_m32oHciaGdyPSNmcfHduBQt6oONwp1GtMSQxM8M5445skSKNu0vW0Zh27Pl2F96Yzy8YWdymeYG33Q",
-      "source_row": 1289,
+      "source_row": 1290,
       "city": "sf"
     },
     {
@@ -14331,7 +14344,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/wkg3fBi11yjdtuMaNpKzlu13sOtRg_2s4ue96uK8_7SQZTADJtEc1PFG1ynpR7C1J4bl_JvPkqEEUarkpkJxS825Yzl8g2ox6jByLnDfZJ0DE9DX4KhZngy2f-HayA",
-      "source_row": 1290,
+      "source_row": 1291,
       "city": "sf"
     },
     {
@@ -14342,7 +14355,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/TsL0Su5kWqMvOgDAK9VroV9LdrznUNxhnOzbX-47OirzBcnTzt0SrKvEarWYWNTauIYV9yqcElHOIMlQrps8J8GjeVyG5hH89Bco5vNQ5laTxiFiv7RCevdvYbCDQQ",
-      "source_row": 1291,
+      "source_row": 1292,
       "city": "sf"
     },
     {
@@ -14353,7 +14366,7 @@
       "neighborhood": "Castro",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/J1D0O4xCqXhWYIfCHgViXtcCJjyTUQTZPiYHhfeckwPKnrAt7CLihiZR9gP2_oF81u-5aR4_gzMXb98MMfuXBeQs-bJGvSb54d61f1SCh3hASZu8Yup6HV1EpK5B5Q",
-      "source_row": 1292,
+      "source_row": 1293,
       "city": "sf"
     },
     {
@@ -14364,7 +14377,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/MV6gGEGesBAm9ZImCm7fPlHSmTNEjqHcJY_XpOQVpnTSqxXsVRh-48hgmPFB99asUSBYliXoHF4eJFT26_kRlr40Vb3xjCXEez1quHe4A-PbE__KbM3NMi2i75ak2g",
-      "source_row": 1293,
+      "source_row": 1294,
       "city": "sf"
     },
     {
@@ -14375,7 +14388,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/UoHXPBYTn8MihCITcaNaOkq5Vvv3-BZasz0Y9JrlawZ9OyWfOjxT9ixOvSAQ7lep-lxtIQCeQZmtvWLpfos08m7DmmPZdGKAVzZk0F_JHjNo4lMO1IleWZ_nNJYC4Q",
-      "source_row": 1294,
+      "source_row": 1295,
       "city": "sf"
     },
     {
@@ -14386,7 +14399,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/NkLvCorSTfF2GOneMbI32qPdU-jHSDMYRivb107uZSTyV8ESzYgTV_0k2D4oPUGx70FLFg39C3m_zV6JeqMM5GYDFZSanHJBjC6XkEn9VahyJuIZdnJ9peTgim_5aQ",
-      "source_row": 1295,
+      "source_row": 1296,
       "city": "sf"
     },
     {
@@ -14397,7 +14410,7 @@
       "neighborhood": "Hayes Valley",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/J_FKYWxowwj0PMLuJgoXTln1bS4Bumxa4CIil7CTsnxxCtryP9Lrg00I35odhj4ulx2WURoK4oK00n97Ph9gCzr8U9_AZoRkauDDueGZGNzJ3Di8EfZCt4LLTH1how",
-      "source_row": 1296,
+      "source_row": 1297,
       "city": "sf"
     },
     {
@@ -14408,7 +14421,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/_Rj213_m3edqsvO80uA1iVWsqYiwodjEaL6HwXij5KyOt9V-EzeC_-iwTo4howKsIRnuPmd90skc-Ft0cEoNYu2I6BJtIr8GWWAeFIn7DZoYixmIE8d0emezeBRC0g",
-      "source_row": 1297,
+      "source_row": 1298,
       "city": "sf"
     },
     {
@@ -14419,7 +14432,7 @@
       "neighborhood": "Nob Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/YU3u7hyjKnSZ065IIYkoNTMEvVV8FU8OW_RuEb5dIuksh4H9u6gAEBVtVcpjKde4ZyuoyH5ydJxlVwLnFinf2eFQkxGeglfdLT-fNprSfdvU2qHy0pN6bjjQrnzc6w",
-      "source_row": 1298,
+      "source_row": 1299,
       "city": "sf"
     },
     {
@@ -14430,7 +14443,7 @@
       "neighborhood": "Hayes Valley",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/IAPs-mLD19YzHDehBK3jdWuTVupH_pBytmJ2eqF8FdMCCRrSPh70notXdpLSrIoDNKYD6wW7nvS1hQnd43IPvqbugwRrKxYVU0HgVkBZldzA4jt1PJBGvmpTIYxziQ",
-      "source_row": 1299,
+      "source_row": 1300,
       "city": "sf"
     },
     {
@@ -14441,7 +14454,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/g10sQlg-HmSU9OaqUihpdeBw22cyA5AIfWZEHlNK15kZRKfPh_9HqjDb6Ro9JfvUKXSY9NuA-S4VfIUQ76FpbYIk2tstbnbueZY_kRDfNttOuPZsi21TIob3QW9qAQ",
-      "source_row": 1300,
+      "source_row": 1301,
       "city": "sf"
     },
     {
@@ -14452,7 +14465,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/QFVCIZ-UqLogO4Uhk5bRfvg0E7unc7_oIkHhKunOJuiN9VANtPnBInJdFEPsHXoes2ZLzuXnz_Bjr1u_NQw5J1Q2lfCeBJ-flcIUko66wSJ0xas0H1-rfhBSlLAoCg",
-      "source_row": 1301,
+      "source_row": 1302,
       "city": "sf"
     },
     {
@@ -14463,7 +14476,7 @@
       "neighborhood": "Chinatown",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/5hvzDGH8knF26hqVlznr5O5h9-WX881RhXoWNLikpgsXHHiW-XAamrcWx_ahRWeTElUl0V8Zr3kS6XlzAQuNfL3iEZ0qTX9UOMhtB9XOdkcJhpvRbj2joXx_cjQ8Gg",
-      "source_row": 1302,
+      "source_row": 1303,
       "city": "sf"
     },
     {
@@ -14474,7 +14487,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/hnvhD1UGa4BU6xenRXxruf5ywJhfP9G-lhzcmtwuynbKlPhNvhCbdJ0Y4R7RO7XbNHvTvZzK_IfO_26b_y6kNQ4ZsUClA-PnuZU1W969YITg6kt2dKva6WHCRjWxxg",
-      "source_row": 1303,
+      "source_row": 1304,
       "city": "sf"
     },
     {
@@ -14485,7 +14498,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/DVO-pBKLWgIsx_dWLdtY54bMqncTLV2JIAzQboxnXkJ8OP0n-mSAdavqOx_efLyNljsYrJPS0PEJZXldgOsafNXh-LIu_BYmHjovxsgl6uWctoPyuCHMdBNxy8Ip9w",
-      "source_row": 1304,
+      "source_row": 1305,
       "city": "sf"
     },
     {
@@ -14496,7 +14509,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/LinIG9GEM319zZ4f3WOyUv4-qRyqvfI7fGtywTrbeBQInBEFQ8nrU7EjqEGqlySEMV8-zMsd81ojF0guavadQLjT-toPVhB20ZkR615H1jG-pbuD5Yl7hiWweV2Bzw",
-      "source_row": 1305,
+      "source_row": 1306,
       "city": "sf"
     },
     {
@@ -14507,7 +14520,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/2lkooG2tC0z9NQE-QJr_7UNhRUpJ2Ana8qybHkr4Q9sUCX34qxd_a_576hhSmNN263QfKM9uM6NK7dCfgOJYb0x1erMtEBh38ZTCW2euIH343HkLFVu42lIiDegf5Q",
-      "source_row": 1306,
+      "source_row": 1307,
       "city": "sf"
     },
     {
@@ -14518,7 +14531,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/NuCNURdW4doXUDrchm-b7cohVgm1nfkdUdDckbCnupXLMsuQF78eSs1kc7sgKISjHQLjJVZwTearkv7Sn8AwHg_IrHfiIeME5uWHbWw2uJ5haTJ1fM5YZtbU_vOtXQ",
-      "source_row": 1307,
+      "source_row": 1308,
       "city": "sf"
     },
     {
@@ -14529,7 +14542,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/gJJlzQ4T7JQeZ3Juu_nCsD2hUcwIl4vEo3dw2ew49WqsjvK4AKjCoKwolLGWjcNRXmgAiAdqRU8PjKNs9GwJOVEKKwEjjcoT9LaY6zVXLziZSOtickMCC-oqAVYVYQ",
-      "source_row": 1308,
+      "source_row": 1309,
       "city": "sf"
     },
     {
@@ -14540,7 +14553,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/iSsDRe6T-sMvUGGQBHnqevFbyQCiC3quKbRlxxzwBc0cBdwCHE49AF9K2XthtyHrCoSxpFSkwOWK0gUYOaIIQytkCGBnaFWjcn6UZhac6iw306zeAT3oiaTXqQplag",
-      "source_row": 1309,
+      "source_row": 1310,
       "city": "sf"
     },
     {
@@ -14551,7 +14564,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Tx7iA5qaQfLNageNk_T3G7yHCVIdFGOCzQAqw4U0eRduG3sGagpa31LA8vBXHMr95PGuD-BSGJq--cD1SXGaMF5quEsD-vsFLY61Trr659cnlkYkQfrSZqfF2iMEzw",
-      "source_row": 1310,
+      "source_row": 1311,
       "city": "sf"
     },
     {
@@ -14562,7 +14575,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/9Ev51E46U6T38NkbujnNvgUSNvT0lfj1EAUGKbMQmJvCQeJiu8DhnvrQpbPSeqn60f5SUMmjqn-vmi_sLS1eG8YfIlQnCUoHEFaH3YJ3uVWLYcoIJLuxau3oWC89_g",
-      "source_row": 1311,
+      "source_row": 1312,
       "city": "sf"
     },
     {
@@ -14573,7 +14586,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/T6ZddFl-hnsetxDRrxMOUyj55ek5gRNp5lR-QacViKPIO1naoL6fE5Xq-cOBu1agcOV7zfH7xFfQEeG25AovVAfPN6M36snMI5up5uz2FfcKq6u7pmojXwMHJ1rPLQ",
-      "source_row": 1312,
+      "source_row": 1313,
       "city": "sf"
     },
     {
@@ -14584,7 +14597,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/l5xvlOpIrkR1ORpk2jyN4ee189LEhD-mHyfNGn0e3cpoDwWMoNqCPkxRlVd-EeyunENXQagdSuDxzNxp9wSf7jBagOqrLq62dVJ22WYpuWzaK6ArFiSFy4ULLMTUkQ",
-      "source_row": 1313,
+      "source_row": 1314,
       "city": "sf"
     },
     {
@@ -14595,7 +14608,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/DhZuAWIr1BjZNKQFarfIakeQyTKW6nyeI-v6SSayCqhiue4IUikEj3HmLDmrDzyzSlhpBt2kFCwOk0zIA1IYweU53RwWmN4QuX6R95hI7GZKxCCutTP5cSx_AKUPdg",
-      "source_row": 1314,
+      "source_row": 1315,
       "city": "sf"
     },
     {
@@ -14606,7 +14619,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/K_YAOhL7sU-dpRoD7cvXAYtZEQdFVqAbJWcYqYNQHY2dIjYJTZ1k-OQxaqPTykyX06WGTIkN6i1O6UtUZHqxJg26JmoQ8lPNfCHH1FoK8ODQXwKxi2Npc6yu155iyw",
-      "source_row": 1315,
+      "source_row": 1316,
       "city": "sf"
     },
     {
@@ -14617,7 +14630,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/VLM86up_Jntz6_BjZRp1a6R9DjtVjVAeShrmsuYFMfRKHJbiLNK_PpwfKr5qebAWO2j-qjnibKHVTfXJtGhlwdYfy4TThIb_M_cLNMn3xMwzZlFR5Fcv36ZkpjaXOg",
-      "source_row": 1316,
+      "source_row": 1317,
       "city": "sf"
     },
     {
@@ -14628,7 +14641,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/DvsR5CQ3E4pJTWVV1nmp_5SuLf6MytYB1ywQUkzu_uyyEIW2H3jjhz4EJV6Ur4wzA4L5hvS-oO339tprv-ZpEeltD0bB5J7Ft7uWUK5E06siijXnTw5_xX8S5pkcLQ",
-      "source_row": 1317,
+      "source_row": 1318,
       "city": "sf"
     },
     {
@@ -14639,7 +14652,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/nyl3Vpfg-l38vZfW2eRZsJq7-n7ucUlt1agM21EeFeDIkHxhNXOqSZbEDZzCC5kMDiqF4ZoQXz9D_ffRP8j6Bhi9iAMYPciQrDWp4b2piRcVEY3Tn4ewtYvgA0RtyQ",
-      "source_row": 1318,
+      "source_row": 1319,
       "city": "sf"
     },
     {
@@ -14650,7 +14663,7 @@
       "neighborhood": "Jackson Square",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/GS5ubxHrVaSAOjmt8b_6b27sXStczG-huCZD0NGkkYuVULmLfjEMpnNC0pAUFxnR7PWY_5f_FnFMQciWk9HfbraKlpXJx1VFFgFyOEs1hNRE5CwoU4peuqNMZRVrew",
-      "source_row": 1319,
+      "source_row": 1320,
       "city": "sf"
     },
     {
@@ -14661,7 +14674,7 @@
       "neighborhood": "Haight Ashbury",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/r_6ko0Yx7SCEeO5LKLUl6wAbjAtC7nYaAUk6CPLbZyEP3oixO6Qg6yd3_5vG3NB3OaxC5Vpfq-nmbBXmdf7VQm6sDCdxGs71cTOoty4-EE3HPd7bLY1XuC8NIcFgSQ",
-      "source_row": 1320,
+      "source_row": 1321,
       "city": "sf"
     },
     {
@@ -14672,7 +14685,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/jtOnK9L5vSpC3oSOAaXkpDREXdVTpjUgbwr9Z2UFBt3qWV3i0CL5-Dq3e0FXG1X4cLVY-qBC9XHTQmmd2awr2nPr-1tAWeeRxyMU_WdEVGFKmmmU_TRORLlCRDOlfA",
-      "source_row": 1321,
+      "source_row": 1322,
       "city": "sf"
     },
     {
@@ -14683,7 +14696,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/-BFYbOyQU8PyH448d1xCB7DrNi1pVTkoogUP2cLm7a6ZO7yeBKuGf7h-a8POXPGAFCJOnXjQ5jLG1gRDR39CXeImRwkI0MMOQ6mfvp_1scT1hpl28GuFedy8CNfQmQ",
-      "source_row": 1322,
+      "source_row": 1323,
       "city": "sf"
     },
     {
@@ -14694,7 +14707,7 @@
       "neighborhood": "Duboce Triangle",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/zDS-EgAEdy23bNiMf-wtyTRB0dgJ3boetMfPEuUaG8yV_d1g0jRmWcT3uiUfTQgUs8GT-b1llAD0ytsTfZFyt3q6CUspEo2xVoacLBjM1yvt6-zhoKHrKBK5PHbvGQ",
-      "source_row": 1323,
+      "source_row": 1324,
       "city": "sf"
     },
     {
@@ -14705,7 +14718,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/QwYOQLpzIae4NtKahSdlZPfI4jGbbmNXDRsq0V0ZZFDKC6t_GXMfTyfETW3BTaMzDVixHmeXdyfTDyBgsSDZOPLN_qrZzkQ-yZh8baH_J8P1_V2P4G5pGmHSDgrLMw",
-      "source_row": 1324,
+      "source_row": 1325,
       "city": "sf"
     },
     {
@@ -14716,7 +14729,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/fw-ruVNeniiSiK-LLfkFAA8pxsJRhA8tEKdOtZo6gSyt-0Uu8DQ8nQjVUTrYHSLkEZqiKsklDjR-uIAI5-yxZIKLqzbk9ewq1AWYAzsuk63JSg33pUfU7323bF8iBg",
-      "source_row": 1325,
+      "source_row": 1326,
       "city": "sf"
     },
     {
@@ -14727,7 +14740,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/_GWwsa5DCBLEmViepwuNLfix6pt49lITH8oPdc5NsSc44D3_SwZ1Es4ShJ8MPBawFXmhLRPu_VgkiflRy4fK72FH7ex2xX43lF0egJM23vBSFcrbZO_yKACqjXuNQw",
-      "source_row": 1326,
+      "source_row": 1327,
       "city": "sf"
     },
     {
@@ -14738,7 +14751,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/KdUwXFkYguJV0D4KnSJIGxpVelVAKRbUENPXfA9LRIZ_a9bKxFBQNWRuq6A3bczHAXawbliP8Rt2YobGDx_wJIKtUkvLY5dmSrEZ7YEniPThDfGMdwcxh7sb_UQLkQ",
-      "source_row": 1327,
+      "source_row": 1328,
       "city": "sf"
     },
     {
@@ -14749,7 +14762,7 @@
       "neighborhood": "Design District",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/TZ4KG0Cs6HQVIRzRyvKiiWxaCDASA6eGccpbHJSKN2W47Oynl9g8S3DHSvDm-PGCNUirw66G9RE-xiKvUauEuBp59m9n85oal1jLxawkTOF7sOgx6Woq3vDTnQhzYg",
-      "source_row": 1328,
+      "source_row": 1329,
       "city": "sf"
     },
     {
@@ -14760,7 +14773,7 @@
       "neighborhood": "North Beach",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/XO0-OsoedrBDcz1qR2EFhF57zuc834OA-kUIGPq3ub12RFaVYI8RYR0Ybop7rET63bBO0ykqiziQ8eyja3KY5nAvdy4s0X7COBMbhOMELpynHzSYUFZxzrJJQXY83w",
-      "source_row": 1329,
+      "source_row": 1330,
       "city": "sf"
     },
     {
@@ -14771,7 +14784,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/U3MRMImLUxWyiR3s9rDDWS94-AJOiYSz4X7gI3aShw_8KCMBncvKAYxMigda_kmCAL4-3EgTW6wbRKVfW_dd3HFYWciSvMLgMLJjSpLAYyrGdHpI6mfqtFtuU6R64A",
-      "source_row": 1330,
+      "source_row": 1331,
       "city": "sf"
     },
     {
@@ -14782,7 +14795,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/GYjOxykOqI6-9PRkxsU-g8C_cNpCZdToCzj_vrBMDQc13rh-koZI64G2SIxI3PolP3LPsZ3dzVsyAcn22yCbYmE7ZeUBJB8IOznAseY1S7ATN2ohi0Fj8XkenrCuPQ",
-      "source_row": 1331,
+      "source_row": 1332,
       "city": "sf"
     },
     {
@@ -14793,7 +14806,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/9n7ECoAv6lM91un8qLPc4JaDnQSoaCtQ6i_pxffHaX-KcFs9chwL8qVAxXIyS_YDi4AbwU0hz7eAaBmT61TRsR9aSDEWVueKKzmpiNycDz6f0QQy41_Rj-30gNywRQ",
-      "source_row": 1332,
+      "source_row": 1333,
       "city": "sf"
     },
     {
@@ -14804,7 +14817,7 @@
       "neighborhood": "North Beach",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/o7HusZt28_6UTMrUU7IzvpPNxTKoe6OgPzv_1klMdavN4-oqYeRZZC5g3XSn2J1zYpt1uO-sS1gfGP7jnocB73aiPtN0hv8zkcr2lgS9BxoMIAu4HFJb5DlbXEkRUA",
-      "source_row": 1333,
+      "source_row": 1334,
       "city": "sf"
     },
     {
@@ -14815,7 +14828,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/pUVJ5fu6pzcuA1J644zxv0C80fSbPZ2LzdNVSZIAPO-FIPNsCnQJts_8Hb8Oo6JItZXOHLc0aUbjW8xe774Ij6IH4M3kqaEXkXbqz0tZz--IS4cZTfuzkMTVvNhtLw",
-      "source_row": 1334,
+      "source_row": 1335,
       "city": "sf"
     },
     {
@@ -14826,7 +14839,7 @@
       "neighborhood": "Design District",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/fd3ku0FmfeZlrJ8yRcZCmasQyYivdDGSAclBlKQyeg4dOi_0asrCeN2ZbqV-RfYCO_4oiycWR_gOgj08jR_Lp-0VOv4hWXVyazLmDIhGLS89hEafJt2--1dONKRSEg",
-      "source_row": 1335,
+      "source_row": 1336,
       "city": "sf"
     },
     {
@@ -14837,7 +14850,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/zWpO1tpggPYkQZH6WqdtwTvMNWaPWB8i_11TQZlB7kjI5hN55G3emiRNL6EbpmwKy0l4-dIZGJ7G1Ovh7c1mHPaLUyHJIoqzkdCY3VcKfVgrHTkpDmFTCxPu5imCnw",
-      "source_row": 1336,
+      "source_row": 1337,
       "city": "sf"
     },
     {
@@ -14848,7 +14861,7 @@
       "neighborhood": "East Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Bm_frm8LjITgRwk9ly1mlEd0_PHJP3uDFrUra9oJUXW-Ub3r9R15qPkpYnE9wCv4xjiwE8egW7oJSsrM6CT7hf1iMysUs46mad_EMmLunTdPCes1mYcUWU6TNG7AGQ",
-      "source_row": 1337,
+      "source_row": 1338,
       "city": "sf"
     },
     {
@@ -14859,7 +14872,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/2sogQW6wyZs7mrvZOblZq_MlJKw9T_RatZ6hHrj67vqvM9LyRlMs9iWVWJ_31N9wUQEep3spY2dM34jE0UpQTfsBVIqBoHopeSXbG9eQPFJb5Es7HY2NHeCLCW9QDw",
-      "source_row": 1338,
+      "source_row": 1339,
       "city": "sf"
     },
     {
@@ -14870,7 +14883,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/atCHSH9pLeBIV5b7PJSsVnC0e8XhQivOpvyqPIBeHbvy271knl4uJVifN4B425JUU9TkJKG3qFjWN1EgiT37ju1Gek-3q1jWvdjx3FitvNXOqDQJo7o5E4s2H96Ibg",
-      "source_row": 1339,
+      "source_row": 1340,
       "city": "sf"
     },
     {
@@ -14881,7 +14894,7 @@
       "neighborhood": "Potrero Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/hVO3XZonQDemgKE1cTGm8PdAsanVY3XAh-LDMl8twzmZAjJFld6TcFCoDbOoO12pFWcH8yxoq0rSAoAd9cZbeQohsumUMkxITtEc3C7TGHSkyTNwuUhUT2lWNEoz2w",
-      "source_row": 1340,
+      "source_row": 1341,
       "city": "sf"
     },
     {
@@ -14892,7 +14905,7 @@
       "neighborhood": "North Beach",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/YGxpwtUoPZreJN5tocfI-G33CQ4e39Oumz1qDB13bFuHKvgLN_-SQvDWXBnrQNbGjZ_tldvXWYSFyJxLGHQyCT005NdBHOZd_69Jgta9t8jsBcC0OC-RVCeZdtvjLg",
-      "source_row": 1341,
+      "source_row": 1342,
       "city": "sf"
     },
     {
@@ -14903,7 +14916,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/jDmoVjGx9enBobzNqX4dod_p8rggeA_3-0LnksYB532qLmxQJS9R1R-QoCKrpFgyfXaL-d0WfyQMeLWeR6ae6LRZCFtXBAFSIOYI58KdY_XfNb_vf7RRbe6IrWiI9w",
-      "source_row": 1342,
+      "source_row": 1343,
       "city": "sf"
     },
     {
@@ -14914,7 +14927,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/BpTgEcKxBg_kbKHmy-mp7X0ZZqpWg0tlf90GjVslv8ME-w8WgLQZqajt47Pd8LmEt_PSTTgOCG--Vowao0udki59TDBDG_A_w-Ink29prBxoOV4l0p-0rvIfJcPy-w",
-      "source_row": 1343,
+      "source_row": 1344,
       "city": "sf"
     },
     {
@@ -14925,7 +14938,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/5WZM4m9vvTCsggWiIVnOvknDL2zodpSIW2ax1lXvujD4F_dPd1u-6J-mNNXGs0jU2DATOXgpkKCfEYtgIpZCcvJkc7xUyyRDLObOXu2mI2s84TiMHn9CDS89YBXbXw",
-      "source_row": 1344,
+      "source_row": 1345,
       "city": "sf"
     },
     {
@@ -14936,7 +14949,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Fllz9LRqeFcdvZ7c7PnLcaJTet-WVd_4XJw7ddLXRw7F1cmsAGeWEEZmLWwtcsAra3_SUJeSqeFoy9U4r82YU1AxpaZi8Wvm-L1s1WqfH9WOru2cpQ6XeN00lvPVSw",
-      "source_row": 1345,
+      "source_row": 1346,
       "city": "sf"
     },
     {
@@ -14947,7 +14960,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/SxqGRu18Cbm84osU3ghGFPeemEF_pdjytU5-zhnFu0zd-Vu3dSG0LdlOTQBTSFdhMoadwzKV2dFT2BoEpLJGXYN5AJNwVfWl8hl81vkXgouhFJNp39ACs0SXaA9cYw",
-      "source_row": 1346,
+      "source_row": 1347,
       "city": "sf"
     },
     {
@@ -14958,7 +14971,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Zsc5L6YjLXUoHhEpcW81Z1B4AvZ6Lf4ZKH3zHASHfYmuvCRZb6rp-g2Xu29M1LcGNjvVi9dIRDklMY8a-CXd75x7eV3WyGbZ7bWC7v-vGkI6J-nJiSOxY4KtXgO55A",
-      "source_row": 1347,
+      "source_row": 1348,
       "city": "sf"
     },
     {
@@ -14969,7 +14982,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ANmYFDGom7E_1wbzThjoHBMytKgQj6tYLp30B17Sn4j-L2y014nO-AvFk4HJP8OLnLgPtr73QStWOxOni-gQLHLeBy8wHR7HIP4HHjbzRYY2GAVOm2dMgGyLup8oIQ",
-      "source_row": 1348,
+      "source_row": 1349,
       "city": "sf"
     },
     {
@@ -14980,7 +14993,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Q5oxe0I5QXA6tRSWwiOhpXYdxzCObsImx8BQDV3v9qvw6odYFynjwOJAlJTjDGTCMHJZ-yPAgQXS5_98qFjzITRGn-w_a-bxWgX2HDD0vJMdbPA5CbmnU8cDDAu32w",
-      "source_row": 1349,
+      "source_row": 1350,
       "city": "sf"
     },
     {
@@ -14991,7 +15004,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/bjtaH9cnMQiw-4fSeotyEBW2epewX6P_Ltj1M0cfdthWGyh0OVmYXmiLDxRZ2c37VLXp40xm6lvAtd_nqiyQ08h6-VDZ32Vo_y1MIazkHInn8QBmgiKuwB1bo8x3Xg",
-      "source_row": 1350,
+      "source_row": 1351,
       "city": "sf"
     },
     {
@@ -15004,7 +15017,7 @@
         "Featured"
       ],
       "event_url": "https://www.tech-week.com/go/event/BzJ-VIVsQ-4ENBJ8JXhPYYF23b0DjePdkELkzcrkZ-xA1bmJcWL61eZk_bulNpk_-pv2W2nF2by9iUvwtgSCVgSciB3NBkiMHyKSSOWrlTJjHcEnc6NPh6TaEsE3sA",
-      "source_row": 1351,
+      "source_row": 1352,
       "city": "sf"
     },
     {
@@ -15015,7 +15028,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/lE1GM8YXbdYjvKAXWS7VPviQr6cDSAzEaeLI25FNPX5f-fK0nuDqVVschnBbJ8G4FjswrYc6MNgtWtGVP-IzZVUmA4LF1UlCdjbfanVwSpkBslWymdMIBb-v6KWBbg",
-      "source_row": 1352,
+      "source_row": 1353,
       "city": "sf"
     },
     {
@@ -15026,7 +15039,7 @@
       "neighborhood": "Alamo Square",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/GGE2PLQ4TjLj6gLvcZwSVYM6LEtpL82IU-dxrxsYov6wbd2Y33D6cjsKVgIPxHwEYecLk3qrBzhjWWChVPAuPPsOss-XF8cp_FBW_LQc4xYd1uKWvNYTaoO7SxnAUA",
-      "source_row": 1353,
+      "source_row": 1354,
       "city": "sf"
     },
     {
@@ -15037,7 +15050,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/mm_q5OE0znMVibjc2Qh0aJAnePLRL8vIfg8zZvcIIS1C7dIgSWUQnOEeeadSchpV96lPakV5xsvguRPdnwSU6uXXCFAFFLw5WXe0L6MmNUvuPICmgQ_ZPRRdp0JH-w",
-      "source_row": 1354,
+      "source_row": 1355,
       "city": "sf"
     },
     {
@@ -15048,7 +15061,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/dp0acr-VrxNxBLC8Zp5Le4eDi88JYeT6vw3TQe737HCtK14JBgZc32BsJGLEJDgWnNIO55O6I6QQg5CLTaecdi4faY07A-v7elGTHJaoZ53dfgoXKprO6vNtn-Ej6Q",
-      "source_row": 1355,
+      "source_row": 1356,
       "city": "sf"
     },
     {
@@ -15059,7 +15072,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/McF4wmx2UHtfZ2kzAN39KhlE-wwrRsbkE81UNnN5WFUP_oKtfNABskZrSixh7-aEU9DYSJGwRaikx08x_MuUOGJSUD-K-tmL9eFzYvFefhvfCsHtilezYW2lO_yADg",
-      "source_row": 1356,
+      "source_row": 1357,
       "city": "sf"
     },
     {
@@ -15070,7 +15083,7 @@
       "neighborhood": "Palo Alto",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ySdvYLJkZrE41Iitk4zVoCmr6veDYcGE5ss64bUbXkeU7Xmprcy0gOWmJH15SkUAEJqitutaOv0eS9RsI6-COzs5A23sq4ZOrNo19hOsRFYzAJL82cyph98Nm1O8Gw",
-      "source_row": 1357,
+      "source_row": 1358,
       "city": "sf"
     },
     {
@@ -15081,7 +15094,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/j1AYwxupVp7nlm-zgWw9NAIfuDPYzMZsKHJOePxGAouhW9QZHQW8fPwiuzm2wgPd9sm0MV_GdWcg7KZ7mc874bIepWnlK684B3gihYvusvDklDPLnrra9UbiMeiOcQ",
-      "source_row": 1358,
+      "source_row": 1359,
       "city": "sf"
     },
     {
@@ -15092,7 +15105,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/jQCBN6m0w22HOS9nTaxZ-kinNTguSG8JBTKrIYOougmTQFSSYSoc4r-6FwzC_wFfRysTb6agaII_QXtqDjwZBSk41ZgOYtVp1B9eqtYFG9RFk719j9gROD53osYL2w",
-      "source_row": 1359,
+      "source_row": 1360,
       "city": "sf"
     },
     {
@@ -15103,7 +15116,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/na5AGgG-ZnKniVopTdLV_RxOCkwFMuOxxcauA0a86wgL8msvbLPUnSGWzAVpDRceIcnbg6ZKVZ3LNRRH3Ie2bs7tzBXGGpg0ERSY3_w1aZQhSGCA9Z-tY2kKPzvSIw",
-      "source_row": 1360,
+      "source_row": 1361,
       "city": "sf"
     },
     {
@@ -15114,7 +15127,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/tc0NYVYmhBY50SqLGKGBFaMYH7bbBw7oEyowB0ccO1-wRSFBOtRqABmwVG5JxnCLT9Nz2efnC9C8WuuNHD6ksoEu4vjO_w1NKZRSu6LweWp2ASIvsItVmptPhLD56A",
-      "source_row": 1361,
+      "source_row": 1362,
       "city": "sf"
     },
     {
@@ -15125,7 +15138,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/mZ0GDHFp_npPj_uR3VajUm3Rf2lHQgcvO5uNTfUCvXkm5TxiIXbS0x8D6wnHc57Pbb08LGNmPciWzg6SjswxiOXizx0VXWsk6Rp5CJ2JUlqtbGKql-a2EOHOdjOiyA",
-      "source_row": 1362,
+      "source_row": 1363,
       "city": "sf"
     },
     {
@@ -15136,7 +15149,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Eo0daYrtlsSoW-vR6lMTGmcxtScaIbylFJsoVfNv32ixIBaZ80Jw_MoUrFOjQ09VGHYzTwWCc6zsFJEI7nePLdbS6fMxTtGQCZ7nu-0MfMYTUmFZZOt1DytflPpSjg",
-      "source_row": 1363,
+      "source_row": 1364,
       "city": "sf"
     },
     {
@@ -15147,7 +15160,7 @@
       "neighborhood": "Chinatown",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/t73V8TtU8tMoAePumQOC7jJIO1mBgMpqYbxD7xi1JBHDNk45YCUO21xIBuvKgAyQ0KmfqUwpOhtY7tkTD0Mw-uMmDBQj91ELDmyjI0YXjc2Dk9B2N1aGpDz4T-fs-w",
-      "source_row": 1364,
+      "source_row": 1365,
       "city": "sf"
     },
     {
@@ -15158,7 +15171,7 @@
       "neighborhood": "Nob Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/_lLnxXhRvVXBiQRJH3kw99k8dgGtqhZsCPn4sSdgBZCKHwsctmBKnSzbrLyXVxivIbbVcr5EmWTIuC_j3Hr2c9Y8WZvZhBjjnn-WlaZOT8nMuvdaqZ3TTSAu5HxiQw",
-      "source_row": 1365,
+      "source_row": 1366,
       "city": "sf"
     },
     {
@@ -15169,7 +15182,7 @@
       "neighborhood": "Hayes Valley",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/W3SLs69WEoNiOlJAele4cEc3S83pynQOOajtE36ocBApH2W2sxkM5839eo462xYsQmxWIHyXIprBedJbDLsrYwlyVmwS7josyUpr9ctvb5IU-x08-OsXckB_lqwAgA",
-      "source_row": 1366,
+      "source_row": 1367,
       "city": "sf"
     },
     {
@@ -15180,7 +15193,7 @@
       "neighborhood": "North Beach",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/-Xpw6TP8NhPGD-bIdsS1BCciBjg79Qm4QQf9aDom7CaEWpBKs3TVDT8RQhLma_G3vzf_H-Dn4HlpfiGUSBi5UpyKNC43rT5XaMAKhyLAzE8FlQewwVMzlJFPBFy2wA",
-      "source_row": 1367,
+      "source_row": 1368,
       "city": "sf"
     },
     {
@@ -15191,7 +15204,7 @@
       "neighborhood": "Hayes Valley",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/vN0CEp-Ub-jKhEi5VUkt5Q935HKY2Y23ncF0g2B7nene-0wYA-R0PsR03CYYJcLqXmV7UiMMVB4J08Kl6JFzqOye5wdWQYqajK1AuezMtmfa6_vh2zyFmiuzLW-2UQ",
-      "source_row": 1368,
+      "source_row": 1369,
       "city": "sf"
     },
     {
@@ -15202,7 +15215,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/-WHMkI9TviyL6Tqoz2s4xNHnBWoVrApcobkRIyS2q8z6gmjS3y0zaCxE6uj-V9D6SYY2PKAnR3JakQzRXaJpZwE-R0zc4Gj8HWybXS0AUQudYPGChTiWKfpUzRn1MA",
-      "source_row": 1369,
+      "source_row": 1370,
       "city": "sf"
     },
     {
@@ -15213,7 +15226,7 @@
       "neighborhood": "Alamo Square",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/tcxFuDGAGonne9Wqx9ZZvG8Vv2oYZRySsN0twk04VT6C5qnzQ9q62jT-ScX4hI2tD7dcBYW_9oJ7TxgEK5hZcIltKt2cOXxWvz9JC_q7fnlTbBFH6GsBpuPJkmhz8A",
-      "source_row": 1370,
+      "source_row": 1371,
       "city": "sf"
     },
     {
@@ -15224,7 +15237,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/c0hsTT5cBL0ds8h-FVCL7lMmfi_sQpn-kSI6EjwvrhhGNKGwPiakbyqbR6N_r3wjnSIWwusD_WhSldmuP5vQ3rKHPLHQnL_3OKlyiuqt7ChuxK0wttVWZhqk7N2RoQ",
-      "source_row": 1371,
+      "source_row": 1372,
       "city": "sf"
     },
     {
@@ -15235,7 +15248,7 @@
       "neighborhood": "East Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/52kkUYUIGrBLoU1B0gTkTIjXY4XX3Q8lGLy3023TrH4SBxtoHCPaH3-jfmdwOcEaaIEfduOjsk9N_BffhJgc2epKeso01rGRVYAleuO0AZjG4yHgtzESfMf7YCH-lw",
-      "source_row": 1372,
+      "source_row": 1373,
       "city": "sf"
     },
     {
@@ -15246,7 +15259,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/bjIOlALpKYHPo8H8__pywi9wO304IoYnOmVLWZWFqNtA9hvHkJ5gejLooCMIf_1oPMDbO8r3L2FQmLNNBaemdU7FlmBv7mYwV7kp2R6x5iGbr3sbh73YaTvM1hh1ag",
-      "source_row": 1373,
+      "source_row": 1374,
       "city": "sf"
     },
     {
@@ -15257,7 +15270,7 @@
       "neighborhood": "Ocean Beach",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/9jhecSkLudNa-52rtH872H6-zacdlHJEFF7KEqCCK4vTvPZMkOJzbvstXmugPTF7rLcuk1E2guFPnoyCIsL5mgxWW4rngJ0OV_lj9dvAhkjLN1lGZKlUGvQQ33_nxA",
-      "source_row": 1374,
+      "source_row": 1375,
       "city": "sf"
     },
     {
@@ -15268,7 +15281,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/LYuDLNW3FNsrUNzDx75gS-TveS5qcYefhJdc5hI_rKIJxA3IW3IcKZM4zHK2fnMjZ-SiGyP01nPPvjPJAx8FSxqyjobUeCZyTIcY95VFFgIozEzWXKkT846b8n523Q",
-      "source_row": 1375,
+      "source_row": 1376,
       "city": "sf"
     },
     {
@@ -15279,7 +15292,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/rk6kBUwp2PFtRtjngR1U3HwoOjeiGxXdhYDOkRLke7UV8LGe1AQGdyJt8ldaVaiOyqASjHvzqTTE5fSbEKj88w530vrLsXaBYA3anV7Mxxtu1b75r9xifvBDJVzAmg",
-      "source_row": 1376,
+      "source_row": 1377,
       "city": "sf"
     },
     {
@@ -15290,7 +15303,7 @@
       "neighborhood": "Ocean Beach",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/O3Rvxk5mDGQ7SUk4Qnht6dQ4jRX7d_0fiMSmMDGa3ApXLmXhr39zBVp_PqnDpiSkz3SMk_zngLLPnAEQBSc4l7d80DmvIFZeu1Dc_37lzCUAm6VQVBxNAehbXnxA9Q",
-      "source_row": 1377,
+      "source_row": 1378,
       "city": "sf"
     },
     {
@@ -15301,7 +15314,7 @@
       "neighborhood": "Civic Center",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/hF_05e4inUkeJcJe61Bo3bG9Dw-Q_Qj9Ed23dSwppik79JYUJhcpLdNCivvP_qa7eOs81aB_ub2G3u5rb44oOYgmdL6gOnQIv8XbcEA5Rnwi16R6ByDdjWJ7VrO8kQ",
-      "source_row": 1378,
+      "source_row": 1379,
       "city": "sf"
     },
     {
@@ -15312,7 +15325,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/cDAElOoxVXY3v8id_GNIAy81Fqeoqpclzl-69fgAnIt8QiJJsL5KYLcWlTXlzzfNNfReVIS1AQRRy25R44UpuNJHYgHLj10IZ6BgUhY-Z0N6b3z-TaVQS6jaBdFuhg",
-      "source_row": 1379,
+      "source_row": 1380,
       "city": "sf"
     },
     {
@@ -15323,7 +15336,7 @@
       "neighborhood": "Palo Alto",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/YZ2JCtTuBzkC-2iEma64ZV1-PQM5bAS3hoSOWYnHm27K_SdDwAoixGE5dRGzNgXgEbFnjiFLGysKy-WjAgmpU6Tp46suoCKz-12UGRuSkxxILSDW0pFrAblLF4m7yA",
-      "source_row": 1380,
+      "source_row": 1381,
       "city": "sf"
     },
     {
@@ -15334,7 +15347,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/0pJhnC6HMYSo3a_tj0wB3ayLk74gsvXcnFdjbPcTNkn4j8KMYi_KTNepAvd_qTOHZFc9wnGGbbRiuinTeqqFfPRo_7F7wsHX2yemFgDL4DsqSc7V3z1PaQ0_w8yYiA",
-      "source_row": 1381,
+      "source_row": 1382,
       "city": "sf"
     },
     {
@@ -15345,7 +15358,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/tMe17P9U3yMwqtKphSmg9AQcASo0iAqcnxWN8qA-TfQ44belJ2bRBValPgBRHAg4B2GcQ5QwSTXzmFPbbSdSR-ZTUz_jc-6nxCHcctbCP-ovVggHRVGMWxde3c3ZMQ",
-      "source_row": 1382,
+      "source_row": 1383,
       "city": "sf"
     },
     {
@@ -15356,7 +15369,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/uSGQjNsG5SHs0sBuyk3V16cy05nbonYGsEzS6_zcioy8LVq4_I0iZIpnGjpvblLc_hjjmkpxO7AvYuXLdUgBSpiAgNSBhKSxpDBIuqPmPO060_7nFH-fOnRooZpIEg",
-      "source_row": 1383,
+      "source_row": 1384,
       "city": "sf"
     },
     {
@@ -15367,7 +15380,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/7AcxK13q25-kJiJWHC-g19Z5cdU6a_X2zwLpLlnrOftSuSmbMH6QAgrS41GHdxGKngY-7zN06ecw6O2dnyjX5PWgmfzclGOsNzC2AcVw9_QTaNRNrlqI35Peka9XCg",
-      "source_row": 1384,
+      "source_row": 1385,
       "city": "sf"
     },
     {
@@ -15378,7 +15391,7 @@
       "neighborhood": "Virtual (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/gkvJs1pg0qNb5x4BhruGq-0cmz-x8N5CQvuKnJE8RsF9gC1yZP5fGJpzRDnTP3gbyxssbIhH_sAXOHtyyNWlz87hi9D7xaH7ak0dT0WcXOadRBPGqIqO5dhRzxDgbA",
-      "source_row": 1385,
+      "source_row": 1386,
       "city": "sf"
     },
     {
@@ -15391,7 +15404,7 @@
         "Featured"
       ],
       "event_url": "https://www.tech-week.com/go/event/mqtF1XBZeBjf14SbdyzJXYVV5A2hKVZx4wGgsCIg6NJN-xH_x3Sjzjsrm5xGDd4Yv5Hwix50ydTFi9w60_ua6BbZc-ZDDtGfds9DEodUAb64yUsAA2mkDSW2m38Tqg",
-      "source_row": 1386,
+      "source_row": 1387,
       "city": "sf"
     },
     {
@@ -15402,7 +15415,7 @@
       "neighborhood": "Mission Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/imB8Mgi_-_iBGSV3vIUKUicLBvqTKnV5dQPnfgegEGlG7V1gUNeWBEP8advTwBuvvh1aG628RspU0I6yPhHhCkme4pTypuvoNvtOzC5BaQF15R-GO8tDdr3HEky_wQ",
-      "source_row": 1387,
+      "source_row": 1388,
       "city": "sf"
     },
     {
@@ -15413,7 +15426,7 @@
       "neighborhood": "",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/etgh4CIp1vtqnt2__PX9REE6l_dcDoZbnUC-osHv7Hin9GAsc3Jq8cSLNmRdmcuOApDR-jCa-71ZjJQO91mI6KGJcQfV8pcU6niGUXfLotEauZk1khT827kUAeY71w",
-      "source_row": 1388,
+      "source_row": 1389,
       "city": "sf"
     },
     {
@@ -15424,7 +15437,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/bS3aXeK_vAPWIN-RyHREalYiGONqCqypED7IM8XI7AuA9TD_eH70svWiOIgigo2DI1WdDXAZU-019C3FFudQS8OX2gDaI1nlnVCQJo4zcJn8cexL-3sGGV_7zKsWVA",
-      "source_row": 1389,
+      "source_row": 1390,
       "city": "sf"
     },
     {
@@ -15435,7 +15448,7 @@
       "neighborhood": "Golden Gate Park",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/LRuM1J9U2PmM8D4Y44wEmk0kxLlC6NRX5Fb5qN9PT4mDrpDPkr8h0c8xBr9gUEYOODslDMu1KZ_tAD_sSDLofxxQixSxDQuZT6UrZ9M607ISOpcyjn3IIelEcbJNNA",
-      "source_row": 1390,
+      "source_row": 1391,
       "city": "sf"
     },
     {
@@ -15446,7 +15459,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/jFbfqeg_cBIe6Y5szrioR3h7ZT0Cv6VCCj2dEft_HVGF53UctqfkhwgQb3QumBzg1XvWSA52pmqo6fuKfVnYBYZWD3DmWdr0g_sU1aRjW1uF24GBoWnshmDwWIpyGQ",
-      "source_row": 1391,
+      "source_row": 1392,
       "city": "sf"
     },
     {
@@ -15457,7 +15470,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/6g93mBsUVOR6CFu8-B1B1olHgiRYiUXPH61yrnGFHMeI3YrigdRsBaHKzmKqE3zGaiIqbb3Mjk-PVLPkX8YrjoZSEs5QJcHVeyaR2vttNP8dLH1_SC95Iv3CJiIAGA",
-      "source_row": 1392,
+      "source_row": 1393,
       "city": "sf"
     },
     {
@@ -15468,7 +15481,7 @@
       "neighborhood": "Palo Alto",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/W71xa_PHT10pfTs923P-WzAEFtluExDNWfK_3aFOtKsFIWo35AMQYcTimvd4H9Vwue2sGtdaGqO-W-27phrk93I3PzYnkrOqqdUaNk3vHxJu_zvXS3reO5-BPZ3hog",
-      "source_row": 1393,
+      "source_row": 1394,
       "city": "sf"
     },
     {
@@ -15479,7 +15492,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/HvS6Md4VGHHMxEMbQS9V94iMgLQnzKpJSe877VAdH-ofPfNjtTxC_bamnUVkPdualOKfeSmuvWMtp-jAda53TrBO2mo6nPGyCIncXfJeJEUPLa8S3AuLJHxdOw906g",
-      "source_row": 1394,
+      "source_row": 1395,
       "city": "sf"
     },
     {
@@ -15490,7 +15503,7 @@
       "neighborhood": "Civic Center",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/iJUtvDJWOe7YiHcKbqc-T2EnRyX6M4WIcYpw7fwY5gCHGEHsiaapAAlOQLVbT_FtOFxvbabbB0E4H9mK00A48uw05OzwIQsknJZL98FVzO2d7TsyovBRWwCHratVbA",
-      "source_row": 1395,
+      "source_row": 1396,
       "city": "sf"
     },
     {
@@ -15501,7 +15514,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/kzhqDkMAwUMHwEQw6JKbmXgJe5vXi-sp6o2oKEm2TxB_yF7tVl-cDB8mkiWlUQtgxKcdPT8Tq_2lZgEDgEeO9MCcHAfZP5Sq-9jVeKCrLv2onTqefIqtYtXrWUeMvg",
-      "source_row": 1396,
+      "source_row": 1397,
       "city": "sf"
     },
     {
@@ -15512,7 +15525,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Ft4lwo2gBNoMwOwW7qrf1CqCIsw9ZoRqZuPFuwNB0HxFntew7xD0274JTzwBqNdGKHtZ-DCt3QGU2KYeGcQLkBl8CqT4ZUxXeQG7M6yGYakefuuV6Pdw48rja0RAyw",
-      "source_row": 1397,
+      "source_row": 1398,
       "city": "sf"
     },
     {
@@ -15523,7 +15536,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Cq6Aei_hWBwzAl8bd4tzkrBAhNQSGqv1Tc6U7f1VVLNEJi9w8D4WxncXVq7XcZN8V07ky3cvkGyC9nOzDbPThHvxhUh37pzJK97xjiVzG79Wq9IgvGukv3SHA4babw",
-      "source_row": 1398,
+      "source_row": 1399,
       "city": "sf"
     },
     {
@@ -15534,7 +15547,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/o_vyftWJ9Oy-B02dU4Uoa3OtDjBO_DzasTxCQ-ChNV6Pvfo9Js3tR7LvarCANTn4Jy7kbMoTWpfwBLNEndLGkexwz1f2zsFZeuiAMnbgcg6aoR15rwso9yklmny33g",
-      "source_row": 1399,
+      "source_row": 1400,
       "city": "sf"
     },
     {
@@ -15545,7 +15558,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/IquxbCtuglttM63-d27hcWDzvLuRIDGYR_LtED0EFBV7YtAghcSc33Ekk_unXxaOAtJ2dv38jawCs43hlEJ7dUI7flTlu5H3lkXOnIZxsJzLh6BMEd8dDzT3BPt2Mg",
-      "source_row": 1400,
+      "source_row": 1401,
       "city": "sf"
     },
     {
@@ -15556,7 +15569,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/3kqB7KP28g7p_s289gkzRD-jJvipbYpHWxseKNQgfTk8xJeTQhz7Rp9boDJQaELs6x2RhUcbEfKwNrICi_Hqr9THOd0TQNCgQYIA7ke8fFJah3r-aAQ_2sUKxXf6yg",
-      "source_row": 1401,
+      "source_row": 1402,
       "city": "sf"
     },
     {
@@ -15567,7 +15580,7 @@
       "neighborhood": "Virtual (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/f55L9cFYzJLvgy07mQnbBNLHFyNdBqZK_uDnoWtKQa_YJUqussnQY2RED3N75QXa70x9MUO7IzVm5h3FuEhep5cG6hs4POdImJeEUn_wx9JO0qL3FotIbqpVg-pLiA",
-      "source_row": 1402,
+      "source_row": 1403,
       "city": "sf"
     },
     {
@@ -15578,7 +15591,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/TanJkC6icdg6AHTToOOYS17MtXCjlhcOwWuisL6uDMd_k8prmJUesfrntdVw5q1X8djKwSnCvOqeKvCMa9rBSfYSSiNnI6zzG9dfgECJBWnOBygJ0hyo1wcuSRqTgw",
-      "source_row": 1403,
+      "source_row": 1404,
       "city": "sf"
     },
     {
@@ -15589,7 +15602,7 @@
       "neighborhood": "Civic Center",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/IRTYVdqaSAfll1aPzLO20xKkeeay2pzzd5fnnqH3HcjIMJY7L0bgL-1yg686houNyDlDnsWrQkxqTvyRTOlPAzypvAd9Nldkv8j-oxr1X-LZU_mvp3T3n0BVp9btkg",
-      "source_row": 1404,
+      "source_row": 1405,
       "city": "sf"
     },
     {
@@ -15600,7 +15613,7 @@
       "neighborhood": "Mountain View",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/StLLVJgxOunMUIz9-TVHtH1TtJt6oWUTmub_g2gXawUSa269vpjofkvkgTHVeE9iQYRBCnTDl3tv47kiht5NKFcOSWaI0xFWzPTWfoYJENtJuA7zHhn1MjMJDSN0qQ",
-      "source_row": 1405,
+      "source_row": 1406,
       "city": "sf"
     },
     {
@@ -15611,7 +15624,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/86t_9OxD0vYQ-_L3MzsmSsZhWR2PBJsi5qU8v3Ch0KFpHoAJM4NhrCgyESecXv4uTVDIrdXxwf7dTyj_TKhIQCjEF67xBfJOQUcTmDH_qmHT0lVqVagPnwgcKwssLg",
-      "source_row": 1406,
+      "source_row": 1407,
       "city": "sf"
     },
     {
@@ -15622,7 +15635,7 @@
       "neighborhood": "Virtual (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/t_qdNGAm77b6JVRg1wYNZK4xS02mQVAbm11ffXE817ifr-KY-YfxjqqKBxLmx_1wCjua6fE0nRadmf7fy9sAuQZ5BycLWzBs21t7DEZUjYF9QIp6vaUcPadhX_SowA",
-      "source_row": 1407,
+      "source_row": 1408,
       "city": "sf"
     },
     {
@@ -15635,7 +15648,7 @@
         "Closed"
       ],
       "event_url": "https://www.tech-week.com/go/event/kTTw2QfrQAvFTCHcw3rVdF7jMP2SB-8G7W45_IEZFD-ihCBha2-FYXL4QfQrDgHqLDLmkp_3m1Hez8aqiu_O9Mur-hejDI_5tvF9j8fa-do2Dew46UbliCXTnISBcg",
-      "source_row": 1408,
+      "source_row": 1409,
       "city": "sf"
     },
     {
@@ -15646,7 +15659,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Eo-oJoOKU7YUGXBg3_Y6HqJa-8ENYNGHr2XlAuX4k8bUmKAEpn7z3c1OJhXQfXesfONSZja2sueWdTq3zVA3Q02Qvw5B0I0GB0kCVMvFihsd8EUAE5c8le1qqNsYHA",
-      "source_row": 1409,
+      "source_row": 1410,
       "city": "sf"
     },
     {
@@ -15657,7 +15670,7 @@
       "neighborhood": "Stanford",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/qYfgW5z-z2hqx72h3u0omtABIb9eKUOuafOYWYeyzFBkZlrP5cqkqNYBmtC3pHCcREDxYDEVHzhhxp6AS1UIPpUJrmaQi5qQv9TcI1p8eDiqjUg2x9zQZwbpJ4ktCQ",
-      "source_row": 1410,
+      "source_row": 1411,
       "city": "sf"
     },
     {
@@ -15668,7 +15681,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/X4LgZRFpqkk_xXGr-NagAfA6HXJQSj--WGMgtUMCEkb-dMdlnuXMFeWdwufldhY5KLC-PRZoMjcwcpiCrUOKup7MOCxTesJHXnA1Tz_dEBxCFTSqUWyV4p22gAFeeQ",
-      "source_row": 1411,
+      "source_row": 1412,
       "city": "sf"
     },
     {
@@ -15679,7 +15692,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/lB5uD7E9xJ5eBBUyRrZAhdM-prlHvqL8k09F2544Hrk4sGkZSA0mDd4ZQGIbEKSlgaACZ919kEvkG5dkgdqA-mh9T7JryY7mDd-5CtnXe_v1R49TP5YtnP6yWus-AA",
-      "source_row": 1412,
+      "source_row": 1413,
       "city": "sf"
     },
     {
@@ -15690,7 +15703,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/6skGtj5-uw0IJ3EI46dkKY1BL_1ahNvqC3eGyDEIXgPoIzE4m7cYELrKq3gOJXvI__U_8lZJas4xvhc6t-IPOjlj8tZaOQGabnM37UJ7ySFicNc8xNL1iyX9Pghr-A",
-      "source_row": 1413,
+      "source_row": 1414,
       "city": "sf"
     },
     {
@@ -15703,7 +15716,7 @@
         "Featured"
       ],
       "event_url": "https://www.tech-week.com/go/event/OzxK-BArVBtR6aoQhV6P9___qO-minRG9AaPZuyai4Uc2Hk8Oe-77mHXRChztgICIRU6cl3337BE5nwS-vxut5WhrQzwO07U68-Nib_8zBruC-0KbCKfTkyp96n_Vg",
-      "source_row": 1414,
+      "source_row": 1415,
       "city": "sf"
     },
     {
@@ -15714,7 +15727,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/MxFHKAHDlt96wPLNCLbiZuWkDl3Cbwgzevv7r1q3tuDAg1kWsDeGKQ8XzPC_FCvRUdlgDPGmQGfe76fnJCwt3-BeDpcITgWJwmDHF-oqxNzzrFeA0ls-S93ZMRK9Lw",
-      "source_row": 1415,
+      "source_row": 1416,
       "city": "sf"
     },
     {
@@ -15725,7 +15738,7 @@
       "neighborhood": "Mountain View",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/OPJGPQ5DHb8mMJeduyaAe0qBJJBzwCl5ZlEWw6cqjxlFsHHXoJHmqG3RKGxePcgLM4p24Rdakt33nC0YZfFt5rOTkPvBjMtJrVjBVwFZ4XJPveuNPRUxYhw7DHyd4w",
-      "source_row": 1416,
+      "source_row": 1417,
       "city": "sf"
     },
     {
@@ -15736,7 +15749,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/s-N34fWuqdpPy61VL8UPiRzLS-LafY_6uJ_ebKrq-3Cf5toe8P2jZZgv2hHdRYBovYGZ6gxWhX8__7MDe2-yEqAzXjmzWHkGgyo5FbiSeFU1bdnt501-HpEtHFZR5w",
-      "source_row": 1417,
+      "source_row": 1418,
       "city": "sf"
     },
     {
@@ -15747,7 +15760,7 @@
       "neighborhood": "Jackson Square",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/0RM3VcqMWgjCyfzilWuaLvGT-30i6bC0GmjYmH9l6-E4iqF60iM7qAGynKTQEN5hXuvz1swAwB819dyAGUyYOjHBIe5OBYC2XI2p0kg9ej_bttjxnrmTGxFxRx_ocA",
-      "source_row": 1418,
+      "source_row": 1419,
       "city": "sf"
     },
     {
@@ -15758,7 +15771,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/K5RasFkBtaksVUvyco0HeeZZWomM1DPxbrIXJJw2tGsKO07L3PAzZHocitxN7CjbldzSn78nmldSxflTnQ2klxMHbBkRlPSTMy8IS180Li7pZ_uObNssoeipec96qg",
-      "source_row": 1419,
+      "source_row": 1420,
       "city": "sf"
     },
     {
@@ -15769,7 +15782,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/D3ncLlQsX5BD5SD5YJn0GVjd6Sg_dVxoiAqtCpVcnoZU3uzZrf3yjB97gwHEtNUG0py8u4v6W7QkNrG6G8xTq7rzpxeocZvrxYFzEfz27y9jCMvEyCmsJSzErRd8zw",
-      "source_row": 1420,
+      "source_row": 1421,
       "city": "sf"
     },
     {
@@ -15780,7 +15793,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/XnXFZT6FSKXCPJtZ_zNOYLmlakZwEH5SYanuArEfpzHNtsMhS99BT5Kq-4wGDKo41jJJI0mUOkG1ald3y_55oucowfIcj54A864smCSJyb0VFIKZVzXpJ-Qc_9lLgA",
-      "source_row": 1421,
+      "source_row": 1422,
       "city": "sf"
     },
     {
@@ -15791,7 +15804,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/_gMmsJ2lP3Og86kOx2IPTfELiSV4rx4yUAPBRYeOxC15SZU3jOIatlUFyQNRoJrgwHRaKjGIkAH-N-ZnRGDelY5SGivaAF0rS4RI8YfaA0ZA6VvZV2Nxqt1-EvRv2A",
-      "source_row": 1422,
+      "source_row": 1423,
       "city": "sf"
     },
     {
@@ -15804,7 +15817,7 @@
         "Closed"
       ],
       "event_url": "https://www.tech-week.com/go/event/E4VAaWp2nlCnsJlo_ru7AohQdSQf88xOMfhHximSm8D07lUi3dq1m04zErkijSA6Gf8UYDshI1eqN5uSnSlKRomUE7U9KOKLrTug1xvfOon-e9WBsXDgKls4xHoAjA",
-      "source_row": 1423,
+      "source_row": 1424,
       "city": "sf"
     },
     {
@@ -15815,7 +15828,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/xit7gR9DfvbAeVTHKFTq3XN-9_UEkihxt4p-G-GVJcgRB9b975qIx1RW-jwJP7fs1QPEtVzytMZiGKSldJ-dNfK_dScWdjq0l5_CNG6RRIr2MnpqMTXE7og6E4Mr0Q",
-      "source_row": 1424,
+      "source_row": 1425,
       "city": "sf"
     },
     {
@@ -15826,7 +15839,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/H6HxjI79VndoUWlWjrGZrTik_ivhgGm4z2Plzv4v06jdT5zld1l3dMb-IjB_w5_l2kqeg-_GzCFina4KPXueorIsn9dqRuaEYX5fTfJdbw_PqIkxIZBLqbWYwjYOfw",
-      "source_row": 1425,
+      "source_row": 1426,
       "city": "sf"
     },
     {
@@ -15837,7 +15850,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/aPvhIUCwZq9cEZzETh7Wcs2zIo8eEU6MHXz8dkumRKRKwXvnro7q08G7ptJbHhEkJXyP1Y0iZF9o1Zcn36yLP5ITJCygEBZBuOXQ0smTR3n1tUy4xiKyQjgpZnsStQ",
-      "source_row": 1426,
+      "source_row": 1427,
       "city": "sf"
     },
     {
@@ -15848,7 +15861,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/eBNdXuA-RWZ1zbkoRpqfkU41vN3CVknut71XukcQj0v1TmligM7-EQ9XFrs6vYEH2oBL8b7u1ZnXxpuLJ9E5JnUtG-kA7W_UPe2y60CWBI8yreQG6cM8Y0-ZfvBW1A",
-      "source_row": 1427,
+      "source_row": 1428,
       "city": "sf"
     },
     {
@@ -15859,7 +15872,7 @@
       "neighborhood": "Salesforce Park",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/iT7HwklkFAEogrBw3y5l6VJK_nIcTKbrwQ9H2WrMXseLXRM-me3jJBa6zVRlu7ow1P_9YHafhAn3FEte07PYduoDi5HUHc8WBZ7-obZog1j9LEl2z7XJRyQXrzikKQ",
-      "source_row": 1428,
+      "source_row": 1429,
       "city": "sf"
     },
     {
@@ -15870,7 +15883,7 @@
       "neighborhood": "Virtual (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/IZic_Z6tdYqRXVfMdFNcGjv-lpTZzTfj1nz4snfdSYganhLaEWyOO8b9iTqkOBVIpP_ik6oEZhEBKk1gsvxdHOUxcLP9vetYT7G0plf3Q4DIrI6wCsaFwohDIEJ2gA",
-      "source_row": 1429,
+      "source_row": 1430,
       "city": "sf"
     },
     {
@@ -15881,7 +15894,7 @@
       "neighborhood": "Presidio Heights",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/vPL_sXPZ95BeQyvUVPZEl0LXBKjJn91Vk6-vta9Vu8wvJHVMACBrFsCuu058gyhllO9nCaJOl3g3SGSk3Uhlf-VsITmcZexoCAaB8HPz6P1-6s9sTh9cv6GqYgWoxw",
-      "source_row": 1430,
+      "source_row": 1431,
       "city": "sf"
     },
     {
@@ -15892,7 +15905,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/uS8TiZuSFaXPQPgEhwB1oO483W9DE4JUa6TktfzO2X-F6R2YADOHMSfrmu13O3ptAxxYTZOm58upm-Nv9KWUf7KHoGIIce4L3X99UQnLdnnJQXdgkU717EEFdRF38w",
-      "source_row": 1431,
+      "source_row": 1432,
       "city": "sf"
     },
     {
@@ -15903,7 +15916,7 @@
       "neighborhood": "Ocean Beach",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/VB25xCIKi2yoYRylU8xShAam6tn_VfLBk9GF32CZh1T7fpU7nlZ7V9FKp0PMrRp8nWlon3Q2KYBjrGSmCam7w1u5Z0F1GcqVZKfxytPz7HpWZAiW-MgdC9BMK-bsKQ",
-      "source_row": 1432,
+      "source_row": 1433,
       "city": "sf"
     },
     {
@@ -15914,7 +15927,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/86Np0S275qIS3beljzPbNt29p5drws-Xd_aifkr015u8-D3AMF0rqBDXshp_-AVFDHl6arQXwAyYdFya3AKyrny8U29EK6nV3AXckqTg5OfR1HlanOv5Nf4CSbpsOg",
-      "source_row": 1433,
+      "source_row": 1434,
       "city": "sf"
     },
     {
@@ -15925,7 +15938,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/RIB71lkakXF5B9M0mdhFhWfRyxb0BcU9v8zimewnm7di3tOG1QOnHVaj1OnO20BQb2iH8EawOhfm-NLrzmVlTghI9LDKsNkgE6KQ5r_WC-oJwij4vLMuInVSRR0plw",
-      "source_row": 1434,
+      "source_row": 1435,
       "city": "sf"
     },
     {
@@ -15936,7 +15949,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/EsK2cBRYftz2YiuZQHK8nDdYOQMcihF00RTAyvbA5BV1IRkdXXqbi2PODHeQDx3-nXICAk55ywftc_JyUSaXU-qySfudkJ50WUZ70g_J3L12hI2WhCnuZXjx3Wr0-g",
-      "source_row": 1435,
+      "source_row": 1436,
       "city": "sf"
     },
     {
@@ -15947,7 +15960,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ye1W5zXIh9oy7ruPcrvqZ4oXQr7RzRFj_hHKjC5KulMIiJGZZNRuoI2hfuVqey_0SiD_GcChCAgNFjWh6DRYGmb5wiT6EChJAQdIvrCJSOpGJCliqIo9OM1vPz0y6w",
-      "source_row": 1436,
+      "source_row": 1437,
       "city": "sf"
     },
     {
@@ -15958,7 +15971,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/2fB0TQQfG9gJk4l42s_HDKvMzWWjYkRhKeV3aKVvKWJnKMKNT_mnN3eorApulwF2iCMqlR5zWM3SHImZe42GOS0x7Wd79nwxoPdRwYYSSAiYAPjNobbQzNpqcBFt4Q",
-      "source_row": 1437,
+      "source_row": 1438,
       "city": "sf"
     },
     {
@@ -15969,7 +15982,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/I6rONWJP8CluWd1uj9RZMN3uDrSjXqS4-gIizFjM5u1UAKiPeYkKwfx77P2btBoy62esaOL1PSl9NNRo7uXMESWVrq7AGEClPYRVDjarufCsOflVgeqzsSZQ5KtRJw",
-      "source_row": 1438,
+      "source_row": 1439,
       "city": "sf"
     },
     {
@@ -15980,7 +15993,7 @@
       "neighborhood": "Russian Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/qvmpWBdFhL7nGQfo9YQP8Jqtn6XWVk82XdjK36yJNyfG2m-bJd2fApM4VYHK0lAyHXT0BmrSxXnu-cjVzPcDQ3H-th1uKwI2SomJu1DpS-RJzrTrhcz0D8_5r4z3tw",
-      "source_row": 1439,
+      "source_row": 1440,
       "city": "sf"
     },
     {
@@ -15991,7 +16004,7 @@
       "neighborhood": "Rincon Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/0mperwrMHSKGC4M0rlYhLerkjNc7PAQKLP_lWenwX0I5lz6hNsyqTkxET5v8ops8eQ6rzHfHohLH2GWVXEA0bopielFMxS2ZouF1bCOka1uTXnowSpxCwpSvlCG0wA",
-      "source_row": 1440,
+      "source_row": 1441,
       "city": "sf"
     },
     {
@@ -16002,7 +16015,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/8acNU7klNcwQKxOQmaPZTd6TW1taXoVkSRZp1KPYF_vUQ_SEE_yodQDH0dZyLrxzaiwrcFeXlBezU7ShfjNGMACiDmP2Z6oOb07GNMDfXE9FrriIhHvCYRfv1MsCYw",
-      "source_row": 1441,
+      "source_row": 1442,
       "city": "sf"
     },
     {
@@ -16013,7 +16026,7 @@
       "neighborhood": "Mountain View",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/fI8yJ5NR3wh2eTa4UPvQNZb86djumUUFNVjXa3q7xnu-p9txH12ZebPpFotL3PiH_SZdLWcWUfeFxdtLjSQsnF_uQqq0pewMfJD9K1Sb26INPViR-tMIIWVkssDZCg",
-      "source_row": 1442,
+      "source_row": 1443,
       "city": "sf"
     },
     {
@@ -16024,7 +16037,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/qQdh972PsB5l0bMrMo6I_wi3NC3RrUmUA90oKVaYIL-crToh8cQnC1tLwfNBLJT7iHal-2lEx5qQGYJMUDS6j9chvBkSkEjSy8RlfbEPV5E8_Uo6fUPjEczHfG50UA",
-      "source_row": 1443,
+      "source_row": 1444,
       "city": "sf"
     },
     {
@@ -16035,7 +16048,7 @@
       "neighborhood": "Dogpatch",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/9S-lTdsR1s8LFmLO1GxI2W0VxCFASV5Ca2J9fXeH3KzcGZkMOADkGEGDIcI_BlNCqlOceNZNsECaz8wWmwK2aRw31WxdEdcVqE0QouLTODmQQZbB6Rb-6CEIobOlaw",
-      "source_row": 1444,
+      "source_row": 1445,
       "city": "sf"
     },
     {
@@ -16046,7 +16059,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/wyMvJFTFI_dOS2WhOkKqL7WeIGdKsQpM4zfD8_xIIjSK2jl32fsYYwoxCkUpNaXXNGChH5X7RYzqcZVOHzibWyzUaf79H8OFk898C997Fo2sgYFzqrNMkLVigx44SA",
-      "source_row": 1445,
+      "source_row": 1446,
       "city": "sf"
     },
     {
@@ -16057,7 +16070,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/A1915aRsybttpb9L5mk5wlO2pNQVytKo-u-ibXTnyvu4qsYP7NTsyWLO_XJ7B-guoeDz9HdOA2duwWAIP8s9raYwjI9RESwUGhC1RqO2i4HGz0eLB2wRqQqVGVD8gQ",
-      "source_row": 1446,
+      "source_row": 1447,
       "city": "sf"
     },
     {
@@ -16068,7 +16081,7 @@
       "neighborhood": "Jackson Square",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/wulTwGvDyJA2--v4BM3FWSI1Zb6EnRUbeTL5YNPPW9BdTrHN_AM_BqFXzyb11cSdQ0GsX0Y0qD7nas_xW6klJhx7iVCOtvxCi9K07OWz0L0nPjqcKBWy0TqjuwRL5w",
-      "source_row": 1447,
+      "source_row": 1448,
       "city": "sf"
     },
     {
@@ -16079,7 +16092,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Ro36_BDd1xCkyXUQJ8l-07sY9KLwLTO1-JlB3ek6BTrN4rKg-RlReWp2mFhSM2CCLOQRTpOitnutssPeDp8TU_UMouBpvY7ojvUpHiy4aixLhFv0vPUmB4ARWD1t4Q",
-      "source_row": 1448,
+      "source_row": 1449,
       "city": "sf"
     },
     {
@@ -16090,7 +16103,7 @@
       "neighborhood": "Pacific Heights",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/_rtTpek9Um028DwUiPHo1rnSIRvtek3sR5dqlehRLLtBaaM50G-aHChRhSYTyywNiuK--GaM9d-saHKdQ2L31UYsweKacpiG7UL1asoJljBNOnMVx3E7Lu-ekuTfig",
-      "source_row": 1449,
+      "source_row": 1450,
       "city": "sf"
     },
     {
@@ -16101,7 +16114,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/0wmRrEcmakMjiCZgx0cid0Hc4-AHAbTiRdL7vt5WbbPPy2U5w9vS1TUHsb-_wKLkwBRBP4_-QvpquYRW93phNlzrzKj2_5G1CWV2iuEJqla7W9D6QPGKuNy7Rsz-aw",
-      "source_row": 1450,
+      "source_row": 1451,
       "city": "sf"
     },
     {
@@ -16112,7 +16125,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/0zLxZ-Qv2E60JuYEj2ZJ-Fw1WDJRG3oYwMQKTWUdLCaA_U-N_oTkYZV_mWN0EGcW8vrO1PJuJPEp80zLHBrjDqVrTZ4J6QZEcWm_2XHYaHARjS2el1Y6i9hk7WA4yQ",
-      "source_row": 1451,
+      "source_row": 1452,
       "city": "sf"
     },
     {
@@ -16123,7 +16136,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/2rSl1Cmk2r9J78WmTNtYGIX1PDzR3wMUGGPm8xsWDKDGWirri67tZ3HKzhMo04lrOf2V_DsroB6PlcBMqoI0oRgPYH0qES-TzRrQJHuZosrYIrxdSFWC6F9iujYrHw",
-      "source_row": 1452,
+      "source_row": 1453,
       "city": "sf"
     },
     {
@@ -16134,7 +16147,7 @@
       "neighborhood": "Hayes Valley",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/HdI--Afzdz24q3RxMQLie64PtUSYRi_DT-NW2RfbYFwNP_f9bBn1X-1C1tdIyM1SJybUw-6ifWmVJ3Zj9nSaB69XpaMvU7lMsEa5QCFHVow2KTjZ2Gv2oAWIx_fF0w",
-      "source_row": 1453,
+      "source_row": 1454,
       "city": "sf"
     },
     {
@@ -16145,7 +16158,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/QfcsNL0VENnhTiFRsaFUuXzHRQ31S5h_DvfVSlabgY_7qkpY2P3LNy8f9hfpx3M83L648HLi-k3jI3H30zbDVBxJWhK8KRMJb9h2awE-JmbCqu6V3Y2dKZyanknjfA",
-      "source_row": 1454,
+      "source_row": 1455,
       "city": "sf"
     },
     {
@@ -16156,7 +16169,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/3n-yg_Ijx5VBBLXR2oP7jnRPEa3yfL2WGXAxwQR0bk_-PbTw20LMcn2hp7B3H7fjY9tuUatsZjOZGZFvm6yoC39Wux9aUcAW7nRJP1-qnPVbbpyaOlbLnihxQnmDhA",
-      "source_row": 1455,
+      "source_row": 1456,
       "city": "sf"
     },
     {
@@ -16167,7 +16180,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/eqGW3ILpf3LVdVLh7O2nGMekDi_07JfuhbzHlytABAOikrP-nUO4YCYZjQebxVRexaAcx7d0p2V9f5xoeCsR7bZbddjs6Ip7psB3iCpWulr0gjRC9C9kUpS2-8OzRQ",
-      "source_row": 1456,
+      "source_row": 1457,
       "city": "sf"
     },
     {
@@ -16178,7 +16191,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/iql_Jcn_M2ep3uL_VqaR6ZdRIm6VfuH-r5dOhSPjoSgHmXezb-LD2LsuRg_j2m2546aLl6xB_EThF4bYcv91PXZngoxcCUXNQfxkAx5nAw9HU6_TH9BsyKxkZ59dmQ",
-      "source_row": 1457,
+      "source_row": 1458,
       "city": "sf"
     },
     {
@@ -16189,7 +16202,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/zR20dBui4NDj_1ZxsBiz36PMrPqOmxrGnlZqlQliyXFAYGxfkOriFuveUcglkhBxN9A_4_YFdSmhqd_xxw7CJPHrM-6dW37fcNSjXghNy6Bo8ixK08c22Xk7OgdOcg",
-      "source_row": 1458,
+      "source_row": 1459,
       "city": "sf"
     },
     {
@@ -16200,7 +16213,7 @@
       "neighborhood": "Palo Alto",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/2VeTpJJYYzohBJ5orC-Nfk-JoJUQUz0FQ9wF1PrlEDYmbr0_uGsBLMUjGF7534o83A1SU3czMEOfvwhIFRTgbMp0n3t-Gl02VcqZiet8zYjEIgbl4rZ9SaEGgMw0wA",
-      "source_row": 1459,
+      "source_row": 1460,
       "city": "sf"
     },
     {
@@ -16211,7 +16224,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/0fwLpFTNb5cVrdCHHp_cH4tLtWDZwRjq9hXMO6boJ6MK5GROurMTU_NsoScCFKyVXZ48_mRRMrXetMeYkooIl3CL1wx2353_I-zupCUvnaSLn1vKd2OuBxN7xEdk6A",
-      "source_row": 1460,
+      "source_row": 1461,
       "city": "sf"
     },
     {
@@ -16222,7 +16235,7 @@
       "neighborhood": "East Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/sT6Vn0Qw2cxd6EmARTHVtErroU6-9KzM3K6zBiLirRSG2T3tk7iWECSt9p3S5pI4_lR0OtzM1lKExiCp1ayW60pk7EWMSHYxe4WaB0FNSNxNf4prSsTRPNrRxP5QrQ",
-      "source_row": 1461,
+      "source_row": 1462,
       "city": "sf"
     },
     {
@@ -16233,7 +16246,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/UehS-NAf8Nc033Rb9XgGLgbhL0fBM86XwA_0Fz1RaXat5JLLIQc-nk1zkNIQfCzdlTJ76U33oy8LWqJiHARLPczstuwNVBJ4QavOfn3i4MZ4b1IisUKm6R3mCrr01Q",
-      "source_row": 1462,
+      "source_row": 1463,
       "city": "sf"
     },
     {
@@ -16244,7 +16257,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/50BRNaZDwhkEx7rq4lwvxrbRUaBnWvfKx003jJ9axKJraqgX3N55Q2pbVaH-NxCEb9dkT94dIkZYfVIbhNWpd2OHDRGA_LMmAfcH1Lf0Mlo-Cs89nIf_schGpHIgHA",
-      "source_row": 1463,
+      "source_row": 1464,
       "city": "sf"
     },
     {
@@ -16255,7 +16268,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/d0VryTHjffGo4v90DuL_lRzNMm1FguGFnQu4kZJPbWYLFvlJjSoQ7zT9Ld8QScUlEPGwtPHVDx-Djghc3mm-kE-w-HjKUWnzyg6rttEXRGYfdH4NAy3r-EqBnk6nqw",
-      "source_row": 1464,
+      "source_row": 1465,
       "city": "sf"
     },
     {
@@ -16266,7 +16279,7 @@
       "neighborhood": "Dogpatch",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/tSsw19IUTjqOWQ3_11XWXi4BZ2Dp6E_k9mvU5K83U3Obt4k-HSGnsq1chJDhPUHSw6iWx-RHP9ZCO9ZHUONi5MS1AmufpzFqcF0OyVYPy-i5w3fw8BLLRksWN9RKxw",
-      "source_row": 1465,
+      "source_row": 1466,
       "city": "sf"
     },
     {
@@ -16277,7 +16290,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/h-cHrt8ObzRcEaQ6Valk5H5jOCGBvpV466MEr4JC0OAM-5g_YU_OXpF-N6SdpehIUC5eTBJwP8hKJ7NuxNE3tVoPJ09bXGwczHuxRGsMjA4vMBtGpqpCzHyVPTs_8g",
-      "source_row": 1466,
+      "source_row": 1467,
       "city": "sf"
     },
     {
@@ -16288,7 +16301,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/lldNNdi-vYQR8Hf6si7t0-PLp8bHg7DSVtAw7Dph9MbzIuXrV22-l3b0d9vg1nTvnCU_uBUN0Hl5RQFdvh_-vrcl0yH493rI7dwgRLyBPhi6-AY7BFe9h6L6QfZ0_w",
-      "source_row": 1467,
+      "source_row": 1468,
       "city": "sf"
     },
     {
@@ -16299,7 +16312,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/xkUIF-XgpEzavtQiwdl3Gw9Ah0iO-MCY-LH7UKEjCSLYzTmTREhlrDRzIrvsLhxfH6wpfUwNmG19gj11SbmySFWT0K7toWIDEeejDZTzmpVQErX8TAxB4T27T5IgtA",
-      "source_row": 1468,
+      "source_row": 1469,
       "city": "sf"
     },
     {
@@ -16310,7 +16323,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/mO0DKjr9ipOXSNfm51ZtvJSJVtAJDiQmrI33TMflLYukpVp0sZMSCmLKc0CmiRbkWJ-p1jypocPP3xWjXLxW5j-H976TiPsrVBP9VV2PW_OsDhREwiUP6ETfGxq0YA",
-      "source_row": 1469,
+      "source_row": 1470,
       "city": "sf"
     },
     {
@@ -16321,7 +16334,7 @@
       "neighborhood": "Pacific Heights",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/AvIJTj-OAEuQTxn97AVq9pUSUQDeb658tBKuUude44Cevdxz08HsXtNfJbL6-RnFaeBiUxP3ljoBWJEXWIVuOIwG2rLdXa4Lf1sfaIC1dULrmJbhjM4kuWvIOdz1Zg",
-      "source_row": 1470,
+      "source_row": 1471,
       "city": "sf"
     },
     {
@@ -16332,7 +16345,7 @@
       "neighborhood": "Dogpatch",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/VTMoSYK_hR_dkWiUZokTOVwb6xKUHJjg6OypCvTlyYg5ZbTmDcxXCibWQk2sV6H6CjfIYTdtyI0ov_w9EDvy9OSXZqpV74g_yH3p4sdCT5eG6ou3lQtxP2F6zG_V5w",
-      "source_row": 1471,
+      "source_row": 1472,
       "city": "sf"
     },
     {
@@ -16343,7 +16356,7 @@
       "neighborhood": "Lower Nob Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/AcsxLt2uM2yaiG9xE4epG418VjMLbb857LgXPCdMBed3WIg4Aj4Pz0rZpj-eiC98T77awseR0GAAGlEJaOLVTCojeP3pZ4Cp6s11kY26w-fMdA7H6g7y94wWMW_GWQ",
-      "source_row": 1472,
+      "source_row": 1473,
       "city": "sf"
     },
     {
@@ -16354,7 +16367,7 @@
       "neighborhood": "Palo Alto",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/6LdyVGDID2ofLdXNVBJmaADSoUKpRPwxBGSmOmiPi5y9lSJovAmcLu_erLqf0KxvjXKx5N8UxpUerbqvV0XFD1Z8G0673FOaHTVPu5YJPyfXDTLQKWpUtmzNmDuSVQ",
-      "source_row": 1473,
+      "source_row": 1474,
       "city": "sf"
     },
     {
@@ -16365,7 +16378,7 @@
       "neighborhood": "Hayes Valley",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/DelsFI0CRDuE-Xu_kCA88PI7SeJbJBFn5Wz26ivVxHMTzJzQVUhkDo0S3YaNNlfEjXPso9qqpL_KskX35PrUU2Z4Kifoa50cI6xFM9XOiwnuKAwLMpQYLudOe5PlCQ",
-      "source_row": 1474,
+      "source_row": 1475,
       "city": "sf"
     },
     {
@@ -16376,7 +16389,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/1v-XKLtrhKR7nrGaZC6mT0PHl6WVUU6-NLAwazm05gpPal93C9XHJXYkuLtvarpof9_4Ij6eGDmB7WyGEeP0qoMnvbIHEYY3d4W1QtVOZcgWqrXz0yts-JvHb3PMpw",
-      "source_row": 1475,
+      "source_row": 1476,
       "city": "sf"
     },
     {
@@ -16387,7 +16400,7 @@
       "neighborhood": "Castro",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/fciS51zp2Gr56eLIepDDtijJjhmGtiSUeCcj41x8z_8NLDdSY0Y9P_07Cu1nDubcczRBXzB0gAsp9_ff-TJN1d6I3sktcySq3ziGOlrC2EuebraoIFImD3RpHkF8cA",
-      "source_row": 1476,
+      "source_row": 1477,
       "city": "sf"
     },
     {
@@ -16398,7 +16411,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ZvoNQFxHqyjKlZN7dqLxYxZOOWw8u0pZ97stlglzWi1V0NkrtqYdvhJoyYhbs1LNg4h5Hm82vae5ZGtGVbqihmVfvn3ocmYKCBLPjSVoaVXSIQcOxq_wkLmhhWlSTQ",
-      "source_row": 1477,
+      "source_row": 1478,
       "city": "sf"
     },
     {
@@ -16409,7 +16422,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/sPWjBb6FJCrOR2mGktySOLVYNq8-5dpjw8GSRaAfItR4-PLgW2Bt8ksNGVgZVXxugRAbJ7k9U03uGFAVYTfTLWXuqys15Iuw8l80wmwVZEcxToFXsqt9jNlztpSo2Q",
-      "source_row": 1478,
+      "source_row": 1479,
       "city": "sf"
     },
     {
@@ -16420,7 +16433,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/0ez2F6ciePlmgcztgzje0IYr9tYlHARUV_dFJSS_QQ_rRXDyy6Ei7ctcmfnjHTlfguYX5BQiQPhGmAcZT1DmVCjHObij4dTvygOQBfSB_Y1XVEdtnEXfcGiETp6-GA",
-      "source_row": 1479,
+      "source_row": 1480,
       "city": "sf"
     },
     {
@@ -16431,7 +16444,7 @@
       "neighborhood": "Design District",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/6TkLNRv57vLCJVRgzXaZMqM-1qrBrOxn9Z17iamSLo2y1G_ybaPs_hJXusZSiOoHq-2YhAFieHr0sTNgvtZBMC7wU1HeADfeCbYufJnA-d_F35LaEwAqgYgzBXkpIg",
-      "source_row": 1480,
+      "source_row": 1481,
       "city": "sf"
     },
     {
@@ -16442,7 +16455,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/br3bU-g2n2IRkxo1EKE4cpU4JBGWDoL_L3rwK7KhAdav3Eq-YpWp9opZBF8H3bVPuzIVwRhI9HX-0U3Mbfdqn50WsiJIspCw1jDc_NPQQOZBqP3-Slxn0vFpg4yHqQ",
-      "source_row": 1481,
+      "source_row": 1482,
       "city": "sf"
     },
     {
@@ -16453,7 +16466,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/KmqAP3Q4sjfV4iceQ8gJpZ9BzGPfuMKC0wY-cq_TUsYBY0qaMoxvkJba1d68F59M17aW9WSJOV4IW7xGW4YQKFqZCOiwCcOdNHoPPrv5tC3D9XaVaYNVHwmO2hRK9g",
-      "source_row": 1482,
+      "source_row": 1483,
       "city": "sf"
     },
     {
@@ -16464,7 +16477,7 @@
       "neighborhood": "Stanford",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/VprIMAejdFIembEEl9PxkSewfP8esy-ji7glsEtN_GL7m3GAALEVI5hGG1B9RKDOI_dymtcVU1FXN5QBGdZKbDRQt5guoVYK5BI6K-xF9v0di4B4zdOHljnrvuInQA",
-      "source_row": 1483,
+      "source_row": 1484,
       "city": "sf"
     },
     {
@@ -16475,7 +16488,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ECkOiroKCyCPly5QDiTfkcoAVGh199XBG14J6KsSxvjbRwqSepqYnxcXaXWLyRZRsslkFmNQiiUuIJBb7elOHBuvsrd1HKi8GsGlviVWOtyBa_pIK7Dr8F16Nu9YpA",
-      "source_row": 1484,
+      "source_row": 1485,
       "city": "sf"
     },
     {
@@ -16486,7 +16499,7 @@
       "neighborhood": "South Beach",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/6E1aNWc8UM56D7iYgbkkA0NQZulSnnQRDLJg8c4YG52VvmmERBWcOgoMG9zg2zxgjd8Ty8VGe9GHMpWZawe04ur0LnWKbymaTH_OUCJ7Yw6df9ly2YPGlfmPDxZxpQ",
-      "source_row": 1485,
+      "source_row": 1486,
       "city": "sf"
     },
     {
@@ -16497,7 +16510,7 @@
       "neighborhood": "Stanford",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/qG9TNxLdemkJiIVaDZzv6O5oKqEaJ4kPtpmzZAU3MPRVIqaPhTweXs8I5oEC_bV-HtroRQnsgp9NOdCYMgpJi3rHW8gCLgDQMyVXx8AIHXR-toz2hBdteEZ6suiM-w",
-      "source_row": 1486,
+      "source_row": 1487,
       "city": "sf"
     },
     {
@@ -16508,7 +16521,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/QTRruuL7mRGnCfI3wf8Kf6tmTFQxdv5OrhmnKyCQirf2jie5lKr8vO3y-o9F1J3FyAoqTuDyO7JNSlF62Gz1h4Mf2UohYTwlKLC6Npr0f4HMykRzLudx_B1hfL9n5A",
-      "source_row": 1487,
+      "source_row": 1488,
       "city": "sf"
     },
     {
@@ -16519,7 +16532,7 @@
       "neighborhood": "Pacific Heights",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Urs7b6KZazHxCPJQyMKCJfK9ouJiPNV3Ik4vrnOiKkMsEh7K30XL0meFK7qo6ufAKo6giLpetfPlculBN98UkcO1Khs-9eo5jeYoj4ZROOIocFS7JHsOiNcWJ6wVOw",
-      "source_row": 1488,
+      "source_row": 1489,
       "city": "sf"
     },
     {
@@ -16530,7 +16543,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Wdi4wBrk1p6viI-FC1IX_FuxAx0eHGBzsZgZbB_iYciRnbZUdhlwFH9Ii24LbkBVcJhI2h9QoCVhLuD0oCbGW6tXEGzuNwo1ctctDgJjUVJ52rFwefl065tUNH0ENw",
-      "source_row": 1489,
+      "source_row": 1490,
       "city": "sf"
     },
     {
@@ -16541,7 +16554,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/z4nBLJgPuaqTbmdx1P78BhS5Blcsito18EcRVtw86bC8AZCY9NJO87If-GEgHbxPFBtZedEwRVVyUI2YlAKnnLBrXR3_UVwuIQtA-YpfHHYKG9ZG2AzwcKrr6ispAw",
-      "source_row": 1490,
+      "source_row": 1491,
       "city": "sf"
     },
     {
@@ -16552,7 +16565,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/NyHeBSlJXlwGoVbS6_cKxGlBENo4EtS-aqNlrlZun7L069nuG2s1f_hJ3obpfDcbakZyiKxrPp42UsGS6gliLUp3pZOJwDA3o6r8wErlRUcFbuGuCAa35tQ9hphGXA",
-      "source_row": 1491,
+      "source_row": 1492,
       "city": "sf"
     },
     {
@@ -16563,7 +16576,7 @@
       "neighborhood": "Stanford",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/2P8k2I75vQ1DLqBp9HLWbbPVpdaTK_7bnis-OIXjhksvdL5yIQWUMZIwMBlPb-pG5HfWCGERA_wnMnWbiFp6S0TDCFHQAiNfgVlpmKfGqU3gVXV5Jwt8B1cY__2Wlg",
-      "source_row": 1492,
+      "source_row": 1493,
       "city": "sf"
     },
     {
@@ -16574,7 +16587,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/hH1qLpdrqslDbUFWn72dHpbsCicNjilTSdr57yA_vJqjzdHCjsNJFvIcByte8aMKXAX3nfwuYpqwsEB0ruY6iNzPQyHzr50hhcnwgC-gxHK9tdSMCC6YS4ARTqLKqw",
-      "source_row": 1493,
+      "source_row": 1494,
       "city": "sf"
     },
     {
@@ -16585,7 +16598,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/XbWC-X6OxzXUdHPafQHK1liPFGvpC13MiY8cCIs_kXgJKlxChjMMBjaG7h4e1vqBek0gyzxpinQfFE-4QxJlsT1OFXOvTQo83nztuLaol9xi9DXHVMEml3_SiLRatQ",
-      "source_row": 1494,
+      "source_row": 1495,
       "city": "sf"
     },
     {
@@ -16596,7 +16609,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/QYQ7Uv7F-L0oLsEWnoQMwEtveC-wardkOV1ngFYXXbsSpbI2tudKrnqvkSHiCJ7HEHPPyfO_Gqp-j8eRMCIm-Ecg_fgl3idfPb5GQsKU7fylU2xN6uHJmG7pthGfPQ",
-      "source_row": 1495,
+      "source_row": 1496,
       "city": "sf"
     },
     {
@@ -16607,7 +16620,7 @@
       "neighborhood": "Virtual (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/pEbz9PlSP7HOWYbdvuZFS5BfFDp3fLZWI2hbPf9q5s0eGqLXsC_EqXDW_ggj8CwrJ6gqbnF6bF-7TCpIaOezQT1phV0ctAYsomCu2gGUPQFNv4ltdrJuQjTcJPIOeQ",
-      "source_row": 1496,
+      "source_row": 1497,
       "city": "sf"
     },
     {
@@ -16618,7 +16631,7 @@
       "neighborhood": "Pacific Heights",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/SNMGCI6belEdn7O1LZ2p356uE94QMCkqQxquzkc_SaW3aqR23xkoBedv44RsiogfGBu3LfMqtKT5R3fr-UJWfOdCsPcEO5S3H4Vsd9MHpPg9LpJHmkP1T8ydt8gmVA",
-      "source_row": 1497,
+      "source_row": 1498,
       "city": "sf"
     },
     {
@@ -16629,7 +16642,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/pMNa5tyFjD1INJlDmHlKhPWXNKmAdPU9jBbaKxXi--6UANPQh2_g8rncVoxfcNtRyc5t_5hJfHAFSnsEXg5tHVruTRwvfRezXhc5Cs26G4jYPI94A3pRgHFDniybog",
-      "source_row": 1498,
+      "source_row": 1499,
       "city": "sf"
     },
     {
@@ -16640,7 +16653,7 @@
       "neighborhood": "Russian Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/X8OpaYXpUxXyotufzKcPimTEgeYxDltwVdHa5ST2x6mIf-NCyRpOSGj8SB9ngS2Oi_F42r1AP3WLPvOKPyZf8SxGzZifY0bhBfFrglJcaeWnvFrh2Xy8Jjor39v85w",
-      "source_row": 1499,
+      "source_row": 1500,
       "city": "sf"
     },
     {
@@ -16651,7 +16664,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/dDph4W0AiiFAGtfHXwc7eQGRT1YgU5vF7JmzjOUd--HyO-kcZDkwPB3T8ozIKW7kbEjnRb0G4k5GJYGGDZUTRTxznteu60BGUH6cy8O7DMSmFiaqN8jShr_fkbUNaw",
-      "source_row": 1500,
+      "source_row": 1501,
       "city": "sf"
     },
     {
@@ -16662,7 +16675,7 @@
       "neighborhood": "Palo Alto",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/rr72FJZABt1L8AR4YpjprRLbGj0zozkCGFPUvZM3MWhdHOZ4cJ0kw1ZgQJcc2tipjbToxeFrTHK0dALOHX9--0KuQb0GNZs69ggK2R3iI_oCorJpt0jrdEhV9gGu1g",
-      "source_row": 1501,
+      "source_row": 1502,
       "city": "sf"
     },
     {
@@ -16673,7 +16686,7 @@
       "neighborhood": "Russian Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/IEw9FTtaOse5MPNO8uh1ML6u8nKm3Z4c6cRyggPXKplYx0VIDiucmKNwwYtx7AVJthBBCZbbHfEE8GTKZL73uWgsyAMQ2Hqi2Qly6xsZRLtyuruRGlvc4UKGGDms1Q",
-      "source_row": 1502,
+      "source_row": 1503,
       "city": "sf"
     },
     {
@@ -16684,7 +16697,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/9LWXbwv7ERNMOgeHxYU5-C0DWqK7aRyQnYulYRN-_yc03ROLUfkUThw3r05dC-LN0IRx4YjDa6NCPg-NBjZT_5jh9xzQGA5tYpWTkfvc0fIeElfMDtmbMAax58ZX-Q",
-      "source_row": 1503,
+      "source_row": 1504,
       "city": "sf"
     },
     {
@@ -16695,7 +16708,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/nDP8Jy2e8akkBYUlUWTmyqOy9A9VBPtS6FxS-ORJ55NTmRyvbD8XrqT_UNOSo4XHbKPbX9IAJmP_eP8sOIi0_Y3yDla6Up_N-VuiAeUwdjYwhI6PGo748WSl8cWO9Q",
-      "source_row": 1504,
+      "source_row": 1505,
       "city": "sf"
     },
     {
@@ -16706,7 +16719,7 @@
       "neighborhood": "San Mateo",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/3X4AlW2dp9Pe80GVlqxl3dKAk-ItrqiY3QZNrOoSOJXFIf6AkV8AfMZO-EMTXcrzDzDZF2y2W8TPfgt7-8O7Nzh7OV7TL_iX7rENFED16FnXsIWwVvqHKy5vo4Mn7Q",
-      "source_row": 1505,
+      "source_row": 1506,
       "city": "sf"
     },
     {
@@ -16719,7 +16732,7 @@
         "Closed"
       ],
       "event_url": "https://www.tech-week.com/go/event/KY4EX5rYNjPRNzIN84EFiGlxlj7qwXSMpxZX8GOac7dFELeF-wQz2dnB3QugpSzYPxJKX3CDLyk-6gfKxEd-YTMpvITGE158I93nwYwRwtMu_qfXhyWV3Ku8HHrGYA",
-      "source_row": 1506,
+      "source_row": 1507,
       "city": "sf"
     },
     {
@@ -16730,7 +16743,7 @@
       "neighborhood": "Palo Alto",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ZSGTDJBMvjno2rzgkBSZTMr_sbO_Pb1P4AOCmFT0fQKkcltfeYKGcVzii5r92lpwtbXJRTsMp-yya6UgrEp0myuUn05xeW9WoIt64ZbB-TwkAtUL6nI5Xr5kZDrFmw",
-      "source_row": 1507,
+      "source_row": 1508,
       "city": "sf"
     },
     {
@@ -16741,7 +16754,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/pzYOQLykZxW2-eviSBHJ0Jw0vnEz4duRpd54muPx5il9-8BOEn3Of_kiT0TonmK4Y7jSAYGJak19MMLl1--JbajSDqp5XhuynycWt1eUWHuXcTXN9XvbhnM6jbAgsA",
-      "source_row": 1508,
+      "source_row": 1509,
       "city": "sf"
     },
     {
@@ -16752,7 +16765,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/_v-gJIv81AChEfcUfH4ojshkIHq0J1pQJ5mb4YZ_ORqrmLsQGI7txy4bb4LIw2sDFAj6Y--8QkjQw2mfB_wIj6JZsrDfDBgB1XDlj5TctbXMuOiKdWJayeYNLTFUhw",
-      "source_row": 1509,
+      "source_row": 1510,
       "city": "sf"
     },
     {
@@ -16763,7 +16776,7 @@
       "neighborhood": "Mission Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/bPs_kxvpifYokYUeLzKKk7WSbESG4Gn6uULxqCWguOtLPn1kSS1pdXVfBveXsBHQCuc7LTIZ7Tbp6WAh8fS02YJw1_TK4yz4uY7Cy0t3Cfo8QMdsYFxdtphMz0AbJA",
-      "source_row": 1510,
+      "source_row": 1511,
       "city": "sf"
     },
     {
@@ -16774,7 +16787,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/NFRt6sSnxJerc8Ziu6AbJBH7zpONi6-X2iPpySKai9q9nQkNl30aExKRAdtcJ-pVyXVOzxfmitvEDrhgfx5tIpwPzurnhmYD7t6cK5TUKoB0SSvOSgHfxJh1MubRlA",
-      "source_row": 1511,
+      "source_row": 1512,
       "city": "sf"
     },
     {
@@ -16785,7 +16798,7 @@
       "neighborhood": "Rincon Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/DsWcQ96lAheIFkRgoABMhOyGWrt25M6qt47NKGXS4uE2qWZglf3Iz5wAVts_4meCgir9yJjxsbSpCOfqFc2EWOCJuJRyEEIZ9Vzk6wnbxIkDqM4yA7fXn4hg1Hn_zw",
-      "source_row": 1512,
+      "source_row": 1513,
       "city": "sf"
     },
     {
@@ -16796,7 +16809,7 @@
       "neighborhood": "Dogpatch",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/_Gr0bT8vm8J7IIYZ03wATebmMoQ84Lg61PExKYRELW20hhmVoh21d5_PwdMGB8IrdU9XYzed8VYP-wJKGzyPj1JHNTx729-VTrJRogTYtR1rPjYI9-ukEpDscOyWXg",
-      "source_row": 1513,
+      "source_row": 1514,
       "city": "sf"
     },
     {
@@ -16807,7 +16820,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/xEphJQQqMYhQlDXzcqntqMGlautp0fOxFEVmHir3wgcjau-QdrqcDkV69Bqy98hqMs_5jaOFN525Yceh7tpKgrKU6S9TvwVln-JCGk4cCPVWwfwRZv6KGynZ24uF3g",
-      "source_row": 1514,
+      "source_row": 1515,
       "city": "sf"
     },
     {
@@ -16818,7 +16831,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/BO7s99i6to1SU5TLBzpCEWBmvmYzJ-UNXzvmPHkw_DcP5WnpW9EmA0nLxq_8Xywe79EXxfCoeQ8nwmf7bOo70MP79UfKkkADuXXQhNHU0NgUixruO8Y6EErg7XcdfA",
-      "source_row": 1515,
+      "source_row": 1516,
       "city": "sf"
     },
     {
@@ -16829,7 +16842,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/aCpcq8IGBNgtBYF6Pi5uoZ2-VRGcg7A98fJMoyKtcCr7-oE5W8Sh5LtjcBBFxcjBI0W-NyCB6HD3xtFAsJZLUqsbqpI2GQItqEkq-VXU8fARygFupPIacbYwtjtmkw",
-      "source_row": 1516,
+      "source_row": 1517,
       "city": "sf"
     },
     {
@@ -16840,7 +16853,7 @@
       "neighborhood": "East Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/AmxbjL2uAX-qZto2-pqGpMFKFgIngARPgGWOQggp5oS5YNgxXWZ7-_RNu4P7i1I3ABAHi4NtweOjIV8tZJz3K9_YmGnPGtKKyJF2ywXey2Iqw6bEmuxoYSjtAPdgNQ",
-      "source_row": 1517,
+      "source_row": 1518,
       "city": "sf"
     },
     {
@@ -16851,7 +16864,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/d6n5x8NWl-N9ZXaCQD7Z75EfM1asMTHpsIU0W1qDJ15eAmEe-lDgyp2CdNeq6O_42jHBJSiCfegk50LWxZHZJirImtDgN2yTOtzua1HHp4O09pruq2IOvjua1vyu7g",
-      "source_row": 1518,
+      "source_row": 1519,
       "city": "sf"
     },
     {
@@ -16862,7 +16875,7 @@
       "neighborhood": "Mission Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/W0W_lYKwIXHB8nIW422dCaDR9bSdj9w4QXYVJxamgtxXwZhbLPGsHOf4j9rnxaaPffLE9nyBxjdpwIBa8i3UrAoIy99vR0Kdqy3rQbYOsNByq_icsAeZ-QGShjPiAw",
-      "source_row": 1519,
+      "source_row": 1520,
       "city": "sf"
     },
     {
@@ -16873,7 +16886,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/bsG8sGp-u_9qeYi_rKaf0Ek0kqMGDLdXeR2Ig-uIoDbc5q53309_YPf5ieBaZabZSsLd3wIhj3A8Le1QFROk-2DG8u43T2WfC3f_iGeLAtDFp1e1kEGLfM0dM0rHog",
-      "source_row": 1520,
+      "source_row": 1521,
       "city": "sf"
     },
     {
@@ -16884,7 +16897,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/eOIIn5mf_SMHp7un8DRhrNj7pp98IikQLFi3EQGOQjpc8jt1tDhiS4tCW3QUCwXK450UDmDu5eHPlC0kks8jeAhtXRQczceHo4dx0DEMhyhqkrAwbz6HfSViCFmyHQ",
-      "source_row": 1521,
+      "source_row": 1522,
       "city": "sf"
     },
     {
@@ -16895,7 +16908,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/RVZh4Y0yEjx-rR4yR95pzt687RwdNaqsg9OVa76JeyJSHDn_Ve8UchW2lmK5-GTBq-7l7dWFHvrqUBysfiAYpHT_BldLhQ6Vr1vgvcfi20KXV_DifngssaEeBs8IiQ",
-      "source_row": 1522,
+      "source_row": 1523,
       "city": "sf"
     },
     {
@@ -16906,7 +16919,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/vVM0Y3fGBAFf2jWOWC6xABBgSB6Gqvi-I5zAMtAYy5IBf3P4CQxiFZXcgaAl9SCM3QFW4b0S1AkIdCKzYfDAamtEqpI5hfpWpMBLP2_UbdcbpMLwL8EIc91uMg3lZA",
-      "source_row": 1523,
+      "source_row": 1524,
       "city": "sf"
     },
     {
@@ -16917,7 +16930,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/JDlpnkT98GPosSjeBfzUrLfJ7JWW2l81CEp06PxfDm-slOhWmziM6Jx2IUvFqk1sO1rKJjQG58DWlPs77a_oIjQgQaUGNsw4XgA53ffj7m2xZq_K0y274F0UjWTseQ",
-      "source_row": 1524,
+      "source_row": 1525,
       "city": "sf"
     },
     {
@@ -16928,7 +16941,7 @@
       "neighborhood": "East Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/338f5kQuusOLrhGeG76zNILc8OY2QsD5DT36V3WnWGc_LnpzmixD2alvowyUMwOVnjUpy_P1-icXHcFseKlqMiaoPpIMQ3o2iZt-WonRFkJk_Tl7XNej2F4IQ9CIDg",
-      "source_row": 1525,
+      "source_row": 1526,
       "city": "sf"
     },
     {
@@ -16939,7 +16952,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/aN_G0hZr4Ggad7IrybZ3XN9wKKMb42Rzn5o-Mi0N_o2p4ODnR1opdGKWE1AQ3pcCgwVa5KJ9omLZfd_y3zHds9VLHAzVLTdQbDZDkuAd9ievlSWl2UhqFXx2cWdg-w",
-      "source_row": 1526,
+      "source_row": 1527,
       "city": "sf"
     },
     {
@@ -16952,7 +16965,7 @@
         "Featured"
       ],
       "event_url": "https://www.tech-week.com/go/event/NUomRu6ookHnJmWp3rzwY50KDO0AFFSopOc01BxUhykBJIe6IuP1iUfuk3-7Jy7CmDIKSDEqq9-qXgRLtTT-H6-7SpBVHyNQu2xOZ2MAqYtVNbbwTiTDxf2aHgsjQA",
-      "source_row": 1527,
+      "source_row": 1528,
       "city": "sf"
     },
     {
@@ -16963,7 +16976,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/L-zpybJxpgQqwj7OGHFaFmIqABPzzddcSuaPpPAxFemJMRb_P3sxdH8mOKxQh58PykrF2thcGdWuNxfPdhIAyu1hGd2VsdFKtiNFlW365rfv4F2ibE5hQUfHclD0vQ",
-      "source_row": 1528,
+      "source_row": 1529,
       "city": "sf"
     },
     {
@@ -16974,7 +16987,7 @@
       "neighborhood": "Mission Bay",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/LAAOMNrEIsM9FjoqBMgXDJntrUuDEWbhfFXjvJczaN2bXR7cqi2veNMmb1_JY2pdOvs4SVJJT9ndpLcfYIBHt3XOshaEVC0inPx2iKIOFdWa8d_UnyrEdjuRjB5WJg",
-      "source_row": 1529,
+      "source_row": 1530,
       "city": "sf"
     },
     {
@@ -16985,7 +16998,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/8Scs1be8Qs18C_MGIwEVDlZcp2i1jajnjzLwwDW4uULgtb3Pldz-whiXC89_ulnYhgOY5d8Paq36Gt8lD8BYL79zBPhqBX3VlfnmxjTj0l3kPvY7UJBmshbYLZ7rjQ",
-      "source_row": 1530,
+      "source_row": 1531,
       "city": "sf"
     },
     {
@@ -16996,7 +17009,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/-g_Ig_g1QGy0HqnlNKgVWkX7b2hEiJdKIDKj0hUYxywisH64N-K9bGJh3uHzhW_FzF_xmII0qUcl1lMN_KBHL7Z6nSyM6Sm9v4WWfs4UfdnUuDxRWrWcvVC03WeO-g",
-      "source_row": 1531,
+      "source_row": 1532,
       "city": "sf"
     },
     {
@@ -17007,7 +17020,7 @@
       "neighborhood": "Golden Gate Park",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/HVQF4tUsTYm1P39NMWlWN7jXD_eVrobLFmhYAn_Lj-YdVvZsFnauMOfJhC003GQpZMOqBIHX2-zobvRG59ue0lvfNtpvnPliryl8tfbdMVaN2RcQ1vNJ5x51HaBLUA",
-      "source_row": 1532,
+      "source_row": 1533,
       "city": "sf"
     },
     {
@@ -17018,7 +17031,7 @@
       "neighborhood": "Golden Gate Park",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/iH4Si1Z6ym7nepXbmDZ--KrffURMvfWaOZPAaJP282I_P72wtFhWCYg4T4uqsdbgmJTxRxb8k5nv7bIEStmTsjZLIFd2znoV-dZrbRISuxuvb6cfuculTnURZZzabQ",
-      "source_row": 1533,
+      "source_row": 1534,
       "city": "sf"
     },
     {
@@ -17029,7 +17042,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/sjlstURlNjEhnH__pgo0DeTEL9qIk47tvuTsOxGpZv4ygz0Ir4LH-nOfDZpBFfG-DS1-s3vlRc9RmQRNv8yewq_tsO9axUMhTKCGdXvjCbm1kH1Y80cp-q9Ja_LmsQ",
-      "source_row": 1534,
+      "source_row": 1535,
       "city": "sf"
     },
     {
@@ -17040,7 +17053,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Ihwb-udEgm0ynOVQEou9fbAfpgRZNWG9PLHUqTqu8T4tIiaLaex39y_FfvTxDbQJ7aBv07V9kzB1yYK75HxmsXCVO73X4VTSrpBzgS_rcvHj-Jjt8gpq2uZkSargHQ",
-      "source_row": 1535,
+      "source_row": 1536,
       "city": "sf"
     },
     {
@@ -17051,7 +17064,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/EFO3PCTOmNOni1k2wDQrLNohJse3bkOKCa8WOUg9e7-LHz3vRi7WELnDFqIy2MJkx5z8zQiec5s6XEM13iTvUMgmEWZH1NQD-hPIqDbtBNcIBVqUwdrLxgfXC9qbxQ",
-      "source_row": 1536,
+      "source_row": 1537,
       "city": "sf"
     },
     {
@@ -17062,7 +17075,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/qMy94VrBwcy4am6qKvm_QZbW7XZY-zPz_5UwpdZ4KVF0fi5QAUgO2Y7DKB72WtIUr-_2MaDCYv2AkZ6a6g32X5XcSf6xPy3UDrUZG81GZAEgsPJdeczCp3nfpNRWEg",
-      "source_row": 1537,
+      "source_row": 1538,
       "city": "sf"
     },
     {
@@ -17073,7 +17086,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/3-JzfbaWfvRHTfqjqUQ1Ug-AyERTP1j0EC8CMgiBDNaQtrPxcTPRQq7AZUeiaq785NMQIIUYdSdWLjRwjDrWRv8sENj_0X-AhLOjIkiPdODwjfXtGZHu_ZVGUFkfiQ",
-      "source_row": 1538,
+      "source_row": 1539,
       "city": "sf"
     },
     {
@@ -17084,7 +17097,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/oSl2E3a15QgNf6eBJvYZmL03uhzuJYCcqs8TOok52xp64f0H2B5hzZ5NZG5SpF_TKkC62YWdq5FpMODDBqjVv9S4E5jyygrWk72ShBAeFKfScb6qtxhh1-YPsPAzlQ",
-      "source_row": 1539,
+      "source_row": 1540,
       "city": "sf"
     },
     {
@@ -17095,7 +17108,7 @@
       "neighborhood": "Virtual (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/abdvfbJyp9vpvxli6ETkiEHQgfjzJ1qwktIxddCuLZm58Aru4G7qWtGkY7Rg_BsvORi5ogTB58XTu7tou9-O-bXKLgQaLfe-DVX4qyQ7WT9dd2nLKfr5swpbnxOCmw",
-      "source_row": 1540,
+      "source_row": 1541,
       "city": "sf"
     },
     {
@@ -17106,7 +17119,7 @@
       "neighborhood": "Russian Hill",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/wEsvxTisabACeuygaj-ia_Z9xivsHiZdqPSL3rkbm0wnR0PcRga1L255Ysdg1PMTKrYsGihEZXCZQ8KTeM_G1qGfN_Z0wuYRz_OITTCE6_TvtTyFdu5yCsulWZc2JQ",
-      "source_row": 1541,
+      "source_row": 1542,
       "city": "sf"
     },
     {
@@ -17117,7 +17130,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/FUXoaGuupLe2eaBFVszEDDiQKbscRhOaMfPzGv855m1MpWxSwa9f8rQIEXvLxs7KuEg_Dv0Fe3tvCh25FhyiXBstmQxYwyRindKO1AOhYclBEzAuaChXfZOlzpSBkg",
-      "source_row": 1542,
+      "source_row": 1543,
       "city": "sf"
     },
     {
@@ -17128,7 +17141,7 @@
       "neighborhood": "Panhandle",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/rwS0BPlfeNopapWvujeQtdaaf9QrCgUrgbM00PKoOSrUin9DZGryimomcYhUbgN2AU40AZ_ytUeIjvA90TksyhA1bphO0eZHoXBu3mxHBlygWCHWwBAx2fiWRmmE5w",
-      "source_row": 1543,
+      "source_row": 1544,
       "city": "sf"
     },
     {
@@ -17139,7 +17152,7 @@
       "neighborhood": "Mountain View",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/64jVdKKeWC9u_WmF5J4qwKgD3l_OXmHPxXy37aghvt_4nCDg1ZR023vJDFSRwGlu7PKaj1KkV-jlh9WQ0R9SckHNOVApjI00XN6WgW2tw9jh6Vr6oV5VRFSElRoLgQ",
-      "source_row": 1544,
+      "source_row": 1545,
       "city": "sf"
     },
     {
@@ -17150,7 +17163,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/QCL2FErqgqtoivfQeNek_3LNqy8EAZAW0Jr4g9smeaxvpzpGR-ATz1BHBgSrZC2Ib7QIEgWJsWMdI65onl-d6eQoeuJDnBgEeqWjp-uQx-KW0b6qGNw8xM1230jY1A",
-      "source_row": 1545,
+      "source_row": 1546,
       "city": "sf"
     },
     {
@@ -17161,7 +17174,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/WvB1Y1W8KvQVMjGiz8TgJVoDnUDdcyFDZIoHEL-RWwJ-x_CcOHY3zbzFyeCFNtlVob6gRD8hc21ULDd9gcl5ifGPBBDsQDqRkLrU8p-jjHhqbKnleBz9uTUE-RQOvQ",
-      "source_row": 1546,
+      "source_row": 1547,
       "city": "sf"
     },
     {
@@ -17172,7 +17185,7 @@
       "neighborhood": "Embarcadero",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ibkCvHNP-vo6fa6HTgR_XEZY_gHLevIpvs1cjZjotbh3tAh7bBm0ab4ccF031MHQA3Zncwhax2vqPOhBBsosZhTBVK_vW4hmEdIIzu7TYrQyiz--bLdZbCKulOqYFQ",
-      "source_row": 1547,
+      "source_row": 1548,
       "city": "sf"
     },
     {
@@ -17183,7 +17196,7 @@
       "neighborhood": "Hayes Valley",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/uvcUwOcgIKSD8El31YXvZj80geW0V83IGAu_N6GCxORdM-T_RR1J7fOovigr8HD5G0ssRMbMesPQgZCcSR0M5Z0zGlbqEyJHsLvQ2W9owtWzfVc1rBFJxCKmXsw_1g",
-      "source_row": 1548,
+      "source_row": 1549,
       "city": "sf"
     },
     {
@@ -17194,7 +17207,7 @@
       "neighborhood": "Union Square (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/RZqxaz-0fGcSzTeJcjNnUSpTQ8JbtitbxN7a8vAhqa00OATBRc1ILF7A_phaCNhglh5nd16ttMoqqq47M4kpp9LjGIExiwRTBSMhL9cPyrxmglQHH4xwlUoWXfmfRw",
-      "source_row": 1549,
+      "source_row": 1550,
       "city": "sf"
     },
     {
@@ -17205,7 +17218,7 @@
       "neighborhood": "Marina",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/pdQLDX83VUVrbmN71cPAF7S_Tu7gK27tGODPXM0FqAXPtnVSdsBjfPy-mXebDBEHke2LoeWQmKU0QBuqMfjoQRP2nFPG0zAjvCnKJJkFMKQfefwSkpU94ufLuSJ-Fw",
-      "source_row": 1550,
+      "source_row": 1551,
       "city": "sf"
     },
     {
@@ -17216,7 +17229,7 @@
       "neighborhood": "Golden Gate Park",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/xRLcBJ9e4sExgjGD0ekXDCO6IFMVLLoorJlQZV4YNDdhP-Cm6My1k-imyLdEuY-Qvn_SxBxE3s7-17EzOfJaTzHkrS0UrZwacpma97StFbjqf3KgATplhB_K1gmdHw",
-      "source_row": 1551,
+      "source_row": 1552,
       "city": "sf"
     },
     {
@@ -17227,7 +17240,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/zXnjsK85yLqHlrZxPb8LclsHCqyjU_Lqgk3oCmhdggEzRPLevjvsFURB8UgVnUczWr0Je09eJeognWec5W78-ZH5yiIbiNqgUEYVae163J6gDbz0KYHGUXz2MlGGpw",
-      "source_row": 1552,
+      "source_row": 1553,
       "city": "sf"
     },
     {
@@ -17238,7 +17251,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/PnA4oYOjI1lXDL34NsfzOPuFMob0guNmS0zp3CjNYiw8Ybpwxe890UDDpZJXAJtMutQIB5vMgQV-iKJ8LXC7KhVMhT7_deHbW8AElgB82F1oFJccuzp2kKHbVq8iPA",
-      "source_row": 1553,
+      "source_row": 1554,
       "city": "sf"
     },
     {
@@ -17249,7 +17262,7 @@
       "neighborhood": "Stanford",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/tyQ-tCzrnxea7kK97NSpCDMvnxUPaijn-hoB0xIhHjk6nAiw-yHDJwTiPikTHA3BnljOqocFTUEynCg0NyFqVDGiMQr4ua_RvkWAUtW2ZeWiM4TTNtp0qoOyrCEgCA",
-      "source_row": 1554,
+      "source_row": 1555,
       "city": "sf"
     },
     {
@@ -17260,7 +17273,7 @@
       "neighborhood": "Haight Ashbury",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/R2_voK6G1y1IVjaHIptmq0Tcb7pvxC4eVJ6ZrLfynqt0n4LlmP0PKjp95tl2pzXxoQf1BM5CU-XDt2XwVHAQ-c0TroroMcMaC0guKxUdusarMVgHmuxjAdypjhSSOQ",
-      "source_row": 1555,
+      "source_row": 1556,
       "city": "sf"
     },
     {
@@ -17271,7 +17284,7 @@
       "neighborhood": "Palo Alto",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/gF77HpPOp2_rL58dNUOzswoKTHOJjW251DUZwhW-XYg65YpXHT-Sjr4o3g8l0TNZU-4HIqfXfi7HcXvVEqZyg0mnnoHfkQCiNaYOP9PAULBYDG1K5WqUNT-jcR35CQ",
-      "source_row": 1556,
+      "source_row": 1557,
       "city": "sf"
     },
     {
@@ -17282,7 +17295,7 @@
       "neighborhood": "Fisherman's Wharf",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/Uwu3z8E4qdZN0wTggWeKBlRusfc9acvM2GfCZX-delH8bbPFlyYgmsGsqvW7DJi4uk8Kel4r39okVnfomVYLJDwDUXnpqnynx_L6gh0paeV8PzMXOgLtLN0-J85BUA",
-      "source_row": 1557,
+      "source_row": 1558,
       "city": "sf"
     },
     {
@@ -17293,7 +17306,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ubN6-PxEu1bYevJc905PSLG_ZsAyxWyvFPdnHHWVT3fBmnMUCqcuFNKW05Tm28o7WXkIN9ZB62xyybUfD4LEdN1rnPjzhJeETrJNSibVTdYt2GGabVsaS40FctTbBw",
-      "source_row": 1558,
+      "source_row": 1559,
       "city": "sf"
     },
     {
@@ -17304,7 +17317,7 @@
       "neighborhood": "Virtual (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/iAPblss3vbryCuvFADKq0BJEZUPuvSdaj6prjtbI6oJHx5ajqSqjDbmFaMO8PDD7R5RXZ8iAwnahtWZRXaxXQdQ-EAuDV3bQ2C_ppOfw2bK5V4r4e4Xlniie2KkM8A",
-      "source_row": 1559,
+      "source_row": 1560,
       "city": "sf"
     },
     {
@@ -17315,7 +17328,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/rnl0wu849VKj-h38YGSX8v3lLZeiZSOuIFZ8TFgB_VuBS4NoBkiL6UcAcUoivoGl9HgsNawNe1iIIB1styRZ8tOTD7H9hSTWK5Th_EPn7LglyUgrmZUUc0JrG7dVxg",
-      "source_row": 1560,
+      "source_row": 1561,
       "city": "sf"
     },
     {
@@ -17326,7 +17339,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/jVnnep8ptMcuv0_PRYxsssNPEWznhnFdN4jqemjKGZq9A4W8MrcUePEQNSr8GfsvxotwhEe36twXI0uRVwDIj1B5Dn3fIZrgqC-Hx0ylbj_LvEaGbjE-U45S0KR-tA",
-      "source_row": 1561,
+      "source_row": 1562,
       "city": "sf"
     },
     {
@@ -17337,7 +17350,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/CEJZjLY_NdmcVX_XpbUmqxfVG7JHaMjQyGAbL0bAw7vAfpQ-osPLhs4SlDVUtKpTev4dtaMEJ4LoY7fmDKJ679E9e1Vl0d479qMrEunu_p-0YwQWcH8yaOuhMfppkw",
-      "source_row": 1562,
+      "source_row": 1563,
       "city": "sf"
     },
     {
@@ -17348,7 +17361,7 @@
       "neighborhood": "Downtown (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/rfVi2CscsWSC7xqEKQz2ZNZSYo-1qv34wt23bALEjIIt4Q79Dwom8sZLWe9lDZQetymtQftIsOXqH7I4L0e4o_79BUXTPYk6yyAeZsBy6OEkBLferlI9IaveLMJk-w",
-      "source_row": 1563,
+      "source_row": 1564,
       "city": "sf"
     },
     {
@@ -17359,7 +17372,7 @@
       "neighborhood": "Palo Alto",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/gxXkteaytuOXMz6Bxuy5TzJjSuONkt2RzLX-7_-ecT1cdCnzHaCCFXutItsoMl3yRk1jvlJsgEcf8GWJuhCNn9zxTRZ5dBkLLkLMX64qrjFIL3_0MKIFsFI6EDWokg",
-      "source_row": 1564,
+      "source_row": 1565,
       "city": "sf"
     },
     {
@@ -17370,7 +17383,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/woE39VFYy5r0tmOXnUaRnlTILJav8VYFw56GdvECodSLwMf__-HSAZ3174lnIebSfCdmqyHMfvtVbgl_9R_g-WDAm268BREJJdNIL7X_Xx-JWyD4Ad5DNgJSEq5wBw",
-      "source_row": 1565,
+      "source_row": 1566,
       "city": "sf"
     },
     {
@@ -17381,7 +17394,7 @@
       "neighborhood": "SOMA",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/dWFHDSqhzwTRSGQOcHYesvR7-0Ry5YQxanadVNewIrR3oEYaKZTw6dGrDN6eoTHRhUcyopaorFWjUt-U-CMDEeOCUcnWqsrrDfJ6EaGZJIpTTj-Q_Q6ohq6tKJuugw",
-      "source_row": 1566,
+      "source_row": 1567,
       "city": "sf"
     },
     {
@@ -17392,7 +17405,7 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/ZD3-1fJjqAUmBvSaYg4a1h4633eJrwdmpleJaHmxdRo7NiLZRCFvflgFTvplhxrIWRbSI3-26bLLJdm_-DTD09838ekN-ZmZy0NvKmluNU7lB0OVucsCc0aMVo_G1w",
-      "source_row": 1567,
+      "source_row": 1568,
       "city": "sf"
     },
     {
@@ -17403,7 +17416,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/mBJUGKgS3PyOTNI4ZxTrMtSQb2O2vRnvMcoe3zOz2RrcrDzbaPGP7WJBe8gse-iqdMbcW7xDrOeF43fbqOWQzppyhxy-6RYJQbTquyXyPh-kAVMGrA5kPscV16hQsg",
-      "source_row": 1568,
+      "source_row": 1569,
       "city": "sf"
     },
     {
@@ -17414,7 +17427,7 @@
       "neighborhood": "Mission",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/D_936YuViKEYnCBZqzuFTTbdJk330dX_x_8pY2WCFkoro5quKo3iE_1lw3zu1otum0mOLUfc0fuXxyjD7XYCa25azqJrF4DJfvMeUMwBnvVTddGum52ggMiZd7ZYww",
-      "source_row": 1569,
+      "source_row": 1570,
       "city": "sf"
     },
     {
@@ -17425,7 +17438,7 @@
       "neighborhood": "Other",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/vbv1rPczBXTrJU5JHOj3Rzd8pd1jCMiAvOGhX78G1-cB3IhZHsaeLet3_v-v9ZaPnrXfQkoUEyzHi8UFHH017WJjS046Ne--0kq0-9ufa915wmTvx44j_m6C6lE8WA",
-      "source_row": 1570,
+      "source_row": 1571,
       "city": "sf"
     },
     {
@@ -17436,17 +17449,6 @@
       "neighborhood": "FiDi (SF)",
       "labels": [],
       "event_url": "https://www.tech-week.com/go/event/kkhR8EhDRh24BxgbzmArFTMgNAZsdUWL30JlszgYU8Qjh_P2iV1Pnn_BBRwd4d_HAe2opzjzCeQr7nkDmyqf9hi6ZiPiTXjEmqt87uo7Wvk82qyMBnVsqcj-XfGnzg",
-      "source_row": 1571,
-      "city": "sf"
-    },
-    {
-      "date_label": "Saturday, Oct 10",
-      "start_time_display": "1:30pm",
-      "title": "Vibe Coding Buildathon",
-      "host": "Hellyeah AI, Beta University, Llama Ventures",
-      "neighborhood": "Other",
-      "labels": [],
-      "event_url": "https://www.tech-week.com/go/event/4lH3SH4btL5-dCy7-ubEixj0dxxmyXwcLQ0ORxjDnRYkp81BCBVyW7IBmBfQezjJAncxeuwuv5g5v0epdt1QHyMdASNOpQKOgRXt0PJz3m9C9T9IVi_B_O6cYELl3A",
       "source_row": 1572,
       "city": "sf"
     },
@@ -20386,11 +20388,11 @@
     {
       "date_label": "Tuesday, Oct 13",
       "start_time_display": "5:00pm",
-      "title": "Airship Capital: Changing the Game with Athlete Investor Partners",
+      "title": "Athletes x Founders x Investors: The New Ownership Economy by Airship",
       "host": "Airship Capital",
       "neighborhood": "Venice",
       "labels": [],
-      "event_url": "https://www.tech-week.com/go/event/XgI9wr-O9nC-FkeaOrmTxlSc1B7HhXZm7-WyYbsCAm9BtejusZTmR-UuGq9JzQJOhBnWYQcsBanZNbvphS98G-IrGPfGDGGlTXAJyHkphy6N50RYTG8HBR9nMPkSLA",
+      "event_url": "https://www.tech-week.com/go/event/ICqAdFn-R0xNl0yuH9wi24_wLRhBCRiuDioNi180LPaQJ_5KfDiPjKTuILnclRxq8M_ay_f1UbXy1zpN7AHNeUjDIUh9_2EO9sJhSJfshK_TYM6F82-Q36FKLuoFRQ",
       "source_row": 1838,
       "city": "la"
     },
