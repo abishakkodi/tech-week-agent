@@ -43,7 +43,7 @@ export function installPage(origin: string): string {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#e5eef5">
-  <meta name="description" content="Add the SF Tech Week MCP server to your AI coding client. LA is available via the MCP tools (set city to 'la').">
+  <meta name="description" content="Add the Tech Week MCP server to your AI coding client for San Francisco Tech Week event discovery.">
   <title>Add Tech Week MCP</title>
   <link rel="icon" href="${favicon}">
   <style>
@@ -143,7 +143,6 @@ export function installPage(origin: string): string {
     <div class="card">
       <h1>SF Tech Week MCP</h1>
       <p class="event-count">Explore ${eventCount.toLocaleString("en-US")} events</p>
-      <p class="event-count" aria-hidden="true">LA Tech Week is also supported via tools — pass <code>city: "la"</code>.</p>
       <p class="sr-only">Example prompts you can ask your AI coding client once the MCP is installed.</p>
       <p class="prompts" aria-hidden="true"><span class="stream"></span></p>
       <div class="tabs" role="tablist" aria-label="Choose your client">
