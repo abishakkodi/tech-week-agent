@@ -7,6 +7,16 @@
   "assets": {
     "directory": "./public"
   },
+  "ratelimits": [
+    {
+      "name": "MCP_RATE_LIMIT",
+      "namespace_id": "98026091401",
+      "simple": {
+        "limit": 120,
+        "period": 60
+      }
+    }
+  ],
   "observability": {
     "enabled": true
   }

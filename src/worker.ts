@@ -3,6 +3,15 @@ import { createTechWeekServer } from "./server.js";
 import { installPage } from "./install-page.js";
 
 const MAX_REQUEST_BYTES = 64 * 1024;
+const MCP_RATE_LIMIT_KEY_FALLBACK = "unknown-client";
+
+type RateLimitBinding = {
+  limit(options: { key: string }): Promise<{ success: boolean }>;
+};
+
+type Env = {
+  MCP_RATE_LIMIT: RateLimitBinding;
+};
 
 function json(body: unknown, status = 200): Response {
   return Response.json(body, {
@@ -16,7 +25,7 @@ function json(body: unknown, status = 200): Response {
 }
 
 export default {
-  async fetch(request: Request): Promise<Response> {
+  async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
 
     if (url.pathname === "/" && request.method === "GET") {
@@ -38,6 +47,11 @@ export default {
     if (url.pathname !== "/mcp") {
       return json({ error: "Not found", mcp: `${url.origin}/mcp` }, 404);
     }
+
+    const rateLimit = await env.MCP_RATE_LIMIT.limit({
+      key: request.headers.get("CF-Connecting-IP") ?? MCP_RATE_LIMIT_KEY_FALLBACK,
+    });
+    if (!rateLimit.success) return json({ error: "Too many MCP requests" }, 429);
 
     const contentLength = Number(request.headers.get("content-length") ?? 0);
     if (!Number.isFinite(contentLength) || contentLength < 0 || contentLength > MAX_REQUEST_BYTES) {

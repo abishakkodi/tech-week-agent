@@ -8,6 +8,15 @@ The Worker root serves installation actions for Codex, Claude Code, Cursor, and
 other MCP clients. Each action automatically uses the deployed origin. `/mcp`
 continues to serve the protocol endpoint.
 
+## Live service
+
+- Install page: https://techweekmcp.com/
+- MCP endpoint: https://techweekmcp.com/mcp
+- Health endpoint: https://techweekmcp.com/health
+
+The Cloudflare Worker development URL remains available, but use the custom
+domain above in public documentation and client configuration.
+
 ## Install page
 
 Open the Worker root URL in a browser to get a copy-paste install action for
@@ -172,7 +181,7 @@ npx wrangler login
 npm run deploy
 ```
 
-The production MCP URL will be the deployed Worker URL followed by `/mcp`.
+The public MCP endpoint is https://techweekmcp.com/mcp.
 
 ## Refresh the snapshot
 
@@ -194,10 +203,23 @@ Twice a day at **6:00 AM and 6:00 PM America/Los_Angeles**, the bot:
    (never commits straight to `main`)
 5. Posts a short summary of adds and removals
 
-The install-page “Explore N events” count defaults to SF and is derived from
-`techlist.cleaned.json` at build time (events labeled `Closed` are excluded),
-so updating the JSON is enough to refresh that homepage number after deploy. LA
-is available via the MCP tools by passing `city: "la"`.
+The install-page “Explore N events” count includes both SF and LA and is
+derived from `techlist.cleaned.json` at build time (events labeled `Closed` are
+excluded), so updating the JSON is enough to refresh that homepage number after
+deploy. MCP search still defaults to SF; pass `city: "la"` or `city: "all"`
+when needed.
+
+## Production monitoring
+
+`.github/workflows/production-health.yml` runs every 15 minutes and verifies
+the public health endpoint, discovery files, and MCP initialization handshake.
+Failures appear in GitHub Actions so repository notification settings can alert
+the service owner. This checks service availability; the external calendar-sync
+bot remains responsible for reporting its own scrape or refresh failures.
+
+The public `/mcp` endpoint is limited to 120 requests per minute per client IP
+using a Cloudflare Workers rate-limit binding. When the limit is exceeded, it
+returns HTTP 429. The install page and `/health` are not rate-limited.
 
 ### Manual refresh
 
