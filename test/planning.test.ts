@@ -4,7 +4,7 @@ import { loadCatalog, searchEvents, toSearchEvent } from "../src/catalog.js";
 import { alternativeEvents, buildItinerary, createIcs, networkingMatches, similarEvents } from "../src/planning.js";
 
 const events = loadCatalog().events.map((event) => toSearchEvent(event));
-const hardware = searchEvents(loadCatalog().events, { topic: "hardware", include_closed: false, limit: 100 }).events;
+const hardware = searchEvents(loadCatalog().events, { topic: "Hardware", include_closed: false, limit: 100 }).events;
 
 test("ranks similar events with explainable reasons", () => {
   const matches = similarEvents(events, hardware[0].event_id, 5);
