@@ -2,13 +2,35 @@ import catalogJson from "../techlist.cleaned.json";
 
 export const EVENT_YEAR = 2026;
 export const EVENT_TIMEZONE = "America/Los_Angeles";
-export const TOPICS = ["hardware", "fintech", "climate", "biotech", "developer-tools", "security"] as const;
+// Exact UI chip vocabulary — Topics (23)
+export const TOPICS = [
+  "AI", "AR / VR", "B2B", "B2C / Consumer", "Climate", "Creators", "Crypto / Web3", "Cybersecurity",
+  "Deep Tech", "Defense", "Engineering", "Fintech", "Fundraising / Investing", "Gaming", "GTM",
+  "Hardware", "Healthcare / Healthtech", "HR / Hiring", "Infrastructure", "International / Expansion",
+  "Media / Entertainment", "SaaS", "Women-focused",
+ ] as const;
 export type Topic = (typeof TOPICS)[number];
+
+// Exact UI chip vocabulary — Types (10)
+// Keep constant name FORMATS for compatibility inside the codebase,
+// but the values align with the UI "Types" filter.
 export const FORMATS = [
-  "breakfast", "lunch", "dinner", "happy-hour", "panel", "workshop",
-  "summit", "demo-day", "hackathon", "fireside-chat", "networking",
+  "Breakfast, Brunch or Lunch",
+  "Dinner",
+  "Experiential",
+  "Hackathon",
+  "Happy Hour",
+  "Matchmaking",
+  "Networking",
+  "Panel / Fireside Chat",
+  "Pitch Event / Demo Day",
+  "Roundtable / Workshop",
 ] as const;
 export type Format = (typeof FORMATS)[number];
+
+// Start time buckets used by the UI
+export const TIME_PERIODS = ["Morning", "Noon", "Afternoon", "Evening"] as const;
+export type TimePeriod = (typeof TIME_PERIODS)[number];
 
 export const CITIES = ["sf", "la"] as const;
 export type City = (typeof CITIES)[number];
@@ -23,16 +45,21 @@ export type Event = {
   event_url: string;
   source_row: number;
   city: City;
+  // Optional enrichment fields populated when the catalog is augmented
+  // with official Tech Week topic/type tags.
+  topics?: string[];
+  types?: string[];
 };
 
 export type SearchOptions = {
   query?: string;
   topic?: Topic;
-  format?: Format;
+  type?: Format;
   virtual_only?: boolean;
   dates?: string[];
   start_time_from?: string;
   start_time_to?: string;
+  start_time_period?: TimePeriod;
   neighborhoods?: string[];
   hosts_any?: string[];
   include_closed?: boolean;
@@ -51,7 +78,7 @@ export type SearchEvent = Event & {
   hosts: string[];
   is_virtual: boolean;
   matched_topics: Topic[];
-  matched_formats: Format[];
+  matched_types: Format[];
   matched_host_queries: string[];
 };
 
@@ -68,28 +95,46 @@ const MONTHS: Record<string, number> = {
   Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6,
   Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12,
 };
+// Preferred: official Tech Week tags, when present in the catalog.
+// Fallback: curated regex patterns mapped to the exact UI topic strings.
 const TOPIC_PATTERNS: Record<Topic, RegExp> = {
-  hardware: /\b(?:hardware|robot(?:s|ics)?|physical ai|manufactur\w*|semiconductor\w*|chips?|electronics?|devices?|wearables?|aerospace|defen[cs]e tech|drones?|autonomous vehicles?|mobility|industrial automation)\b/i,
-  fintech: /\b(?:fintech|payments?|banking|financial services|crypto|defi|blockchain|web3)\b/i,
-  climate: /\b(?:climate|clean energy|sustainab\w*|carbon|renewable|climatetech)\b/i,
-  biotech: /\b(?:biotech|life sciences|therapeutics|genomics|drug discovery|healthtech|digital health)\b/i,
-  "developer-tools": /\b(?:developer tools|devtools|sdk|open[- ]source|infrastructure|observability|devops)\b/i,
-  security: /\b(?:cybersecurity|security|privacy|encryption|zero trust)\b/i,
+  "AI": /\b(?:ai|artificial intelligence|gen(?:erative)? ai|agents?|llm?s?|machine learning|ml|prompt engineering)\b/i,
+  "AR / VR": /\b(?:ar|augmented reality|vr|virtual reality|xr|mixed reality|spatial computing)\b/i,
+  "B2B": /\b(?:b2b|business[-\s]?to[-\s]?business)\b/i,
+  "B2C / Consumer": /\b(?:b2c|consumer(?!\s+hardware)|direct[-\s]?to[-\s]?consumer|d2c)\b/i,
+  "Climate": /\b(?:climate|clean energy|sustainab\w*|carbon|renewable|climatetech)\b/i,
+  "Creators": /\b(?:creators?|creator economy|influencers?)\b/i,
+  "Crypto / Web3": /\b(?:crypto|defi|blockchain|web3|nfts?)\b/i,
+  "Cybersecurity": /\b(?:cyber[-\s]?security|security|infosec|privacy|zero[-\s]?trust|encryption)\b/i,
+  "Deep Tech": /\b(?:deep[-\s]?tech|frontier tech|quantum|semiconductor\w*|materials|fusion|space)\b/i,
+  "Defense": /\b(?:defen[cs]e|dual[-\s]?use|aerospace|drones?|autonomous\s+(?:systems|vehicles?)|govtech)\b/i,
+  "Engineering": /\b(?:engineering|software engineering|platform engineering|dev(?:ops|ex)|developer (?:tools?|experience)|sdk|open[-\s]?source|observability|infrastructure)\b/i,
+  "Fintech": /\b(?:fintech|payments?|banking|financial services|cards?|lending|wealth|brokerage)\b/i,
+  "Fundraising / Investing": /\b(?:fundrais\w*|invest(?:ing|ors?)|term sheets?|vc|venture|angel(?:s)?|lp|demo day)\b/i,
+  "Gaming": /\b(?:gaming|game dev|gamers?|esports?)\b/i,
+  "GTM": /\b(?:gtm|go[-\s]?to[-\s]?market|sales|marketing|growth|product[-\s]?led)\b/i,
+  "Hardware": /\b(?:hardware|robot(?:s|ics)?|devices?|electronics?|wearables?|edge devices?|semiconductor\w*|chips?)\b/i,
+  "Healthcare / Healthtech": /\b(?:health(?:care|tech)|digital health|life sciences|biotech|genomics|therapeutics|medtech)\b/i,
+  "HR / Hiring": /\b(?:recruit(?:ing|ment)|talent|people ops|hr|hiring|compensation|benefits)\b/i,
+  "Infrastructure": /\b(?:infrastructure|platform(?:s)?|cloud|kubernetes|k8s|serverless|devops|observability)\b/i,
+  "International / Expansion": /\b(?:international|global expansion|cross[-\s]?border|intl)\b/i,
+  "Media / Entertainment": /\b(?:media|entertainment|film|tv|music|content|streaming)\b/i,
+  "SaaS": /\b(?:saas|software as a service)\b/i,
+  "Women-focused": /\b(?:women[-\s]?(?:in|of)?\s+tech|women[-\s]?founders?|female[-\s]?founders?|women[-\s]?led|women[-\s]?only)\b/i,
 };
-// Format patterns match the title only — "type of gathering" is a title-phrasing signal, unlike
-// topic (which also draws on host/neighborhood/labels).
+
+// Type patterns match the title only — "type of gathering" is a title-phrasing signal.
 const FORMAT_PATTERNS: Record<Format, RegExp> = {
-  breakfast: /\bbreakfast\b/i,
-  lunch: /\blunch\b/i,
-  dinner: /\bdinner\b/i,
-  "happy-hour": /\b(?:happy hour|cocktails?|drinks)\b/i,
-  panel: /\bpanel\b/i,
-  workshop: /\b(?:workshop|masterclass|hands-on)\b/i,
-  summit: /\b(?:summit|conference|forum)\b/i,
-  "demo-day": /\b(?:demo day|showcase|pitch)\b/i,
-  hackathon: /\bhackathon\b/i,
-  "fireside-chat": /\bfireside\b/i,
-  networking: /\b(?:mixer|meetup|networking|social)\b/i,
+  "Breakfast, Brunch or Lunch": /\b(?:breakfast|brunch|lunch)\b/i,
+  "Dinner": /\bdinner\b/i,
+  "Experiential": /\b(?:experiential|tour|run|hike|tournament|concert|show|party|activation|expo)\b/i,
+  "Hackathon": /\bhackathon\b/i,
+  "Happy Hour": /\b(?:happy hour|cocktails?|drinks)\b/i,
+  "Matchmaking": /\b(?:match[-\s]?making|speed (?:dating|networking)|1[:\-]1s?|1[-\s]?on[-\s]?1s?)\b/i,
+  "Networking": /\b(?:mixer|meetup|networking|social)\b/i,
+  "Panel / Fireside Chat": /\b(?:panel|fireside)\b/i,
+  "Pitch Event / Demo Day": /\b(?:pitch|demo[-\s]?day|showcase)\b/i,
+  "Roundtable / Workshop": /\b(?:roundtable|workshop|masterclass|hands[-\s]?on)\b/i,
 };
 
 function isTechWeekEventUrl(value: string): boolean {
@@ -118,12 +163,28 @@ function searchableText(event: Event): string {
   return [event.title, event.host, event.neighborhood, event.labels.join(" ")].join(" ");
 }
 
+function coerceUiLabel<T extends readonly string[]>(candidates: string[] | undefined, allowed: T): T[number][] {
+  if (!Array.isArray(candidates)) return [];
+  const results: T[number][] = [];
+  for (const raw of candidates) {
+    const match = allowed.find((label) => label.toLocaleLowerCase() === String(raw).trim().toLocaleLowerCase());
+    if (match) results.push(match as T[number]);
+  }
+  return results;
+}
+
 function matchedTopics(event: Event): Topic[] {
+  // Prefer official tags if present in the catalog or a sidecar enrichment.
+  const official = coerceUiLabel(event.topics, TOPICS);
+  if (official.length) return official;
   const text = searchableText(event);
   return TOPICS.filter((topic) => TOPIC_PATTERNS[topic].test(text));
 }
 
 function matchedFormats(event: Event): Format[] {
+  // Prefer official type tags if present
+  const official = coerceUiLabel(event.types, FORMATS);
+  if (official.length) return official;
   return FORMATS.filter((format) => FORMAT_PATTERNS[format].test(event.title));
 }
 
@@ -172,7 +233,7 @@ export function toSearchEvent(event: Event, hostQueries: string[] = []): SearchE
     hosts: splitHosts(event.host),
     is_virtual: isVirtual(event.neighborhood),
     matched_topics: matchedTopics(event),
-    matched_formats: matchedFormats(event),
+    matched_types: matchedFormats(event),
     matched_host_queries: hostQueries.filter((query) => normalizedHost.includes(query.trim().toLocaleLowerCase())),
   };
 }
@@ -188,15 +249,28 @@ function countValues(values: string[]): FacetValue[] {
     .sort((a, b) => b.count - a.count || a.value.localeCompare(b.value));
 }
 
+function periodOf(startTime24h: string): TimePeriod {
+  // Buckets in PT:
+  // Morning: 00:00–10:59, Noon: 11:00–12:59, Afternoon: 13:00–16:59, Evening: 17:00+
+  if (startTime24h < "11:00") return "Morning";
+  if (startTime24h < "13:00") return "Noon";
+  if (startTime24h < "17:00") return "Afternoon";
+  return "Evening";
+}
+
 export function listFacets(events: Event[]) {
   const enriched = events.map((event) => toSearchEvent(event));
+  // Time-of-day periods
+  const periodCounts = new Map<TimePeriod, number>(TIME_PERIODS.map((p) => [p, 0]));
+  for (const event of enriched) periodCounts.set(periodOf(event.start_time_24h), (periodCounts.get(periodOf(event.start_time_24h)) ?? 0) + 1);
   return {
     dates: countValues(enriched.map((event) => event.local_date)),
     hosts: countValues(events.flatMap((event) => splitHosts(event.host))),
     neighborhoods: countValues(events.map((event) => event.neighborhood)),
     labels: countValues(events.flatMap((event) => event.labels)),
     topics: TOPICS.map((topic) => ({ value: topic, count: enriched.filter((event) => event.matched_topics.includes(topic)).length })),
-    formats: FORMATS.map((format) => ({ value: format, count: enriched.filter((event) => event.matched_formats.includes(format)).length })),
+    types: FORMATS.map((format) => ({ value: format, count: enriched.filter((event) => event.matched_types.includes(format)).length })),
+    time_periods: TIME_PERIODS.map((period) => ({ value: period, count: periodCounts.get(period)! })),
   };
 }
 
@@ -238,16 +312,17 @@ export function searchEvents(events: Event[], options: SearchOptions): SearchRes
       .map(({ original }) => original);
     if (queryTerms.some((term) => !text.includes(term))) continue;
     if (options.topic && !topics.includes(options.topic)) continue;
-    if (options.format && !formats.includes(options.format)) continue;
+    if (options.type && !formats.includes(options.type)) continue;
     if (options.virtual_only && !isVirtual(event.neighborhood)) continue;
     if (dates.size > 0 && !dates.has(calendar.local_date)) continue;
     if (options.start_time_from && calendar.start_time_24h < options.start_time_from) continue;
     if (options.start_time_to && calendar.start_time_24h > options.start_time_to) continue;
+    if (options.start_time_period && periodOf(calendar.start_time_24h) !== options.start_time_period) continue;
     if (neighborhoods.length > 0 && !neighborhoods.includes(event.neighborhood.toLocaleLowerCase())) continue;
     if (hostQueries.length > 0 && matchedHostQueries.length === 0) continue;
     if (!options.include_closed && event.labels.some((label) => label.toLocaleLowerCase() === "closed")) continue;
 
-    matches.push({ ...toSearchEvent(event, matchedHostQueries), matched_topics: topics, matched_formats: formats });
+    matches.push({ ...toSearchEvent(event, matchedHostQueries), matched_topics: topics, matched_types: formats });
   }
   return { events: matches.slice(0, options.limit), total_matches: matches.length, truncated: matches.length > options.limit };
 }

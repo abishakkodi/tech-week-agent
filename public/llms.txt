@@ -12,7 +12,7 @@ The server uses streamable HTTP. Connect an MCP-capable client to the endpoint a
 
 ## Capabilities
 
-- Discover events with `search_events`, including topic, format, date, time, neighborhood, host, virtual-event, and closed-status filters.
+- Discover events with `search_events`, including UI topic, UI type, date, time or time-of-day (Morning/Noon/Afternoon/Evening), neighborhood, host, virtual-event, and closed-status filters.
 - Select a city with `city`: `sf` is the default, `la` searches Los Angeles, and `all` searches both catalogs.
 - Inspect a known event, list facets, compare events, find similar or nearby alternatives, identify networking targets, summarize a day, build a tentative itinerary, and create a non-mutating ICS draft.
 

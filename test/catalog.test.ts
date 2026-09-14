@@ -28,12 +28,12 @@ test("searches topics, dates, times, and closed events", () => {
     makeEvent(2, { title: "Hardware breakfast", start_time_display: "8:00am" }),
     makeEvent(3, { title: "Hardware panel", labels: ["Closed"] }),
   ];
-  const result = searchEvents(events, { topic: "hardware", dates: ["2026-10-05"], start_time_from: "12:00", start_time_to: "17:00", limit: 10 });
+  const result = searchEvents(events, { topic: "Hardware", dates: ["2026-10-05"], start_time_from: "12:00", start_time_to: "17:00", limit: 10 });
   assert.deepEqual(result.events.map((event) => event.source_row), [1]);
   assert.equal(result.events[0].starts_at, "2026-10-05T13:30:00-07:00");
   assert.equal(result.events[0].timezone, EVENT_TIMEZONE);
   assert.equal(result.events[0].end_time_known, false);
-  assert.deepEqual(searchEvents(events, { topic: "hardware", include_closed: true, limit: 10 }).events.map((event) => event.source_row), [1, 2, 3]);
+  assert.deepEqual(searchEvents(events, { topic: "Hardware", include_closed: true, limit: 10 }).events.map((event) => event.source_row), [1, 2, 3]);
 });
 
 test("host filtering composes with city, closed status, and result limits", () => {
@@ -54,14 +54,14 @@ test("host filtering composes with city, closed status, and result limits", () =
   assert.equal(limited.truncated, true);
 });
 
-test("derives stable IDs, hosts, virtual status, topics, and formats from an event", () => {
+test("derives stable IDs, hosts, virtual status, topics, and types from an event", () => {
   const event = makeEvent(1, { title: "Fintech happy hour workshop", host: "Midlyr, Stripe", neighborhood: "Virtual" });
   const enriched = toSearchEvent(event);
   assert.deepEqual(enriched.hosts, ["Midlyr", "Stripe"]);
   assert.equal(enriched.is_virtual, true);
-  assert.ok(enriched.matched_topics.includes("fintech"));
-  assert.ok(enriched.matched_formats.includes("happy-hour"));
-  assert.ok(enriched.matched_formats.includes("workshop"));
+  assert.ok(enriched.matched_topics.includes("Fintech"));
+  assert.ok(enriched.matched_types.includes("Happy Hour"));
+  assert.ok(enriched.matched_types.includes("Roundtable / Workshop"));
   const rotated = { ...event, event_url: "https://www.tech-week.com/go/event/rotatedFixture1" };
   assert.equal(toSearchEvent(rotated).event_id, enriched.event_id);
   assert.equal(getEvent([event], enriched.event_id)?.event_id, enriched.event_id);
@@ -69,11 +69,11 @@ test("derives stable IDs, hosts, virtual status, topics, and formats from an eve
 
 test("builds facets from the supplied events", () => {
   const facets = listFacets([
-    makeEvent(1, { host: "Stripe, OpenAI", title: "Security panel" }),
+    makeEvent(1, { host: "Stripe, OpenAI", title: "Cybersecurity panel" }),
     makeEvent(2, { host: "Stripe", title: "Networking mixer", neighborhood: "Mission" }),
   ]);
   assert.deepEqual(facets.hosts.find((item) => item.value === "Stripe"), { value: "Stripe", count: 2 });
-  assert.deepEqual(facets.formats.find((item) => item.value === "panel"), { value: "panel", count: 1 });
-  assert.deepEqual(facets.formats.find((item) => item.value === "networking"), { value: "networking", count: 1 });
-  assert.deepEqual(facets.topics.find((item) => item.value === "security"), { value: "security", count: 1 });
+  assert.deepEqual(facets.types.find((item) => item.value === "Panel / Fireside Chat"), { value: "Panel / Fireside Chat", count: 1 });
+  assert.deepEqual(facets.types.find((item) => item.value === "Networking"), { value: "Networking", count: 1 });
+  assert.deepEqual(facets.topics.find((item) => item.value === "Cybersecurity"), { value: "Cybersecurity", count: 1 });
 });
