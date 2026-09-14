@@ -205,6 +205,8 @@ Twice a day at **6:00 AM and 6:00 PM America/Los_Angeles**, the bot:
    (never commits straight to `main`)
 5. Posts a short summary of adds and removals
 
+After the calendar scrape, enrichment uses Playwright page-context tRPC `calendar.events` with `theme`/`format` filters (66+ passes), joins results by event identity, and writes official `topics`/`types` UI labels. See [docs/enrichment-discovery.md](docs/enrichment-discovery.md).
+
 The install-page “Explore N events” count includes both SF and LA and is
 derived from `techlist.cleaned.json` at build time (events labeled `Closed` are
 excluded), so updating the JSON is enough to refresh that homepage number after
