@@ -17,7 +17,8 @@ test("supports explicit LA and ALL city filters", () => {
 
   const sf = searchEvents(catalog.events, { city: "sf", include_closed: true, limit: catalog.events.length });
   const all = searchEvents(catalog.events, { city: "all", include_closed: true, limit: catalog.events.length });
-  assert.ok(all.total_matches >= sf.total_matches);
-  assert.ok(all.total_matches >= la.total_matches);
+  assert.equal(sf.total_matches, catalog.events.filter((e) => e.city === "sf").length);
+  assert.equal(la.total_matches, catalog.events.filter((e) => e.city === "la").length);
+  assert.equal(all.total_matches, sf.total_matches + la.total_matches);
+  assert.equal(all.events.length, catalog.events.length);
 });
-

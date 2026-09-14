@@ -1,6 +1,17 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { installPage } from "../src/install-page.js";
+import { loadCatalog } from "../src/catalog.js";
+
+test("counts searchable events across both cities without a snapshot-specific total", () => {
+  const events = loadCatalog().events;
+  const available = events.filter((event) => !event.labels.some((label) => label.toLowerCase() === "closed"));
+  assert.ok(available.some((event) => event.city === "sf"));
+  assert.ok(available.some((event) => event.city === "la"));
+  const html = installPage("https://events.example.com");
+  assert.match(html, /<h1>Tech Week MCP<\/h1>/);
+  assert.ok(html.includes(`Explore ${available.length.toLocaleString("en-US")} events across SF and LA`));
+});
 
 test("renders client installation actions from the deployment origin", () => {
   const html = installPage("https://events.example.com");

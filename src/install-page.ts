@@ -1,6 +1,6 @@
 import { loadCatalog, searchEvents } from "./catalog.js";
 
-const eventCount = searchEvents(loadCatalog().events, { limit: 1, city: "sf" }).total_matches;
+const eventCount = searchEvents(loadCatalog().events, { limit: 1, city: "all" }).total_matches;
 
 function base64Utf8(value: string): string {
   const bytes = new TextEncoder().encode(value);
@@ -141,8 +141,8 @@ export function installPage(origin: string): string {
   <img class="background" src="/golden-gate-watercolor.png" alt="" aria-hidden="true" fetchpriority="high">
   <main>
     <div class="card">
-      <h1>SF Tech Week MCP</h1>
-      <p class="event-count">Explore ${eventCount.toLocaleString("en-US")} events</p>
+      <h1>Tech Week MCP</h1>
+      <p class="event-count">Explore ${eventCount.toLocaleString("en-US")} events across SF and LA</p>
       <p class="sr-only">Example prompts you can ask your AI coding client once the MCP is installed.</p>
       <p class="prompts" aria-hidden="true"><span class="stream"></span></p>
       <div class="tabs" role="tablist" aria-label="Choose your client">
