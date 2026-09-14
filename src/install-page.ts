@@ -28,7 +28,7 @@ export function installPage(origin: string): string {
   const examplePrompts = [
     "“Find Thursday hardware events”",
     "“Find evening events in SoMa”",
-    "“Look at my Tuesday calendar and find events”",
+    "“Look at my Tuesday calendar for events in my free time”",
     "“Build me a Friday itinerary”",
     "“What's happening Wednesday afternoon?”",
     "“Find events like the a16z kickoff”",
