@@ -1,0 +1,30 @@
+name: Production health
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check public endpoints
+        run: |
+          set -euo pipefail
+          curl --fail --retry 3 --retry-all-errors --silent --show-error https://techweekmcp.com/health | jq -e '.status == "ok" and .service == "tech-week"'
+          curl --fail --retry 3 --retry-all-errors --silent --show-error https://techweekmcp.com/robots.txt | grep -Fx 'Allow: /'
+          curl --fail --retry 3 --retry-all-errors --silent --show-error https://techweekmcp.com/llms.txt | grep -F 'https://techweekmcp.com/mcp'
+      - name: Initialize MCP
+        run: |
+          set -euo pipefail
+          curl --fail --retry 3 --retry-all-errors --silent --show-error \
+            --request POST https://techweekmcp.com/mcp \
+            --header 'Content-Type: application/json' \
+            --header 'Accept: application/json, text/event-stream' \
+            --data '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"production-health","version":"1.0"}}}' \
+            | jq -e '.result.protocolVersion == "2025-06-18" and .result.serverInfo.name == "tech-week"'
