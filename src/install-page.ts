@@ -142,7 +142,7 @@ export function installPage(origin: string): string {
   <main>
     <div class="card">
       <h1>Tech Week MCP</h1>
-      <p class="event-count">Explore ${eventCount.toLocaleString("en-US")} events across SF and LA</p>
+      <p class="event-count">Explore ${eventCount.toLocaleString("en-US")} events</p>
       <p class="sr-only">Example prompts you can ask your AI coding client once the MCP is installed.</p>
       <p class="prompts" aria-hidden="true"><span class="stream"></span></p>
       <div class="tabs" role="tablist" aria-label="Choose your client">

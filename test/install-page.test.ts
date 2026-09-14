@@ -10,7 +10,7 @@ test("counts searchable events across both cities without a snapshot-specific to
   assert.ok(available.some((event) => event.city === "la"));
   const html = installPage("https://events.example.com");
   assert.match(html, /<h1>Tech Week MCP<\/h1>/);
-  assert.ok(html.includes(`Explore ${available.length.toLocaleString("en-US")} events across SF and LA`));
+  assert.ok(html.includes(`Explore ${available.length.toLocaleString("en-US")} events`));
 });
 
 test("renders client installation actions from the deployment origin", () => {
