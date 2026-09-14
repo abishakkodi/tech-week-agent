@@ -1,8 +1,31 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { EVENT_TIMEZONE, getEvent, listFacets, loadCatalog, searchEvents } from "../src/catalog.js";
+import { EVENT_TIMEZONE, getEvent, listFacets, loadCatalog, searchEvents, type Event } from "../src/catalog.js";
 
 const catalog = loadCatalog();
+
+test("host filtering composes with city, closed status, and result limits", () => {
+  const make = (source_row: number, overrides: Partial<Event>): Event => ({
+    source_row, city: "sf", title: `Fixture ${source_row}`, host: "Stripe",
+    date_label: "Monday, Oct 5", start_time_display: "1:00pm", neighborhood: "SoMa",
+    labels: [], event_url: `https://www.tech-week.com/go/event/fixture${source_row}`,
+    ...overrides,
+  });
+  const events = [make(1, {}), make(2, { city: "la" }),
+    make(3, { city: "la", labels: ["Closed"] }),
+    make(4, { title: "Stripe meetup", host: "Independent host" }),
+    make(5, { host: "Stripe, OpenAI" })];
+  const options = { hosts_any: ["stripe", "OpenAI"], limit: 100 };
+  assert.deepEqual(searchEvents(events, options).events.map((e) => e.source_row).sort(), [1, 5]);
+  assert.deepEqual(searchEvents(events, { ...options, city: "la" }).events.map((e) => e.source_row), [2]);
+  const all = searchEvents(events, { ...options, city: "all", include_closed: true });
+  assert.deepEqual(all.events.map((e) => e.source_row).sort(), [1, 2, 3, 5]);
+  assert.deepEqual(all.events.find((e) => e.source_row === 5)?.matched_host_queries, ["stripe", "OpenAI"]);
+  const limited = searchEvents(events, { ...options, city: "all", limit: 1 });
+  assert.equal(limited.total_matches, 3);
+  assert.equal(limited.events.length, 1);
+  assert.equal(limited.truncated, true);
+});
 
 test("searches scraped events and preserves the Tech Week attribution URL", () => {
   const result = searchEvents(catalog.events, { query: "AGI wearables", limit: 10 });
@@ -39,8 +62,9 @@ test("matches any requested host without matching title-only mentions", () => {
   const hostNames = ["Stripe", "Anthropic", "OpenAI"];
   const result = searchEvents(catalog.events, {
     hosts_any: hostNames,
+    city: "all",
     include_closed: true,
-    limit: 100,
+    limit: catalog.events.length,
   });
 
   // Ground truth computed independently from the raw catalog, so this test
@@ -88,7 +112,8 @@ test("event_id survives a Tech Week URL rotation, since it's derived from event 
 });
 
 test("event_id has no collisions across the full snapshot", () => {
-  const allIds = searchEvents(catalog.events, { include_closed: true, limit: catalog.events.length }).events.map((event) => event.event_id);
+  const allIds = searchEvents(catalog.events, { city: "all", include_closed: true, limit: catalog.events.length }).events.map((event) => event.event_id);
+  assert.equal(allIds.length, catalog.events.length);
   assert.equal(new Set(allIds).size, allIds.length);
 });
 
